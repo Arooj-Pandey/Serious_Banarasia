@@ -1,0 +1,161 @@
+{
+    "text_api": [],
+    "image_api": [
+        {
+            "famous Varanasi ghats": {
+                "searchParameters": {
+                    "q": "famous Varanasi ghats",
+                    "gl": "in",
+                    "type": "images",
+                    "num": 10,
+                    "engine": "google"
+                },
+                "images": [
+                    {
+                        "title": "9 Important Ghats in Varanasi that You Must See",
+                        "imageUrl": "https://www.tripsavvy.com/thmb/tJ6ruJDKISZf3tZn6jx__HeMUMY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-128253674-592156025f9b58f4c0d79bfd.jpg",
+                        "imageWidth": 1500,
+                        "imageHeight": 997,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlJlXNM9slC9luK10U6g6YkVkdEMtaZa3cZBkAgxpHel_q_fJk&s",
+                        "thumbnailWidth": 275,
+                        "thumbnailHeight": 183,
+                        "source": "TripSavvy",
+                        "domain": "www.tripsavvy.com",
+                        "link": "https://www.tripsavvy.com/must-see-ghats-in-varanasi-1539761",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.tripsavvy.com%2Fthmb%2FtJ6ruJDKISZf3tZn6jx__HeMUMY%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FGettyImages-128253674-592156025f9b58f4c0d79bfd.jpg&tbnid=MEekfvVCzJis4M&imgrefurl=https%3A%2F%2Fwww.tripsavvy.com%2Fmust-see-ghats-in-varanasi-1539761&docid=OKTOzvQiNbY2_M&w=1500&h=997&ved=0ahUKEwi1uq-b7LWKAxVoSTABHX5oHTgQvFcIAigA",
+                        "position": 1
+                    },
+                    {
+                        "title": "Ghats in Varanasi - Wikipedia",
+                        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg/184px-Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg",
+                        "imageWidth": 184,
+                        "imageHeight": 138,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYBhy_bov9NOXoPAU3i5rSTf2ag1Zw4HDjmgi5TwDZk_JXO6Y&s",
+                        "thumbnailWidth": 184,
+                        "thumbnailHeight": 138,
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "link": "https://en.wikipedia.org/wiki/Ghats_in_Varanasi",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F0%2F04%2FAhilya_Ghat_by_the_Ganges%252C_Varanasi.jpg%2F184px-Ahilya_Ghat_by_the_Ganges%252C_Varanasi.jpg&tbnid=9637bh5JX4JMCM&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGhats_in_Varanasi&docid=GzkBIIOt7l926M&w=184&h=138&ved=0ahUKEwi1uq-b7LWKAxVoSTABHX5oHTgQvFcIAygB",
+                        "position": 2
+                    },
+                    {
+                        "title": "Between Heaven and Earth - Exploring Varanasi's Iconic Ghats",
+                        "imageUrl": "https://www.savaari.com/blog/wp-content/uploads/2023/09/Varanasi_ghats1.webp",
+                        "imageWidth": 2048,
+                        "imageHeight": 1366,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyYTKiWnKhSP3eSJ22CDZCJ8oKK2bdWzLOKmkUWwlz8gKc_OsQ&s",
+                        "thumbnailWidth": 275,
+                        "thumbnailHeight": 183,
+                        "source": "Savaari",
+                        "domain": "www.savaari.com",
+                        "link": "https://www.savaari.com/blog/ghats-of-varanasi/",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.savaari.com%2Fblog%2Fwp-content%2Fuploads%2F2023%2F09%2FVaranasi_ghats1.webp&tbnid=iaPhz7fIacq3bM&imgrefurl=https%3A%2F%2Fwww.savaari.com%2Fblog%2Fghats-of-varanasi%2F&docid=Hp0WBB0_RERQ4M&w=2048&h=1366&ved=0ahUKEwi1uq-b7LWKAxVoSTABHX5oHTgQvFcIBCgC",
+                        "position": 3
+                    },
+                    {
+                        "title": "Explore The Famous Ghats in Varanasi - SOTC",
+                        "imageUrl": "https://www.sotc.in/blog/wp-content/uploads/2024/04/Varanasi-Ghat-2.jpg",
+                        "imageWidth": 768,
+                        "imageHeight": 512,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdUQBjDOG3LbdiWFAIaMwVlTFV9EcuJ9A4ZoUWdavVF8J83u8&s",
+                        "thumbnailWidth": 275,
+                        "thumbnailHeight": 183,
+                        "source": "SOTC",
+                        "domain": "www.sotc.in",
+                        "link": "https://www.sotc.in/blog/indian-holidays/famous-ghats-of-varanasi",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.sotc.in%2Fblog%2Fwp-content%2Fuploads%2F2024%2F04%2FVaranasi-Ghat-2.jpg&tbnid=g7lunN9K2wroZM&imgrefurl=https%3A%2F%2Fwww.sotc.in%2Fblog%2Findian-holidays%2Ffamous-ghats-of-varanasi&docid=BeHJBjZ0xIM_EM&w=768&h=512&ved=0ahUKEwi1uq-b7LWKAxVoSTABHX5oHTgQvFcIBSgD",
+                        "position": 4
+                    },
+                    {
+                        "title": "Exploring the beautiful ghats of Varanasi | Times of India Travel",
+                        "imageUrl": "https://static.toiimg.com/photo/msid-107570888,width-96,height-65.cms",
+                        "imageWidth": 1200,
+                        "imageHeight": 900,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdZpBLn4RoAsnbzULjfFUOQXQOS6hSk-CLXwcBK6g_UbHurZY&s",
+                        "thumbnailWidth": 259,
+                        "thumbnailHeight": 194,
+                        "source": "Times of India",
+                        "domain": "timesofindia.indiatimes.com",
+                        "link": "https://timesofindia.indiatimes.com/travel/destinations/exploring-the-beautiful-ghats-of-varanasi/articleshow/107570888.cms",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.toiimg.com%2Fphoto%2Fmsid-107570888%2Cwidth-96%2Cheight-65.cms&tbnid=p9Xse0McZVFs4M&imgrefurl=https%3A%2F%2Ftimesofindia.indiatimes.com%2Ftravel%2Fdestinations%2Fexploring-the-beautiful-ghats-of-varanasi%2Farticleshow%2F107570888.cms&docid=KSAQT1BqjMLkxM&w=1200&h=900&ved=0ahUKEwi1uq-b7LWKAxVoSTABHX5oHTgQvFcIBigE",
+                        "position": 5
+                    },
+                    {
+                        "title": "Varanasi: Top 12 Ghats to Visit in India's Spiritual Capital - The ...",
+                        "imageUrl": "https://thefloatingpebbles.com/wp-content/uploads/2023/03/VARANASI22_417-1024x576.jpg",
+                        "imageWidth": 1024,
+                        "imageHeight": 576,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrMV-8B-wk9ThkXt9-DowT2ocPA1DaaLRCyv6lcpHGScLtfxx-&s",
+                        "thumbnailWidth": 300,
+                        "thumbnailHeight": 168,
+                        "source": "The Floating Pebbles",
+                        "domain": "thefloatingpebbles.com",
+                        "link": "https://thefloatingpebbles.com/varanasi-top-12-ghats-to-visit-in-indias-spiritual-capital/",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fthefloatingpebbles.com%2Fwp-content%2Fuploads%2F2023%2F03%2FVARANASI22_417-1024x576.jpg&tbnid=dlcuHvs3NCCWXM&imgrefurl=https%3A%2F%2Fthefloatingpebbles.com%2Fvaranasi-top-12-ghats-to-visit-in-indias-spiritual-capital%2F&docid=dTVOYoNmplsfaM&w=1024&h=576&ved=0ahUKEwi1uq-b7LWKAxVoSTABHX5oHTgQvFcIBygF",
+                        "copyright": "SUDIP RAY",
+                        "position": 6
+                    },
+                    {
+                        "title": "Top 5 Must-Visit Ghats in Varanasi | India.com",
+                        "imageUrl": "https://static.india.com/wp-content/uploads/2019/03/Manikarnika-Ghat-in-Varanasi.jpg?impolicy=Medium_Resize&w=1200&h=800",
+                        "imageWidth": 1200,
+                        "imageHeight": 800,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUCe1-qeRfzBRYX8a7LoOJDf9pbfBRzNOSOjjXkGdT8mINfNc&s",
+                        "thumbnailWidth": 275,
+                        "thumbnailHeight": 183,
+                        "source": "India.Com",
+                        "domain": "www.india.com",
+                        "link": "https://www.india.com/travel/articles/top-5-must-visit-ghats-in-varanasi-3608454/",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.india.com%2Fwp-content%2Fuploads%2F2019%2F03%2FManikarnika-Ghat-in-Varanasi.jpg%3Fimpolicy%3DMedium_Resize%26w%3D1200%26h%3D800&tbnid=Rgsbl5ADn3JT7M&imgrefurl=https%3A%2F%2Fwww.india.com%2Ftravel%2Farticles%2Ftop-5-must-visit-ghats-in-varanasi-3608454%2F&docid=Gz2XiHXw8aIJ5M&w=1200&h=800&ved=0ahUKEwi1uq-b7LWKAxVoSTABHX5oHTgQvFcICCgG",
+                        "position": 7
+                    },
+                    {
+                        "title": "Varanasi Ghats: Experience the Spiritual Wonders",
+                        "imageUrl": "https://www.thegrandindianroute.com/wp-content/uploads/2024/02/Untitled-design-85.jpg",
+                        "imageWidth": 853,
+                        "imageHeight": 1050,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyjP_otCmX3rTcqJwv1Qm9c6PytMgbr5j4uKyR59qlId1scAI&s",
+                        "thumbnailWidth": 202,
+                        "thumbnailHeight": 249,
+                        "source": "The Grand Indian Route",
+                        "domain": "www.thegrandindianroute.com",
+                        "link": "https://www.thegrandindianroute.com/15-important-varanasi-ghats/",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.thegrandindianroute.com%2Fwp-content%2Fuploads%2F2024%2F02%2FUntitled-design-85.jpg&tbnid=s_o40SgLimgoSM&imgrefurl=https%3A%2F%2Fwww.thegrandindianroute.com%2F15-important-varanasi-ghats%2F&docid=fvAcnfolgewYpM&w=853&h=1050&ved=0ahUKEwi1uq-b7LWKAxVoSTABHX5oHTgQvFcICSgH",
+                        "position": 8
+                    },
+                    {
+                        "title": "Manikarnika Ghat - Wikipedia",
+                        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Manikarnika_Cremation_Ghat%2C_Varanasi.jpg",
+                        "imageWidth": 1280,
+                        "imageHeight": 960,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-0r5FmqOvjiiMiXqGprKeepoHWyYf0ZsqLFGCLLhvxi5vako&s",
+                        "thumbnailWidth": 259,
+                        "thumbnailHeight": 194,
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "link": "https://en.wikipedia.org/wiki/Manikarnika_Ghat",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F8%2F81%2FManikarnika_Cremation_Ghat%252C_Varanasi.jpg&tbnid=RubK1-M6Wh40FM&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FManikarnika_Ghat&docid=_tYql3cyTMzuvM&w=1280&h=960&ved=0ahUKEwi1uq-b7LWKAxVoSTABHX5oHTgQvFcICigI",
+                        "creator": "Picasa",
+                        "position": 9
+                    },
+                    {
+                        "title": "The Divine Beauty & Heritage Landmarks of Varanasi Ghats ...",
+                        "imageUrl": "https://thrillingtravel.in/wp-content/uploads/2019/02/Chousatti-Ghat_Varanasi.jpg",
+                        "imageWidth": 1024,
+                        "imageHeight": 683,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLNnuHgIN9fI-O49JUPlN-sdgwHAsn2zz4uyP7ZNzJOQu8A7U&s",
+                        "thumbnailWidth": 275,
+                        "thumbnailHeight": 183,
+                        "source": "Thrilling Travel",
+                        "domain": "thrillingtravel.in",
+                        "link": "https://thrillingtravel.in/banaras-kashi-varanasi-ghats.html",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fthrillingtravel.in%2Fwp-content%2Fuploads%2F2019%2F02%2FChousatti-Ghat_Varanasi.jpg&tbnid=xr5v38HLVYc8LM&imgrefurl=https%3A%2F%2Fthrillingtravel.in%2Fbanaras-kashi-varanasi-ghats.html&docid=lV7mjfTzvyQ5BM&w=1024&h=683&ved=0ahUKEwi1uq-b7LWKAxVoSTABHX5oHTgQvFcICygJ",
+                        "position": 10
+                    }
+                ],
+                "credits": 1
+            }
+        }
+    ]
+}
