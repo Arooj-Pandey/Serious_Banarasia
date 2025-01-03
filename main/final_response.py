@@ -8,7 +8,7 @@ GM = GenerativeModel('gemini-pro')
 
 
 def generate_final_prompt(results, user_query):
-    final_prompt_template_path = Path(r"D:\projects\Serious_Banarasia\prompts\final_prompt.txt")
+    final_prompt_template_path = Path(r"D:\projects\Serious_Banarasia\prompts\final_response\final_prompt.txt")
     if not final_prompt_template_path.is_file():
         raise FileNotFoundError(f"Prompt file not found at {final_prompt_template_path}")
 

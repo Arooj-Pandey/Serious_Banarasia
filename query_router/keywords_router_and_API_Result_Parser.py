@@ -16,9 +16,9 @@ TEMPLATE_PATH = Path(__file__).parent.parent / "prompts" / "query_router" / "que
 RESULTS_FILE = Path(__file__).parent.parent / "keywords_result_dict.json"
 
 # Initialize clients
-serper_client = SerperClient(api_key=os.getenv("SERPER_API"))
+serper_client = SerperClient(api_key=os.getenv("Serper_api"))
 gemini_model = GeminiModel(
-    api_key=os.getenv("GENAI_API"), 
+    gemini_api=os.getenv("genai_api"), 
     model_name="gemini-1.5-flash"
 )
 

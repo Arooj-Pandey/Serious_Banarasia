@@ -5,11 +5,11 @@ import streamlit as st
 from pathlib import Path
 from typing import Dict, List
 import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+sys.path.append(os.path.abspath("D:/projects/Serious_Banarasia"))
 from translator.Query_Restructure_and_Segregation import QueryRestructurer
 from query_router.keywords_router_and_API_Result_Parser import get_keywords_result_dict, route_keywords, parse_api_results
 from main.final_response import generate_final_prompt
-
+from models.gemini import GeminiModel
 
 
 
@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 gemini_api_key = os.getenv("Genai_api")
 if not gemini_api_key:
     raise ValueError("Genai_api environment variable not set")
-GM = GeminiModel(gemini_api_key, "gemini-1.5-flash")
+GM = GeminiModel(gemini_api = gemini_api_key, model_name="gemini-1.5-flash")
 
 # def route_keywords(keywords: Dict[str, List[str]]) -> Dict[str, List[Dict]]:
 #     results = {"text_api": [], "image_api": []}

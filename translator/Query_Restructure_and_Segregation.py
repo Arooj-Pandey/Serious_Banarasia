@@ -8,7 +8,7 @@ class QueryRestructurer:
         self.api_key = api_key
         self.model_name = model_name
         self.prompt_template_path = prompt_template_path
-        self.model = GeminiModel(api_key=self.api_key, model_name=self.model_name)
+        self.model = GeminiModel(gemini_api=self.api_key, model_name=self.model_name)
         
     def load_prompt_template(self, template_path: Path) -> str:
         """Load prompt template from file."""
