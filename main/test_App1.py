@@ -115,9 +115,9 @@ def main():
         
         try:
             with st.spinner("Processing your query..."):
-                restructured_query = QR.restructure_query(query)
-                keywords = get_keywords_result_dict(restructured_query) 
-                results = route_keywords(keywords)
+                restructured_query = QR.restructure_query(query)  #restructures the query
+                keywords = get_keywords_result_dict(restructured_query) #get keywords from the restructured query
+                results = route_keywords(keywords) 
                 
                 with open('keywords_result_dict.json', 'r', encoding='utf-8') as f:
                     data = json.load(f)

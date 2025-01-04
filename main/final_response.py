@@ -20,7 +20,7 @@ def generate_final_prompt(results, user_query):
         )
 
     keywords_result = GM.generate_content(formatted_final_prompt_template)
-    return keywords_result # return final prompt
+    return keywords_result.text if keywords_result and hasattr(keywords_result, 'text') else str(keywords_result) # return final prompt
 
 # # Main execution
 # restructured_query = restructure_query("tell me about shri kashi vishwanath ji")
