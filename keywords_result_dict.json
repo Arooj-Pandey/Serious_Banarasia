@@ -1,10 +1,163 @@
 {
-    "text_api": [],
+    "text_api": [
+        {
+            "India Gate information": {
+                "searchParameters": {
+                    "q": "India Gate information",
+                    "type": "search",
+                    "engine": "google"
+                },
+                "knowledgeGraph": {
+                    "title": "India Gate",
+                    "type": "Monument in New Delhi, India"
+                },
+                "organic": [
+                    {
+                        "title": "India Gate - Wikipedia",
+                        "link": "https://en.wikipedia.org/wiki/India_Gate",
+                        "snippet": "The India Gate is a war memorial located near the Rajpath (officially called Kartavya path) on the eastern edge of the \"ceremonial axis\" of New Delhi.",
+                        "sitelinks": [
+                            {
+                                "title": "Gateway of India",
+                                "link": "https://en.wikipedia.org/wiki/Gateway_of_India"
+                            },
+                            {
+                                "title": "Amar Jawan Jyoti",
+                                "link": "https://en.wikipedia.org/wiki/Amar_Jawan_Jyoti"
+                            },
+                            {
+                                "title": "Statue of Subhas Chandra Bose",
+                                "link": "https://en.wikipedia.org/wiki/Statue_of_Subhas_Chandra_Bose"
+                            }
+                        ],
+                        "position": 1
+                    },
+                    {
+                        "title": "India Gate | Description, History, & Facts - Britannica",
+                        "link": "https://www.britannica.com/topic/India-Gate",
+                        "snippet": "India Gate, monumental arch in New Delhi, India, dedicated to the troops of British India who died between 1914 and 1919.",
+                        "position": 2
+                    },
+                    {
+                        "title": "India Gate | District New Delhi, Government of NCT of Delhi",
+                        "link": "https://dmnewdelhi.delhi.gov.in/tourist-place/india-gate/",
+                        "snippet": "At the centre of New Delhi stands the 42 m high India Gate, an “Arc-de-Triomphe” like archway in the middle of a crossroad. Almost similar to its French ...",
+                        "position": 3
+                    },
+                    {
+                        "title": "India Gate History, Design & Significance - Study.com",
+                        "link": "https://study.com/academy/lesson/india-gate-overview-history-design.html",
+                        "snippet": "The India Gate is a large red sandstone structure in New Delhi, India, that was designed by the British and was finished in 1921. India Gate and ...",
+                        "date": "Feb 21, 2023",
+                        "position": 4
+                    },
+                    {
+                        "title": "India Gate - All You Need to Know BEFORE You Go (2025)",
+                        "link": "https://www.tripadvisor.com/Attraction_Review-g304551-d321493-Reviews-India_Gate-New_Delhi_National_Capital_Territory_of_Delhi.html",
+                        "snippet": "The India Gate, built in 1931 and designed by Sir Edwin Lutyens, was inspired by the Arc de Triomphe. It commemorates India's war dead and houses an eternal ...",
+                        "rating": 4,
+                        "ratingCount": 10446,
+                        "position": 5
+                    },
+                    {
+                        "title": "Explore the India Gate in Delhi | Incredible India",
+                        "link": "https://www.incredibleindia.gov.in/en/delhi/delhi/india-gate",
+                        "snippet": "India Gate in Delhi is an archway in the centre of Delhi built in the 18th century. It commemorates Indian and British soldiers killed in World War I.",
+                        "position": 6
+                    },
+                    {
+                        "title": "Interesting Facts about India Gate - Eduauraa!",
+                        "link": "https://eduauraa.com/blog/facts-about-india-gate",
+                        "snippet": "The India Gate is a war memorial located astride the Rajpath, on the eastern edge of New Delhi. Here are some amazing facts about India Gate.",
+                        "position": 7
+                    },
+                    {
+                        "title": "India Gate | The Leela Palaces Hotels and Resorts",
+                        "link": "https://www.theleela.com/the-leela-palace-new-delhi/explore-destination/india-gate",
+                        "snippet": "Designed by Sir Edwin Lutyens, this 42-meter-tall historical structure is dedicated to the 82,000 Indian and British soldiers who lost their lives during the ...",
+                        "position": 8
+                    },
+                    {
+                        "title": "India Gate, Delhi Tours and Vacations Sights",
+                        "link": "https://www.easytours.travel/india/india-gate.htm",
+                        "snippet": "The India Gate is the national monument of India. Situated in the heart of New Delhi, India Gate was designed by Sir Edwin Lutyens.",
+                        "position": 9
+                    },
+                    {
+                        "title": "India Gate - History and Facts",
+                        "link": "https://www.historyhit.com/locations/india-gate/",
+                        "snippet": "The India Gate is a war memorial in the style of a triumphal arch, designed by the English architect Sir Edwin Lutyens.",
+                        "date": "Feb 19, 2021",
+                        "attributes": {
+                            "Missing": "information | Show results with:information"
+                        },
+                        "position": 10
+                    }
+                ],
+                "peopleAlsoAsk": [
+                    {
+                        "question": "What are 5 interesting facts about India Gate?",
+                        "snippet": "Facts about India Gate that you should know The entire arch rises in phases from a modest foundation of red Bharatpur stone to a massive moulding. It has etched on its walls the names of Indian troops who died in the Afghan Wars and World War I. It stands 42 metres tall and has a likeness to Paris's 'Arc de Triomphe.",
+                        "title": "10 Lesser Known Facts About India Gate - Unacademy",
+                        "link": "https://unacademy.com/content/bank-exam/study-material/general-awareness/10-lesser-known-facts-about-india-gate/"
+                    },
+                    {
+                        "question": "What is the detail information about India Gate?",
+                        "snippet": "General Agreement on Tariffs and Trade (GATT) was an international trade agreement signed in 1947. 23 nations were signatories of this trade agreement. GATT came into effect on January 1, 1948. The purpose of GATT was to liberalise trade by reducing tariffs and reducing quotas among member countries.",
+                        "title": "General Agreement on Tariffs and Trade (GATT) - Replaced by WTO ...",
+                        "link": "https://byjus.com/free-ias-prep/gatt/"
+                    },
+                    {
+                        "question": "What is special about Gate of India?",
+                        "snippet": "The structure is an arch made of basalt, 26 metres (85 feet) high. The final design of George Wittet was sanctioned in 1914 and the construction of the monument was completed in 1924. The Gateway was later used as a symbolic ceremonial entrance to India for Viceroys and the new Governors of Bombay.",
+                        "title": "Gateway of India | Mumbai City",
+                        "link": "https://mumbaicity.gov.in/tourist-place/gateway-of-india/"
+                    },
+                    {
+                        "question": "What is written on top of India Gate?",
+                        "snippet": "India Gate also houses a small structure called Amar Jawan Jyoti, which consists of a marble pedestal with a cenotaph on its top. The cenotaph has the words 'Amar Jawan' written on all four sides in golden letters and also has a reversed rifle, capped by a soldier helmet, installed on it.",
+                        "title": "India Gate Delhi: History, Architecture, Timings, Entry Fee - FabHotels",
+                        "link": "https://www.fabhotels.com/blog/india-gate-delhi/"
+                    }
+                ],
+                "relatedSearches": [
+                    {
+                        "query": "Qutab Minar"
+                    },
+                    {
+                        "query": "India gate information in english"
+                    },
+                    {
+                        "query": "10 points about India Gate"
+                    },
+                    {
+                        "query": "India gate information for school project"
+                    },
+                    {
+                        "query": "India gate information pdf"
+                    },
+                    {
+                        "query": "India gate information wikipedia"
+                    },
+                    {
+                        "query": "India Gate was built by"
+                    },
+                    {
+                        "query": "India Gate history"
+                    },
+                    {
+                        "query": "5 facts about India Gate"
+                    }
+                ],
+                "credits": 1
+            }
+        }
+    ],
     "image_api": [
         {
-            "Kashi Vishwanath Temple": {
+            "India Gate": {
                 "searchParameters": {
-                    "q": "Kashi Vishwanath Temple",
+                    "q": "India Gate",
                     "gl": "in",
                     "type": "images",
                     "num": 10,
@@ -12,148 +165,143 @@
                 },
                 "images": [
                     {
-                        "title": "Sacred Heaven on Earth - Kashi Vishwanath Temple\" | AlightIndia",
-                        "imageUrl": "https://www.alightindia.com/cdn/uploads/postimages/ORIGINAL/kashi%20viswanath%20psp--273565.jpg",
-                        "imageWidth": 2206,
-                        "imageHeight": 1407,
-                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd53yPhmdUBBtjADrA-lclmm7dSCM3gX9sOKlgPRB4QbRBqnce&s",
-                        "thumbnailWidth": 281,
-                        "thumbnailHeight": 179,
-                        "source": "AlightIndia.com",
-                        "domain": "www.alightindia.com",
-                        "link": "https://www.alightindia.com/kashi-vishwanath-temple",
-                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.alightindia.com%2Fcdn%2Fuploads%2Fpostimages%2FORIGINAL%2Fkashi%2520viswanath%2520psp--273565.jpg&tbnid=YDskcsPlCpmMNM&imgrefurl=https%3A%2F%2Fwww.alightindia.com%2Fkashi-vishwanath-temple&docid=bUqgKukf9h7TYM&w=2206&h=1407&ved=0ahUKEwia3oDgldqKAxUFEFkFHRGlKmkQvFcIAigA",
+                        "title": "India Gate - Wikipedia",
+                        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/India_Gate_on_the_evening_of_77th_Independence_day.jpg/800px-India_Gate_on_the_evening_of_77th_Independence_day.jpg",
+                        "imageWidth": 800,
+                        "imageHeight": 1049,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRuAEWguGTtpm8nwDbfw2Txgt5uZx-NznbHGzRl_A4WFdOwg&s",
+                        "thumbnailWidth": 196,
+                        "thumbnailHeight": 257,
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "link": "https://en.wikipedia.org/wiki/India_Gate",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F99%2FIndia_Gate_on_the_evening_of_77th_Independence_day.jpg%2F800px-India_Gate_on_the_evening_of_77th_Independence_day.jpg&tbnid=lt681T3_0-_FGM&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FIndia_Gate&docid=5NEdIoo9NcBHDM&w=800&h=1049&ved=0ahUKEwiAk96Oz9uKAxU_vokEHdBWCPsQvFcIAigA",
                         "position": 1
                     },
                     {
-                        "title": "Kashi Vishwanath Temple – DAIWIK HOTELS",
-                        "imageUrl": "https://www.daiwikhotels.com/wp-content/uploads/2024/07/kashi-viswanath-temple-cvr-2.jpg",
-                        "imageWidth": 1900,
-                        "imageHeight": 1267,
-                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq6_M4pvlNNcKzRKfN-YWvmOfcDQTu4qcvYkyOCIrgezDdnmU&s",
-                        "thumbnailWidth": 275,
-                        "thumbnailHeight": 183,
-                        "source": "DAIWIK HOTELS",
-                        "domain": "www.daiwikhotels.com",
-                        "link": "https://www.daiwikhotels.com/about-varanasi/kashi-vishwanath-temple/",
-                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.daiwikhotels.com%2Fwp-content%2Fuploads%2F2024%2F07%2Fkashi-viswanath-temple-cvr-2.jpg&tbnid=aW8OqjVl0CiDiM&imgrefurl=https%3A%2F%2Fwww.daiwikhotels.com%2Fabout-varanasi%2Fkashi-vishwanath-temple%2F&docid=0H3Ht85tmqxCCM&w=1900&h=1267&ved=0ahUKEwia3oDgldqKAxUFEFkFHRGlKmkQvFcIAygB",
+                        "title": "India Gate | Description, History, & Facts | Britannica",
+                        "imageUrl": "https://cdn.britannica.com/38/189838-050-83C7395E/India-War-Memorial-arch-New-Delhi-Sir.jpg",
+                        "imageWidth": 1200,
+                        "imageHeight": 1600,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlgGua-OOv43azRvPBapccPA3qnQNr6qfMIxMbNpHglSmdF1Y&s",
+                        "thumbnailWidth": 194,
+                        "thumbnailHeight": 259,
+                        "source": "Britannica",
+                        "domain": "www.britannica.com",
+                        "link": "https://www.britannica.com/topic/India-Gate",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.britannica.com%2F38%2F189838-050-83C7395E%2FIndia-War-Memorial-arch-New-Delhi-Sir.jpg&tbnid=7ZuKMj__np_HyM&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Ftopic%2FIndia-Gate&docid=IRlXBhgOBvpp6M&w=1200&h=1600&ved=0ahUKEwiAk96Oz9uKAxU_vokEHdBWCPsQvFcIAygB",
                         "position": 2
                     },
                     {
-                        "title": "Kashi Vishwanath Temple - Wikipedia",
-                        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Kashi_Vishwanath.jpg",
-                        "imageWidth": 621,
-                        "imageHeight": 452,
-                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT72Gfg7pYx_6r2_v_3mlt8S1ZIYz67c56lFbwA2XfSmaX82RI&s",
-                        "thumbnailWidth": 263,
-                        "thumbnailHeight": 191,
+                        "title": "Gateway of India - Wikipedia",
+                        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/1200px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+                        "imageWidth": 1200,
+                        "imageHeight": 1200,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgPgyR41eYzpDu4JNLOVr46FTx8Aerlq2PEAj25z6oLNY4Bkh-&s",
+                        "thumbnailWidth": 225,
+                        "thumbnailHeight": 225,
                         "source": "Wikipedia",
                         "domain": "en.wikipedia.org",
-                        "link": "https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple",
-                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Ff%2Fff%2FKashi_Vishwanath.jpg&tbnid=SBAjHqIwtPZ8yM&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FKashi_Vishwanath_Temple&docid=6ikxDUYlQIPcgM&w=621&h=452&ved=0ahUKEwia3oDgldqKAxUFEFkFHRGlKmkQvFcIBCgC",
+                        "link": "https://en.wikipedia.org/wiki/Gateway_of_India",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F3a%2FMumbai_03-2016_30_Gateway_of_India.jpg%2F1200px-Mumbai_03-2016_30_Gateway_of_India.jpg&tbnid=X0p0KKXyEQqemM&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGateway_of_India&docid=jGjOztOIc5rjtM&w=1200&h=1200&ved=0ahUKEwiAk96Oz9uKAxU_vokEHdBWCPsQvFcIBCgC",
                         "position": 3
                     },
                     {
-                        "title": "Explained: What is changing at the ancient Kashi Vishwanath temple ...",
-                        "imageUrl": "https://images.indianexpress.com/2021/12/31-1-1.jpg",
-                        "imageWidth": 1200,
-                        "imageHeight": 667,
-                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlDk0KRRIc9ujoliwhtyxt-McvRg8SfEwVBW31e7IGsexgk4s&s",
-                        "thumbnailWidth": 301,
-                        "thumbnailHeight": 167,
-                        "source": "The Indian Express",
-                        "domain": "indianexpress.com",
-                        "link": "https://indianexpress.com/article/explained/kashi-vishwanath-temple-narendra-modi-varanasi-7669709/",
-                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.indianexpress.com%2F2021%2F12%2F31-1-1.jpg&tbnid=T19_CMQonv5rgM&imgrefurl=https%3A%2F%2Findianexpress.com%2Farticle%2Fexplained%2Fkashi-vishwanath-temple-narendra-modi-varanasi-7669709%2F&docid=oWDIHMcj24500M&w=1200&h=667&ved=0ahUKEwia3oDgldqKAxUFEFkFHRGlKmkQvFcIBSgD",
-                        "copyright": "Press Trust of India",
-                        "creator": "-",
-                        "credit": "PTI",
+                        "title": "Explore the India Gate in Delhi | Incredible India",
+                        "imageUrl": "https://s7ap1.scene7.com/is/image/incredibleindia/india-gate-delhi-1-attr-hero?qlt=82&ts=1727351922349",
+                        "imageWidth": 1280,
+                        "imageHeight": 720,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxjIE-ZDqkSHkq0c0-I0nlNHOk3FdhEqVqK7kDu7htc69oy_4&s",
+                        "thumbnailWidth": 300,
+                        "thumbnailHeight": 168,
+                        "source": "Incredible India",
+                        "domain": "www.incredibleindia.gov.in",
+                        "link": "https://www.incredibleindia.gov.in/en/delhi/delhi/india-gate",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fs7ap1.scene7.com%2Fis%2Fimage%2Fincredibleindia%2Findia-gate-delhi-1-attr-hero%3Fqlt%3D82%26ts%3D1727351922349&tbnid=gUIVgE9I3sEESM&imgrefurl=https%3A%2F%2Fwww.incredibleindia.gov.in%2Fen%2Fdelhi%2Fdelhi%2Findia-gate&docid=YlcN11TDRK5-7M&w=1280&h=720&ved=0ahUKEwiAk96Oz9uKAxU_vokEHdBWCPsQvFcIBSgD",
                         "position": 4
                     },
                     {
-                        "title": "Kashi Vishwanath Temple: History, Spiritual Significance, and Ritual",
-                        "imageUrl": "http://shrikashidham.com/wp-content/uploads/2023/08/1-3.jpg",
-                        "imageWidth": 2206,
-                        "imageHeight": 1407,
-                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUi7s8Q2W50eCeiOo_chpPaGwn3uKFYL4PpWceIkZI3kv6pso&s",
-                        "thumbnailWidth": 281,
-                        "thumbnailHeight": 179,
-                        "source": "Shri Kashidham",
-                        "domain": "shrikashidham.com",
-                        "link": "https://shrikashidham.com/shiva-temples/kashi-vishwanath-temple/",
-                        "googleUrl": "https://www.google.com/imgres?imgurl=http%3A%2F%2Fshrikashidham.com%2Fwp-content%2Fuploads%2F2023%2F08%2F1-3.jpg&tbnid=5fvnA5CdbMP_pM&imgrefurl=https%3A%2F%2Fshrikashidham.com%2Fshiva-temples%2Fkashi-vishwanath-temple%2F&docid=zwnPefX8QRi1lM&w=2206&h=1407&ved=0ahUKEwia3oDgldqKAxUFEFkFHRGlKmkQvFcIBigE",
-                        "copyright": "DINESH MEHTA",
+                        "title": "Explore the India Gate in Delhi | Incredible India",
+                        "imageUrl": "https://s7ap1.scene7.com/is/image/incredibleindia/india-gate-delhi-4-attr-hero?qlt=82&ts=1727351885876",
+                        "imageWidth": 1280,
+                        "imageHeight": 720,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3GXX91CWw7vIQ6lmTvwV6GePDd3KbnelzU9RZJ1pnpzaJqpeD&s",
+                        "thumbnailWidth": 300,
+                        "thumbnailHeight": 168,
+                        "source": "Incredible India",
+                        "domain": "www.incredibleindia.gov.in",
+                        "link": "https://www.incredibleindia.gov.in/en/delhi/delhi/india-gate",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fs7ap1.scene7.com%2Fis%2Fimage%2Fincredibleindia%2Findia-gate-delhi-4-attr-hero%3Fqlt%3D82%26ts%3D1727351885876&tbnid=2Anya-9dbpOqrM&imgrefurl=https%3A%2F%2Fwww.incredibleindia.gov.in%2Fen%2Fdelhi%2Fdelhi%2Findia-gate&docid=YlcN11TDRK5-7M&w=1280&h=720&ved=0ahUKEwiAk96Oz9uKAxU_vokEHdBWCPsQvFcIBigE",
                         "position": 5
                     },
                     {
-                        "title": "I Visited The All New Kashi-Vishwanath Dham & Corridor In Varanasi ...",
-                        "imageUrl": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2791355069047355277",
-                        "imageWidth": 1440,
-                        "imageHeight": 1800,
-                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHgTSQZSkfim6a8u5AQ5nkk79wTY1MBWfOuPdKTwNyBpndcXv0&s",
-                        "thumbnailWidth": 201,
-                        "thumbnailHeight": 251,
-                        "source": "Instagram",
-                        "domain": "www.instagram.com",
-                        "link": "https://www.instagram.com/kamiya_jani/p/Ca84qadjc_Q/",
-                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Flookaside.instagram.com%2Fseo%2Fgoogle_widget%2Fcrawler%2F%3Fmedia_id%3D2791355069047355277&tbnid=Gm4w67xoDE2boM&imgrefurl=https%3A%2F%2Fwww.instagram.com%2Fkamiya_jani%2Fp%2FCa84qadjc_Q%2F&docid=O_ke-IZoTgTsbM&w=1440&h=1800&ved=0ahUKEwia3oDgldqKAxUFEFkFHRGlKmkQvFcIBygF",
+                        "title": "India Gate Tourism (Delhi) (2025) - A Complete Travel Guide",
+                        "imageUrl": "https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2023/12/27/5c47137b8b32bdc3702a6c0b4b2359e9_1000x1000.jpg",
+                        "imageWidth": 1000,
+                        "imageHeight": 667,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxRJ1bCNOKicHbNq28yX6Cz8rIzaj51zYkmk_s9m_OoniCHA&s",
+                        "thumbnailWidth": 275,
+                        "thumbnailHeight": 183,
+                        "source": "Travelsetu.com",
+                        "domain": "travelsetu.com",
+                        "link": "https://travelsetu.com/guide/india-gate-tourism",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Ftravelsetu.com%2Fapps%2Fuploads%2Fnew_destinations_photos%2Fdestination%2F2023%2F12%2F27%2F5c47137b8b32bdc3702a6c0b4b2359e9_1000x1000.jpg&tbnid=x_gQw-8mi0qyVM&imgrefurl=https%3A%2F%2Ftravelsetu.com%2Fguide%2Findia-gate-tourism&docid=ZPFH16ysOma07M&w=1000&h=667&ved=0ahUKEwiAk96Oz9uKAxU_vokEHdBWCPsQvFcIBygF",
                         "position": 6
                     },
                     {
-                        "title": "Kashi Vishwanath Temple | Description & Facts | Britannica",
-                        "imageUrl": "https://cdn.britannica.com/65/251965-050-483D1D86/vishwanath-holy-temple-vananasi-hindu-uttar-pradesh-india.jpg",
-                        "imageWidth": 1391,
-                        "imageHeight": 1600,
-                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWBII2DoWYTVZpSFdtLKXgz-CvigoMt3MAzvVzlPr6-XdRHJu9&s",
-                        "thumbnailWidth": 209,
-                        "thumbnailHeight": 241,
-                        "source": "Britannica",
-                        "domain": "www.britannica.com",
-                        "link": "https://www.britannica.com/topic/Kashi-Vishwanath-Temple",
-                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.britannica.com%2F65%2F251965-050-483D1D86%2Fvishwanath-holy-temple-vananasi-hindu-uttar-pradesh-india.jpg&tbnid=J1d3euff7V5brM&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Ftopic%2FKashi-Vishwanath-Temple&docid=HDLQw5EITPAQCM&w=1391&h=1600&ved=0ahUKEwia3oDgldqKAxUFEFkFHRGlKmkQvFcICCgG",
+                        "title": "India Gate, Delhi - The Heritage Art",
+                        "imageUrl": "https://theheritageart.com/wp-content/uploads/2022/12/India-Gate-Delhi-1-1000x565.jpg",
+                        "imageWidth": 1000,
+                        "imageHeight": 565,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7RYhWYTZZMLIWPJJncSCEHFrNhj20KC0dIfMgkwLTQWe6fFU&s",
+                        "thumbnailWidth": 299,
+                        "thumbnailHeight": 169,
+                        "source": "The Heritage Art",
+                        "domain": "theheritageart.com",
+                        "link": "https://theheritageart.com/india-gate-delhi/",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Ftheheritageart.com%2Fwp-content%2Fuploads%2F2022%2F12%2FIndia-Gate-Delhi-1-1000x565.jpg&tbnid=zLQn-HrM60V7xM&imgrefurl=https%3A%2F%2Ftheheritageart.com%2Findia-gate-delhi%2F&docid=O-42q3SG3XOlsM&w=1000&h=565&ved=0ahUKEwiAk96Oz9uKAxU_vokEHdBWCPsQvFcICCgG",
                         "position": 7
                     },
                     {
-                        "title": "File:Ganga Dwar, Gateway of Corridor of Kashi Vishwanath Temple ...",
-                        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Ganga_Dwar%2C_Gateway_of_Corridor_of_Kashi_Vishwanath_Temple%2C_Varanasi.webp",
-                        "imageWidth": 1440,
-                        "imageHeight": 1440,
-                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF0Hb85A1aIiPt0c7ZaRLRnShYbjoU70n8fAbqH4LWFAkP-7xL&s",
-                        "thumbnailWidth": 225,
-                        "thumbnailHeight": 225,
-                        "source": "Wikimedia Commons",
-                        "domain": "commons.wikimedia.org",
-                        "link": "https://commons.wikimedia.org/wiki/File:Ganga_Dwar,_Gateway_of_Corridor_of_Kashi_Vishwanath_Temple,_Varanasi.webp",
-                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F65%2FGanga_Dwar%252C_Gateway_of_Corridor_of_Kashi_Vishwanath_Temple%252C_Varanasi.webp&tbnid=MMUZDvKqMRbrdM&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AGanga_Dwar%2C_Gateway_of_Corridor_of_Kashi_Vishwanath_Temple%2C_Varanasi.webp&docid=vbpMThrAduWc0M&w=1440&h=1440&ved=0ahUKEwia3oDgldqKAxUFEFkFHRGlKmkQvFcICSgH",
+                        "title": "India Gate, New Delhi | Backpackers United",
+                        "imageUrl": "https://backpackersunited.in/_next/image?url=https%3A%2F%2Fbpu-images-v1.s3.eu-north-1.amazonaws.com%2Fuploads%2F1721650907202_India%20gate%201.jpg&w=3840&q=75",
+                        "imageWidth": 2880,
+                        "imageHeight": 2160,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG_4-OocL07h_JSR1azKfam53SmIx3-in9KqEhV-BKp21G714&s",
+                        "thumbnailWidth": 259,
+                        "thumbnailHeight": 194,
+                        "source": "Backpackers United",
+                        "domain": "backpackersunited.in",
+                        "link": "https://backpackersunited.in/destinations/new-delhi/attraction/india-gate-new-delhi",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fbackpackersunited.in%2F_next%2Fimage%3Furl%3Dhttps%253A%252F%252Fbpu-images-v1.s3.eu-north-1.amazonaws.com%252Fuploads%252F1721650907202_India%2520gate%25201.jpg%26w%3D3840%26q%3D75&tbnid=DymchOn91vStpM&imgrefurl=https%3A%2F%2Fbackpackersunited.in%2Fdestinations%2Fnew-delhi%2Fattraction%2Findia-gate-new-delhi&docid=y_7Jc8E3uPN6SM&w=2880&h=2160&ved=0ahUKEwiAk96Oz9uKAxU_vokEHdBWCPsQvFcICSgH",
                         "position": 8
                     },
                     {
-                        "title": "Kashi Vishwanath Temple At The Heart Of Kashi Yatra - Inditales",
-                        "imageUrl": "https://www.inditales.com/wp-content/uploads/2022/07/vishwanath-jyotirlinga.jpg",
-                        "imageWidth": 426,
-                        "imageHeight": 640,
-                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMANeItLvMEhOHy54NadcAGZllzcQa6-qwupAd-memERw4TQtf&s",
-                        "thumbnailWidth": 183,
-                        "thumbnailHeight": 275,
-                        "source": "Inditales",
-                        "domain": "www.inditales.com",
-                        "link": "https://www.inditales.com/kashi-vishwanath-temple-kashi-yatra-varanasi/",
-                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.inditales.com%2Fwp-content%2Fuploads%2F2022%2F07%2Fvishwanath-jyotirlinga.jpg&tbnid=PPeye2AuvGRTxM&imgrefurl=https%3A%2F%2Fwww.inditales.com%2Fkashi-vishwanath-temple-kashi-yatra-varanasi%2F&docid=F0DnAqGYWk4KlM&w=426&h=640&ved=0ahUKEwia3oDgldqKAxUFEFkFHRGlKmkQvFcICigI",
-                        "creator": "ishita",
+                        "title": "I love in india - Reviews, Photos - India Gate - Tripadvisor",
+                        "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/16/e0/7b/c2/picture-clicked-at-the.jpg",
+                        "imageWidth": 550,
+                        "imageHeight": 366,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWukDpft8AmZRf4T4ZyzQPdtBg3TsVZZ4qf4ohqjyLBCnLxpk&s",
+                        "thumbnailWidth": 275,
+                        "thumbnailHeight": 183,
+                        "source": "Tripadvisor",
+                        "domain": "www.tripadvisor.in",
+                        "link": "https://www.tripadvisor.in/ShowUserReviews-g304551-d321493-r535821541-India_Gate-New_Delhi_National_Capital_Territory_of_Delhi.html",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-s%2F16%2Fe0%2F7b%2Fc2%2Fpicture-clicked-at-the.jpg&tbnid=0ZTCwj2113P4kM&imgrefurl=https%3A%2F%2Fwww.tripadvisor.in%2FShowUserReviews-g304551-d321493-r535821541-India_Gate-New_Delhi_National_Capital_Territory_of_Delhi.html&docid=tCpJiEjCXFvoOM&w=550&h=366&ved=0ahUKEwiAk96Oz9uKAxU_vokEHdBWCPsQvFcICigI",
                         "position": 9
                     },
                     {
-                        "title": "Kashi Vishwanath Temple : Exploring Significance, Architecture and ...",
-                        "imageUrl": "https://www.varanasi.org.in/wp-content/uploads/img/Kashi-Vishwanath-Dham-1-1024x639.png",
-                        "imageWidth": 1024,
-                        "imageHeight": 639,
-                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW_DS8jcMhtxdBZKVtHSIClCO7tNbBNPVUmfiSQ1Uj5JTgKvc&s",
-                        "thumbnailWidth": 284,
-                        "thumbnailHeight": 177,
-                        "source": "Varanasi",
-                        "domain": "www.varanasi.org.in",
-                        "link": "https://www.varanasi.org.in/kashi-vishwanath-temple",
-                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.varanasi.org.in%2Fwp-content%2Fuploads%2Fimg%2FKashi-Vishwanath-Dham-1-1024x639.png&tbnid=HmNosyASvUXqhM&imgrefurl=https%3A%2F%2Fwww.varanasi.org.in%2Fkashi-vishwanath-temple&docid=pzqNOXPD7We1pM&w=1024&h=639&ved=0ahUKEwia3oDgldqKAxUFEFkFHRGlKmkQvFcICygJ",
+                        "title": "India Gate in India Gate,Delhi - Tourist Attraction near me in ...",
+                        "imageUrl": "https://images.jdmagicbox.com/v2/comp/delhi/f9/011pxx11.xx11.111111120826.t8f9/catalogue/india-gate-india-gate-delhi-tourist-attraction-79wdn3w0yk.jpg",
+                        "imageWidth": 474,
+                        "imageHeight": 510,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkm84V_5jThmHlpOZgHfTc9dk3czR6SmCSyNY0SXeMzs2PneQ&s",
+                        "thumbnailWidth": 216,
+                        "thumbnailHeight": 233,
+                        "source": "Justdial",
+                        "domain": "www.justdial.com",
+                        "link": "https://www.justdial.com/Delhi/India-Gate-India-Gate/011PXX11-XX11-111111120826-T8F9_BZDET",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.jdmagicbox.com%2Fv2%2Fcomp%2Fdelhi%2Ff9%2F011pxx11.xx11.111111120826.t8f9%2Fcatalogue%2Findia-gate-india-gate-delhi-tourist-attraction-79wdn3w0yk.jpg&tbnid=SZGPvubPiLypXM&imgrefurl=https%3A%2F%2Fwww.justdial.com%2FDelhi%2FIndia-Gate-India-Gate%2F011PXX11-XX11-111111120826-T8F9_BZDET&docid=eje3MzkNUD6lNM&w=474&h=510&ved=0ahUKEwiAk96Oz9uKAxU_vokEHdBWCPsQvFcICygJ",
                         "position": 10
                     }
                 ],

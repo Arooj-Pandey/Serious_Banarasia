@@ -10,8 +10,7 @@ from translator.Query_Restructure_and_Segregation import QueryRestructurer
 from query_router.keywords_router_and_API_Result_Parser import get_keywords_result_dict, route_keywords, parse_api_results
 from main.final_response import generate_final_prompt
 from models.gemini import GeminiModel
-
-
+import time
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -21,119 +20,130 @@ logger = logging.getLogger(__name__)
 gemini_api_key = os.getenv("Genai_api")
 if not gemini_api_key:
     raise ValueError("Genai_api environment variable not set")
-GM = GeminiModel(gemini_api = gemini_api_key, model_name="gemini-1.5-flash")
+GM = GeminiModel(gemini_api=gemini_api_key, model_name="gemini-1.5-flash")
 
-# def route_keywords(keywords: Dict[str, List[str]]) -> Dict[str, List[Dict]]:
-#     results = {"text_api": [], "image_api": []}
-#     categories_to_process = {k: v for k, v in keywords.items() if k != 'api_needed'}
-    
-#     for category, keyword_list in categories_to_process.items():
-#         if category not in results:
-#             logger.warning(f"Unknown category {category} encountered")
-#             continue
-            
-#         for keyword in keyword_list:
-#             try:
-#                 result = serperquery(keyword) if category == "text_api" else serper_img_query(keyword)
-#                 if isinstance(result, str):
-#                     result = json.loads(result)
-#                 results[category].append({keyword: result})
-#             except json.JSONDecodeError as je:
-#                 logger.error(f"JSON decode error for {keyword}: {str(je)}")
-#             except Exception as e:
-#                 logger.error(f"Error processing {keyword} for {category}: {str(e)}")
-    
-#     try:
-#         with open("keywords_result_dict.json", "w", encoding='utf-8') as f:
-#             json.dump(results, f, indent=4, ensure_ascii=False)
-#         logger.info("Results successfully saved to keywords_result_dict.json")
-#     except Exception as e:
-#         logger.error(f"Error saving results to JSON: {str(e)}")
-    
-#     return results
-
-# def parse_api_results(json_data: Dict) -> Dict:
-#     parsed_results = {}
-    
-#     for api_type, responses in json_data.items():
-#         parsed_results[api_type] = []
-        
-#         for response in responses:
-#             try:
-#                 query = next(iter(response))
-#                 results = response[query]
-                
-#                 cleaned_results = []
-#                 if 'organic' in results:
-#                     cleaned_results = [
-#                         {
-#                             'title': result.get('title', ''),
-#                             'link': result.get('link', ''),
-#                             'snippet': result.get('snippet', '')
-#                         }
-#                         for result in results['organic']
-#                     ]
-#                 elif 'images' in results:
-#                     cleaned_results = [
-#                         {
-#                             'title': result.get('title', ''),
-#                             'imageUrl': result.get('imageUrl', '')
-#                         }
-#                         for result in results['images']
-#                     ]
-                
-#                 parsed_results[api_type].append({'results': cleaned_results})
-                        
-#             except Exception as e:
-#                 logger.error(f"Error parsing response in {api_type}: {str(e)}")
-#                 continue
-    
-#     return parsed_results
-
-# def generate_final_prompt(results: Dict, user_query: str) -> str:
-#     prompt_path = Path(__file__).parent.parent / "prompts" / "final_response" / "final_prompt.txt"
-#     if not prompt_path.is_file():
-#         raise FileNotFoundError(f"Prompt file not found at {prompt_path}")
-
-#     with open(prompt_path, "r", encoding="utf-8") as f:
-#         template = f.read()
-#         formatted_prompt = template.format(results=results, query=user_query)
-
-#     return GM.generate_content(formatted_prompt)
+def format_results_for_display(results: Dict) -> Dict:
+    """Format results to be visually appealing."""
+    formatted_results = {}
+    for key, value in results.items():
+        if isinstance(value, list):
+            formatted_results[key] = "\n".join([f"- {item}" for item in value])
+        elif isinstance(value, dict):
+            formatted_results[key] = "\n".join([f"{sub_key}: {sub_value}" for sub_key, sub_value in value.items()])
+        else:
+            formatted_results[key] = str(value)
+    return formatted_results
 
 def main():
-    QR = QueryRestructurer(gemini_api_key, "gemini-1.5-flash", Path(__file__).parent.parent / "prompts" / "translator"/ "translator_prompt.txt")
-    st.title("Multi-Source Query Assistant")
-    st.write("Get comprehensive information from multiple sources!")
-
-    query = st.text_input("Enter your query:", placeholder="What would you like to know?")
+    # Configure the Streamlit UI
+    st.set_page_config(page_title="Varanasi AI Guide", page_icon="🌐", layout="wide")
     
+    # Page Header
+    st.markdown(
+        """
+        <style>
+        .main-header {
+            font-size: 2.5em;
+            color: #6b2737;
+            text-align: center;
+            font-family: 'Georgia', serif;
+            background-color: #f4e3d7;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .query-input {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #333;
+        }
+        .section-header {
+            font-size: 1.8em;
+            color: #7b3f61;
+            margin-bottom: 10px;
+        }
+        </style>
+        <div class="main-header">Varanasi AI Chatbot - Your Personalized Guide</div>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # Initialize Query Restructurer
+    QR = QueryRestructurer(
+        gemini_api_key, 
+        "gemini-1.5-flash", 
+        Path(__file__).parent.parent / "prompts" / "translator" / "translator_prompt.txt"
+    )
+
+    # Input Section
+    query = st.text_input(
+        "Enter your query about Varanasi:", 
+        placeholder="E.g., What are the top places to visit in Varanasi?", 
+        key="query_input"
+    )
+
     if st.button("Search and Analyze") or query:
         if not query:
             st.warning("Please enter a query.")
             return
-        
+
         try:
             with st.spinner("Processing your query..."):
-                restructured_query = QR.restructure_query(query)  #restructures the query
-                keywords = get_keywords_result_dict(restructured_query) #get keywords from the restructured query
-                results = route_keywords(keywords) 
+                # Query restructuring and processing
+                summary_header = st.empty()
+                summary_container = st.empty()
+                image_header = st.empty()
+                image_container = st.empty()
                 
+                restructured_query = QR.restructure_query(query)
+                keywords = get_keywords_result_dict(restructured_query)
+                results = route_keywords(keywords)
+
                 with open('keywords_result_dict.json', 'r', encoding='utf-8') as f:
                     data = json.load(f)
                     results = parse_api_results(data)
 
-                final_prompt = generate_final_prompt(results, query)
+                formatted_results = format_results_for_display(results)
                 
-                st.subheader("AI-Generated Summary")
-                st.write(final_prompt)
+                summary_header.markdown("""<div class='section-header'>AI-Generated Summary</div>""", unsafe_allow_html=True)
+                 
+                if isinstance(results, dict) and 'choices' in results:
+                    final_text = results['choices'][0]['text'].strip()
+                else:
+                    final_text = generate_final_prompt(results, query)
+
+                # Display Results
+                # st.markdown("""<div class='section-header'>AI-Generated Summary</div>""", unsafe_allow_html=True)
+                # st.markdown(f"<p style='font-size: 1.1em;'>{final_prompt}</p>", unsafe_allow_html=True)
+
+                displayed_text = ""
+                
+                for char in final_text:
+                    displayed_text += char
+                    summary_container.markdown(
+                        f"<p style='font-size: 1.1em;'>{displayed_text}▌</p>", 
+                        unsafe_allow_html=True
+                    )
+                    time.sleep(0.01)
+
+                summary_container.markdown(
+                    f"<p style='font-size: 1.1em;'>{displayed_text}</p>", 
+                    unsafe_allow_html=True
+                )
                 
                 if "image_api" in results:
-                    st.subheader("Image Results")
-                    for image_result in results["image_api"]:
-                        for item in image_result.get("results", []):
-                            if item.get("imageUrl"):
-                                st.image(item["imageUrl"], caption=item.get("title", ""))
+                    image_header.markdown("""<div class='section-header'>Image Results</div>""", unsafe_allow_html=True)
+                    image_results = results["image_api"]
+                    cols = st.columns(3)
+                    with image_container:# Display images in a grid format
+                        for idx, image_result in enumerate(image_results):
+                            for item in image_result.get("results", []):
+                                if item.get("imageUrl"):
+                                    with cols[idx % 3]:
+                                        st.image(
+                                            item["imageUrl"], 
+                                            # caption=item.get("title", ""), 
+                                            use_container_width=True
+                                        )
                 
         except Exception as e:
             logger.error(f"Error in main: {str(e)}")
