@@ -25,9 +25,38 @@ json
     "image_api": ["famous Varanasi ghats"]
 }}
 
+
 Incorrect Response:
 json
 {{
     "api_needed": 1,
     "image_api": ["images", "Varanasi ghats", "famous Varanasi ghats"]
 }}
+
+
+Query: Tell me about history of Varanasi.
+
+
+Correct Response:
+json
+{{
+    "api_needed": 1,
+    "text_api": ["history of Varanasi"]
+}}
+
+Incorrect Response:
+json
+{{
+    "api_needed": 1,
+    "search_api": ["Varanasi", "history"]
+}}
+
+
+Query: Hii How are you ? 
+
+json
+{{
+    "api_needed" : 0,
+    "message" :["your answere here"]
+}}
+

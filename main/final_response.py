@@ -26,12 +26,14 @@
 from pathlib import Path
 import json
 from langchain_openai import OpenAI
-from translator.Query_Restructure_and_Segregation import QueryRestructurer
-from models.openai import OpenAI
-
+from translator.translator import Translator
+from models.factory import ModelFactory
+import os
+from dotenv import load_dotenv
+load_dotenv()
 # Initialize Google AI Model
-GM = OpenAI("gpt-3.5-turbo-instruct")
-
+model = ModelFactory.get_model("openai", os.getenv("open_ai"), "gpt-3.5-turbo-instruct")
+QT = Translator(os.getenv("open_ai"), "openai", "gpt-3.5-turbo-instruct", Path(__file__).parent.parent / "prompts" / "translator" / "translator_prompt.txt")
 
 def generate_final_prompt(results, user_query):
     try:
@@ -46,7 +48,7 @@ def generate_final_prompt(results, user_query):
                 query=user_query
             )
 
-        keywords_result = GM.invoke(formatted_final_prompt_template)
+        keywords_result = model.generate_content(formatted_final_prompt_template)
         
         # Extract only the text from the response
         if isinstance(keywords_result, dict):

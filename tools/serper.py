@@ -7,8 +7,8 @@ load_dotenv()
 
 
 class SerperClient:
-    def __init__(self, api_key=None):
-        self.api_key = api_key or os.getenv("Serper_api")
+    def __init__(self, api_key=str):
+        self.api_key = api_key or os.getenv("SERPER_API_KEY")
         self.base_url = "google.serper.dev"
         self.headers = {
             'X-API-KEY': self.api_key,
@@ -32,7 +32,7 @@ class SerperClient:
             "gl": "in",
             "type": "images",
             "engine": "google",
-            "num": 10
+            "num": 5
         })
         return self._make_request("/images", payload)
 

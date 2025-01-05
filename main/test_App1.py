@@ -6,21 +6,20 @@ from pathlib import Path
 from typing import Dict, List
 import sys
 sys.path.append(os.path.abspath("D:/projects/Serious_Banarasia"))
-from translator.Query_Restructure_and_Segregation import QueryRestructurer
+from translator.translator import Translator
 from query_router.keywords_router_and_API_Result_Parser import get_keywords_result_dict, route_keywords, parse_api_results
 from main.final_response import generate_final_prompt
 from models.gemini import GeminiModel
 import time
-
+from keywords_Segregator.segregator import Segregator
+from models.factory import ModelFactory
 # Setup logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Initialize Gemini Model
-gemini_api_key = os.getenv("Genai_api")
-if not gemini_api_key:
-    raise ValueError("Genai_api environment variable not set")
-GM = GeminiModel(gemini_api=gemini_api_key, model_name="gemini-1.5-flash")
+model = ModelFactory.get_model("gemini", os.getenv("gemini_api"), "gemini-1.5-flash")
+
 
 def format_results_for_display(results: Dict) -> Dict:
     """Format results to be visually appealing."""
@@ -67,13 +66,12 @@ def main():
         unsafe_allow_html=True
     )
 
-    # Initialize Query Restructurer
-    QR = QueryRestructurer(
-        gemini_api_key, 
-        "gemini-1.5-flash", 
-        Path(__file__).parent.parent / "prompts" / "translator" / "translator_prompt.txt"
-    )
 
+    # Initialize Query Restructurer
+    tslr = Translator(os.getenv("gemini_api"), "gemini", "gemini-1.5-flash")
+    # Initialize Query Restructurer
+
+    sgr= Segregator(os.getenv("gemini_api"), "gemini", "gemini-1.5-flash", Path(__file__).parent.parent / "prompts" / "query_router" / "query_keywords_seggregator.txt")
     # Input Section
     query = st.text_input(
         "Enter your query about Varanasi:", 
@@ -94,9 +92,13 @@ def main():
                 image_header = st.empty()
                 image_container = st.empty()
                 
-                restructured_query = QR.restructure_query(query)
+                restructured_query = tslr.restructure_query(query)
+                keywords = sgr.keywords_seggregator(restructured_query)
+                
                 keywords = get_keywords_result_dict(restructured_query)
                 results = route_keywords(keywords)
+                
+                KS.keywords_seggregator(restructured_query)
 
                 with open('keywords_result_dict.json', 'r', encoding='utf-8') as f:
                     data = json.load(f)
@@ -109,7 +111,7 @@ def main():
                 if isinstance(results, dict) and 'choices' in results:
                     final_text = results['choices'][0]['text'].strip()
                 else:
-                    final_text = generate_final_prompt(results, query)
+                    final_text = generate_final_prompt(formatted_results, query)
 
                 # Display Results
                 # st.markdown("""<div class='section-header'>AI-Generated Summary</div>""", unsafe_allow_html=True)
