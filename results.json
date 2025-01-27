@@ -1,4 +1,148 @@
 {
-    "text_api": [],
-    "image_api": []
+    "image_api": [],
+    "search_api": [
+        {
+            "best places to visit in Varanasi": {
+                "searchParameters": {
+                    "q": "best places to visit in Varanasi",
+                    "gl": "in",
+                    "type": "search",
+                    "engine": "google"
+                },
+                "organic": [
+                    {
+                        "title": "THE 30 BEST Places to Visit in Varanasi (2025) - Must-See Attractions",
+                        "link": "https://www.tripadvisor.in/Attractions-g297685-Activities-Varanasi_Varanasi_District_Uttar_Pradesh.html",
+                        "snippet": "Top Attractions in Varanasi · 1. Ganges River · 5,046. Bodies of Water · 2. Sarnath · 3,078. Points of Interest & Landmarks · 3. Dasaswamedh Ghat · 2,002.",
+                        "position": 1
+                    },
+                    {
+                        "title": "20 Places to Visit in Varanasi in 2025 | Top Tourist Attractions & Places",
+                        "link": "https://www.makemytrip.com/tripideas/places-to-visit-in-varanasi",
+                        "snippet": "Places to Visit in Varanasi · Dashashwamedh Ghat · Manikarnika Ghat · Panchganga Ghat · Assi Ghat · Shivala Ghat · Tulsi Manas Temple · Nepali Museum · Ganga ...",
+                        "position": 2
+                    },
+                    {
+                        "title": "43 Best Places to visit in Varanasi | Top Tourist Attractions - Holidify",
+                        "link": "https://www.holidify.com/places/varanasi/sightseeing-and-things-to-do.html",
+                        "snippet": "Places To Visit In Varanasi · 1. Shri Kashi Vishwanath Temple · 2. Ganga Aarti, Varanasi · 3. Assi Ghat · 4. Boat Ride in Varanasi.",
+                        "sitelinks": [
+                            {
+                                "title": "33 Best Hotels In Varanasi...",
+                                "link": "https://www.holidify.com/hotel-collections/best-hotels-in-varanasi"
+                            },
+                            {
+                                "title": "Ganga Aarti in Varanasi",
+                                "link": "https://www.holidify.com/places/varanasi/ganga-aarti-sightseeing-122667.html"
+                            },
+                            {
+                                "title": "Varanasi Tour Packages",
+                                "link": "https://www.holidify.com/places/varanasi/packages.html"
+                            }
+                        ],
+                        "position": 3
+                    },
+                    {
+                        "title": "Tourist Attractions - Varanasi Development Authority",
+                        "link": "https://vdavns.com/tourist",
+                        "snippet": "Beautiful Attractions In Varanasi · Shri Kashi Vishwanath Temple · Dashashwamedh Ghat · Assi Ghat · New Vishwanath Temple · Banaras Hindu University (BHU) · Sarnath.",
+                        "position": 4
+                    },
+                    {
+                        "title": "Top 11 Places In Varanasi You Must Visit | Curly Tales - YouTube",
+                        "link": "https://www.youtube.com/watch?v=890MOuBOUGE&pp=ygUJI2JhbmFyYXN2",
+                        "snippet": "Varanasi is a perfect place in India where you experience spirituality at its best. With more than 88 ghats and 'n' number of temples, ...",
+                        "date": "21 Oct 2020",
+                        "position": 5
+                    },
+                    {
+                        "title": "Ultimate travel guide to Varanasi: What to see and do in 2 days",
+                        "link": "https://www.thehosteller.com/blogs/ultimate-travel-guide-to-Varanasi",
+                        "snippet": "Top 5 must visit places in Varanasi · 1. Kashi Vishwanath temple · 2. Dashashwamedh ghat · 3. Assi Ghat · 4. Ramnagar fort · 5. Bharat Kala Bhavan ...",
+                        "date": "16 Jul 2024",
+                        "position": 6
+                    },
+                    {
+                        "title": "10 Best Places To Visit In Varanasi Must-See Attractions",
+                        "link": "https://www.tripplannersindia.com/blog/places-to-visit-in-varanasi",
+                        "snippet": "Top 10 list of tourist places in Varanasi · 1. Kashi Vishwanath Temple · 2. Durga Temple · 3. Bharat Mata Temple · 4. Dashashwamedh Ghat · 5.",
+                        "date": "27 Aug 2024",
+                        "position": 7
+                    },
+                    {
+                        "title": "The Top 5 Varanasi Tourist Places You Simply Cannot Miss",
+                        "link": "https://staybanaras.co.in/varanasi-tourist-places",
+                        "snippet": "The Must-Visit Varanasi Tourist Places · Kashi Vishwanath Temple · Kashi Vishwanath Temple · Ganga Aarti at Dashashwamedh Ghat · Ganga Aarti at Dashashwamedh ...",
+                        "position": 8
+                    },
+                    {
+                        "title": "List of tourist attractions in Varanasi - Wikipedia",
+                        "link": "https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Varanasi",
+                        "snippet": "List ; Museum. Man Mahal Observatory ; Park. Sant Ravidas Smarak Park ; Fort. Chet Singh Fort ; Cathedral. St. Mary's Cathedral ...",
+                        "position": 9
+                    },
+                    {
+                        "title": "5 must-visit places in Varanasi - Times of India",
+                        "link": "https://timesofindia.indiatimes.com/travel/destinations/5-must-visit-places-in-varanasi/articleshow/115978318.cms",
+                        "snippet": "Assi Ghat is popular among devotees and tourists. You can take a morning yoga session, watch live classical performances, and enjoy the peaceful ...",
+                        "date": "4 Dec 2024",
+                        "position": 10
+                    }
+                ],
+                "peopleAlsoAsk": [
+                    {
+                        "question": "What is very famous in Varanasi?",
+                        "snippet": "The city is known worldwide for its many ghats—steps leading down the steep river bank to the water—where pilgrims perform rituals. Of particular note are the Dashashwamedh Ghat, the Panchganga Ghat, the Manikarnika Ghat, and the Harishchandra Ghat, the last two being where Hindus cremate their dead.",
+                        "title": "Varanasi - Wikipedia",
+                        "link": "https://en.wikipedia.org/wiki/Varanasi"
+                    },
+                    {
+                        "question": "Is 2 days enough for Varanasi?",
+                        "snippet": "Experience the enchanting Ganga Aarti at Dashashwamedh Ghat, explore the famous Kashi Vishwanath Temple, and stroll through vibrant local markets. This itinerary is ideal for travelers wanting to experience the essence of Varanasi in 2 days, blending spirituality, history, and culture.",
+                        "title": "Varanasi 2 Days Itinerary - Kashi Yatra",
+                        "link": "https://kashiyatra.in/varanasi-2-days-itinerary/"
+                    },
+                    {
+                        "question": "What are the five tourist places in Varanasi?",
+                        "snippet": "Shri Kashi Vishwanath Temple. The Shri Kashi Vishwanath Temple is a beacon of faith and spirituality in Varanasi, dedicated to Lord Shiva. ...\nDashashwamedh Ghat. ...\nAssi Ghat. ...\nNew Vishwanath Temple. ...\nBanaras Hindu University (BHU) ...\nSarnath. ...\nGanga Aarti. ...\nTibetan Temple.",
+                        "title": "Tourist Attractions - Varanasi Development Authority",
+                        "link": "https://vdavns.com/tourist"
+                    },
+                    {
+                        "question": "How can I plan 3 days in Varanasi?",
+                        "snippet": "HOW TO SPEND 3 DAYS IN VARANASI INDIA\n1\nPLACES TO VISIT IN VARANASI IN 3 DAYS.\n2\nDAY ONE. VISIT SARNATH, THAI TEMPLE AND LOCAL MONASTERIES. ...\n3\nDINE AT TREE OF LIFE. ...\n4\nDAY 2.\n5\nMORNING AARTI. ...\n6\nVISIT AN AKHADA. ...\n7\nWEAVING VILLAGE TOUR. ...\n8\nDAY 3.",
+                        "title": "Things to Do & Places to Visit in Varanasi: 3 Days Itinerary",
+                        "link": "https://www.wanderershub.com/?destination=places-to-visit-in-varanasi-in-3-days"
+                    }
+                ],
+                "relatedSearches": [
+                    {
+                        "query": "Best places to visit in varanasi in 2 days"
+                    },
+                    {
+                        "query": "Best places to visit in varanasi in 1 day"
+                    },
+                    {
+                        "query": "Best places to visit in varanasi at night"
+                    },
+                    {
+                        "query": "Best places to visit in varanasi for couples"
+                    },
+                    {
+                        "query": "Best places to visit in varanasi with family"
+                    },
+                    {
+                        "query": "Places to visit in Varanasi in 3 days"
+                    },
+                    {
+                        "query": "Top 5 places to visit in Varanasi"
+                    },
+                    {
+                        "query": "10 best places to visit in Varanasi"
+                    }
+                ],
+                "credits": 1
+            }
+        }
+    ]
 }

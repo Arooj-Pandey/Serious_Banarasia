@@ -25,7 +25,7 @@ class Translator:
         except Exception as e:
             raise Exception(f"Error loading prompt template: {str(e)}")
     
-    def restructure_query(self, query: str) -> str:
+    def translate_query(self, query: str) -> str:
         try:
             template = self.load_prompt_template()
             

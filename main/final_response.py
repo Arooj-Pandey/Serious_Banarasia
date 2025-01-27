@@ -1,66 +1,89 @@
-# from pathlib import Path
-# import json
-# from google.generativeai import GenerativeModel
-# from translator.Query_Restructure_and_Segregation import QueryRestructurer
-
-# # Initialize Google AI Model
-# GM = GenerativeModel('gemini-pro')
-
-
-# def generate_final_prompt(results, user_query):
-#     final_prompt_template_path = Path(r"D:\projects\Serious_Banarasia\prompts\final_response\final_prompt.txt")
-#     if not final_prompt_template_path.is_file():
-#         raise FileNotFoundError(f"Prompt file not found at {final_prompt_template_path}")
-
-#     with open(final_prompt_template_path, "r", encoding="utf-8") as f:
-#         final_prompt_template = f.read()
-#         formatted_final_prompt_template = final_prompt_template.format(
-#             results=results,
-#             query=user_query
-#         )
-
-#     keywords_result = GM.generate_content(formatted_final_prompt_template)
-#     return keywords_result.text if keywords_result and hasattr(keywords_result, 'text') else str(keywords_result) # return final prompt
-
-
 from pathlib import Path
 import json
+import logging
 from langchain_openai import OpenAI
-from translator.translator import Translator
+from translator.queryTranslator import Translator
 from models.factory import ModelFactory
 import os
 from dotenv import load_dotenv
+from utils.responseFormater import ResponseFormatter
+
 load_dotenv()
-# Initialize Google AI Model
-model = ModelFactory.get_model("openai", os.getenv("open_ai"), "gpt-3.5-turbo-instruct")
-QT = Translator(os.getenv("open_ai"), "openai", "gpt-3.5-turbo-instruct", Path(__file__).parent.parent / "prompts" / "translator" / "translator_prompt.txt")
 
-def generate_final_prompt(results, user_query):
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# Initialize models
+model = ModelFactory.get_model("gemini", os.getenv("GEMINI_API_KEY"), "gemini-1.5-flash")
+
+def generate_final_prompt(raw_results: dict, user_query: str) -> str:
+    """Generate LLM-ready prompt with formatted search results"""
     try:
-        final_prompt_template_path = Path(r"D:\projects\Serious_Banarasia\prompts\final_response\final_prompt.txt")
-        if not final_prompt_template_path.is_file():
-            raise FileNotFoundError(f"Prompt file not found at {final_prompt_template_path}")
+        # Format results for LLM consumption
+        formatter = ResponseFormatter(raw_results, max_content_length=4000)
+        formatted_results = formatter.format_for_llm()
+        
+        # Validate formatted results
+        if not formatted_results.get('organic_results'):
+            logger.warning("No organic results found in formatted data")
+            
+        # Load prompt template
+        prompt_path = Path(__file__).parent.parent / "prompts" / "final_response" / "final_prompt.txt"
+        if not prompt_path.exists():
+            raise FileNotFoundError(f"Prompt template not found at {prompt_path}")
+            
+        with open(prompt_path, "r", encoding="utf-8") as f:
+            template = f.read()
 
-        with open(final_prompt_template_path, "r", encoding="utf-8") as f:
-            final_prompt_template = f.read()
-            formatted_final_prompt_template = final_prompt_template.format(
-                results=results,
-                query=user_query
-            )
+        # Create structured context
+        context = {
+            "query": user_query,
+            "sources": [
+                {
+                    "domain": result["domain"],
+                    "key_points": result["content"]["key_points"],
+                    "main_content": result["content"]["main_content"][:3]  # First 3 paragraphs
+                } 
+                for result in formatted_results.get("organic_results", [])[:5]  # Top 5 results
+            ],
+            "related_questions": formatted_results.get("related_questions", [])[:3],
+            "freshness": formatted_results.get("metadata", {}).get("processing_date")
+        }
 
-        keywords_result = model.generate_content(formatted_final_prompt_template)
-        
-        # Extract only the text from the response
-        if isinstance(keywords_result, dict):
-            if 'choices' in keywords_result and len(keywords_result['choices']) > 0:
-                return keywords_result['choices'][0]['text'].strip()
-        
-        # If response is already a string or has text attribute
-        if hasattr(keywords_result, 'text'):
-            return keywords_result.text.strip()
-        
-        return str(keywords_result).strip()
+        # Generate final prompt
+        llm_prompt = template.format(
+            context=json.dumps(context, indent=2),
+            query=user_query
+        )
+
+        logger.debug(f"Generated LLM prompt length: {len(llm_prompt)} characters")
+
+        # Get model response with error handling
+        response = model.generate_content(llm_prompt)
+        return _parse_model_response(response)
 
     except Exception as e:
-        logger.error(f"Error generating final prompt: {str(e)}")
-        return f"Error processing response: {str(e)}"
+        logger.error(f"Prompt generation failed: {str(e)}")
+        return f"Error processing request: {str(e)}"
+
+def _parse_model_response(response) -> str:
+    """Handle different model response formats uniformly"""
+    try:
+        if isinstance(response, dict):
+            if 'choices' in response:
+                return response['choices'][0]['text'].strip()
+            if 'output' in response:
+                return response['output'].strip()
+                
+        if hasattr(response, 'text'):
+            return response.text.strip()
+            
+        if hasattr(response, 'content'):
+            return response.content.strip()
+            
+        return str(response).strip()
+        
+    except Exception as e:
+        logger.error(f"Response parsing failed: {str(e)}")
+        return "Error processing model response"

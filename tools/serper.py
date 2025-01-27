@@ -1,4 +1,4 @@
-import http.client
+import requests
 import json
 import os
 from dotenv import load_dotenv
@@ -9,30 +9,27 @@ load_dotenv()
 class SerperClient:
     def __init__(self, api_key=str):
         self.api_key = api_key or os.getenv("SERPER_API_KEY")
-        self.base_url = "google.serper.dev"
+        self.base_url = "https://google.serper.dev"
         self.headers = {
             'X-API-KEY': self.api_key,
             'Content-Type': 'application/json'
         }
 
     def _make_request(self, endpoint, payload):
-        conn = http.client.HTTPSConnection(self.base_url)
-        conn.request("POST", endpoint, payload, self.headers)
-        res = conn.getresponse()
-        data = res.read()
-        return data.decode("utf-8")
+        response = requests.request("POST", self.base_url + endpoint, headers=self.headers, data=payload)
+        return response.text
 
     def search_query(self, query):
-        payload = json.dumps({"q": query})
+        payload = json.dumps({
+            "q": query,
+            "gl" :"in" # Location   # "gl": "in" for India
+            })
         return self._make_request("/search", payload)
 
     def image_query(self, keywords):
         payload = json.dumps({
             "q": keywords,
-            "gl": "in",
-            "type": "images",
-            "engine": "google",
-            "num": 5
+            "gl": "in" # Location   # "gl": "in" for India
         })
         return self._make_request("/images", payload)
 

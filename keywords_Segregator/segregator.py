@@ -2,6 +2,7 @@ from pathlib import Path
 import os
 from models.factory import ModelFactory
 from dotenv import load_dotenv
+import ast
 load_dotenv()
 import json
 
@@ -26,25 +27,41 @@ class Segregator:
         except Exception as e:
             raise Exception(f"Error loading prompt template: {str(e)}")
     
+    
     def keywords_seggregator(self, restructured_query: str) -> str: 
-        template = self.load_prompt_template()
-        formatted_prompt = template.format(re_structured_query = restructured_query)
-        keywords_result = self.model.generate_content(formatted_prompt)
-        
         try:
-            start_index = keywords_result.find("{")
-            end_index = keywords_result.rfind("}") + 1
-            json_content = keywords_result[start_index:end_index]
-            keywords_result_dict = json.loads(json_content)
-            return keywords_result_dict
-            # return("Parsed JSON:", keywords_result_dict, "TYPE :  ", type(keywords_result_dict))
+            with open(self.prompt_template_path, "r", encoding="utf-8") as f:
+                prompt = f.read()
+        except FileNotFoundError:
+            raise FileNotFoundError(f"Prompt file not found at {self.prompt_template_path}")
+        
+        formatted_prompt = prompt.format(re_structured_query = restructured_query)
+        keywords_result = self.model.generate_content(formatted_prompt)
+        # return keywords_result
+        
+        try: 
             
-        except json.JSONDecodeError as e:
-            print("JSONDecodeError:", e)
-            print("Invalid JSON content:", keywords_result)
+            return ast.literal_eval(keywords_result)   # better method to converting the keywords_result to dictionary
+            
         except Exception as e:
-            print("Error:", e)
-            #print("Generated Content:", keywords_result)
+            
+            return -1    # return -1 if the keywords_result is not a valid dictionary
+    
+        
+        # try:
+        #     start_index = keywords_result.find("{")
+        #     end_index = keywords_result.rfind("}") + 1
+        #     json_content = keywords_result[start_index:end_index]
+        #     keywords_result_dict = json.loads(json_content)
+        #     return keywords_result_dict
+        #     # return("Parsed JSON:", keywords_result_dict, "TYPE :  ", type(keywords_result_dict))
+            
+        # except json.JSONDecodeError as e:
+        #     print("JSONDecodeError:", e)
+        #     print("Invalid JSON content:", keywords_result)
+        # except Exception as e:
+        #     print("Error:", e)
+        #     #print("Generated Content:", keywords_result)
 
 # import json
 

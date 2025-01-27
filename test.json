@@ -1,7 +1,7 @@
 {
     "text_api": [
         {
-        "best food spots Varanasi": {
+            "best food spots Varanasi": {
                 "searchParameters": {
                     "q": "best food spots Varanasi",
                     "type": "search",
@@ -107,7 +107,7 @@
                         "position": 6
                     },
                     {
-                        "title":"MUST TRY STREET FOOD IN VARANASI! Varanasi's ... - Instagram",
+                        "title": "MUST TRY STREET FOOD IN VARANASI! Varanasi's ... - Instagram",
                         "link": "https://www.instagram.com/not.in.office/reel/C2KOdnLLZve/?hl=en",
                         "snippet": "Check out Deena Chat Bandar or Kashi Chat Bandar. But one on the list is Kachori. It is the staple breakfast dish. Ram Bandar is the best place ...",
                         "date": "Jan 16, 2024",
@@ -144,7 +144,7 @@
                     },
                     {
                         "title": "Hungry Heads cafe",
-                        "address":"Bobs Gym",
+                        "address": "Bobs Gym",
                         "rating": 4.9,
                         "ratingCount": 1050,
                         "cid": "8651199054193273084"
@@ -209,7 +209,7 @@
             }
         },
         {
-        "Varanasi best dishes": {
+            "Varanasi best dishes": {
                 "searchParameters": {
                     "q": "Varanasi best dishes",
                     "type": "search",
