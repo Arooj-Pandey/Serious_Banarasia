@@ -37,8 +37,8 @@ class ResponseFormatter:
             try:
                 scraped_content = self.scraper.get_website_content(
                     link,
-                    max_paragraphs=5,
-                    max_headings=3
+                    max_paragraphs=2,
+                    max_headings=1
                 )
             except Exception as e:
                 self.logger.warning(f"Scraping failed for {link}: {str(e)}")
