@@ -171,7 +171,7 @@ def main():
     if submit_button and user_input:
         st.session_state.chat_history.append({"type": "user", "content": user_input})
         
-        with st.spinner("🔍 Researching your query..."):
+        with st.spinner(f"🔍 Researching: '{user_input}'..."):
             try:
                 # Initialize components
                 tslr = Translator(os.getenv("GEMINI_API_KEY"), "gemini", "gemini-1.5-flash")

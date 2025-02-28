@@ -1,5 +1,5 @@
 .env
 __pycache__
-venv
 streamlit_app.py
 test.ipynb
+myenv
