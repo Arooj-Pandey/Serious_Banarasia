@@ -21,7 +21,7 @@ sys.path.append(os.path.abspath(r"D:\Projects\Serious_Banarasia"))
 # Rest of imports
 from translator.queryTranslator import Translator
 from queryRouter.router import QueryRouter
-from main.final_response import generate_final_prompt
+from utility.final_response import generate_final_prompt
 from models.factory import ModelFactory
 from keywords_Segregator.segregator import Segregator
 from utils.responseFormater import ResponseFormatter

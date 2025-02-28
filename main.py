@@ -20,7 +20,7 @@ from translator.queryTranslator import Translator as QueryTranslator
 from keywords_Segregator.segregator import Segregator as KeywordsSegregator
 from queryRouter.router import QueryRouter
 from utils.responseFormater import ResponseFormatter
-from main.final_response import generate_final_prompt
+from utility.final_response import generate_final_prompt
 
 # Configure logging
 logging.basicConfig(
