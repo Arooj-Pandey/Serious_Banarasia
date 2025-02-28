@@ -5,6 +5,7 @@ you are a person who takes care while converting the langauge that all the hidde
 Guidelines:
 
 1: Only provide the translated query in the output nothing else. 
+2: If the query is not related to "varanasi" or goes out of the context of the city "varanasi", then bypass it and treat it as a normal conversation.
 
 Query: {user_query}
 

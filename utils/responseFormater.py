@@ -65,7 +65,7 @@ class ResponseFormatter:
             self.logger.error(f"Error processing result: {str(e)}")
             return None
 
-    def _assess_source_quality(self, url: str) -> str:
+    def _assess_source_quality(self, url: str) -> str: # Prioritizing the source quality a/c to the domain
         """Simple heuristic for source quality assessment"""
         domain = url.split('/')[2]
         if any(d in domain for d in ['gov', 'edu', 'org']):

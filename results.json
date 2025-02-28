@@ -2,143 +2,736 @@
     "image_api": [],
     "search_api": [
         {
-            "best places to visit in Varanasi": {
+            "Varanasi ghats": {
                 "searchParameters": {
-                    "q": "best places to visit in Varanasi",
+                    "q": "Varanasi ghats",
                     "gl": "in",
                     "type": "search",
                     "engine": "google"
                 },
                 "organic": [
                     {
-                        "title": "THE 30 BEST Places to Visit in Varanasi (2025) - Must-See Attractions",
-                        "link": "https://www.tripadvisor.in/Attractions-g297685-Activities-Varanasi_Varanasi_District_Uttar_Pradesh.html",
-                        "snippet": "Top Attractions in Varanasi · 1. Ganges River · 5,046. Bodies of Water · 2. Sarnath · 3,078. Points of Interest & Landmarks · 3. Dasaswamedh Ghat · 2,002.",
+                        "title": "Ghats in Varanasi - Wikipedia",
+                        "link": "https://en.wikipedia.org/wiki/Ghats_in_Varanasi",
+                        "snippet": "Ghats in Varanasi are riverfront steps leading to the banks of the Ganges river. The city has 84 ghats. Most of the ghats are bathing and puja ceremonial ghats ...",
+                        "sitelinks": [
+                            {
+                                "title": "Assi Ghat",
+                                "link": "https://en.wikipedia.org/wiki/Assi_Ghat"
+                            },
+                            {
+                                "title": "Tulsi Ghat",
+                                "link": "https://en.wikipedia.org/wiki/Tulsi_Ghat"
+                            },
+                            {
+                                "title": "Ganga Mahal Ghat (I)",
+                                "link": "https://en.wikipedia.org/wiki/Ganga_Mahal_Ghat_(I)"
+                            }
+                        ],
                         "position": 1
                     },
                     {
-                        "title": "20 Places to Visit in Varanasi in 2025 | Top Tourist Attractions & Places",
-                        "link": "https://www.makemytrip.com/tripideas/places-to-visit-in-varanasi",
-                        "snippet": "Places to Visit in Varanasi · Dashashwamedh Ghat · Manikarnika Ghat · Panchganga Ghat · Assi Ghat · Shivala Ghat · Tulsi Manas Temple · Nepali Museum · Ganga ...",
+                        "title": "Gallery - Ghats Of Varanasi",
+                        "link": "https://vdavns.com/gallery/ghats-of-varanasi",
+                        "snippet": "Dasaswamedh Ghat is the heart of the action and the top attraction in Varanasi. One of the oldest and holiest Varanasi ghats, it's where the famous Ganga aarti ...",
                         "position": 2
                     },
                     {
-                        "title": "43 Best Places to visit in Varanasi | Top Tourist Attractions - Holidify",
-                        "link": "https://www.holidify.com/places/varanasi/sightseeing-and-things-to-do.html",
-                        "snippet": "Places To Visit In Varanasi · 1. Shri Kashi Vishwanath Temple · 2. Ganga Aarti, Varanasi · 3. Assi Ghat · 4. Boat Ride in Varanasi.",
+                        "title": "9 Important Ghats in Varanasi that You Must See - TripSavvy",
+                        "link": "https://www.tripsavvy.com/must-see-ghats-in-varanasi-1539761",
+                        "snippet": "9 Important Ghats in Varanasi that You Must See · Assi Ghat · Chet Singh Ghat · Darbhanga Ghat · Dashashwamedh Ghat · Man Mandir Ghat.",
+                        "date": "2 Aug 2024",
+                        "position": 3
+                    },
+                    {
+                        "title": "Varanasi : Ghats on the Ganges and Spiritualism - Stamped Moments",
+                        "link": "https://stampedmoments.com/varanasi-ghats-on-the-ganges-and-spiritualism/",
+                        "snippet": "Of the 84 ghats on the Ganges in Varanasi, the most important ones are the Assi Ghat, Dashashwamedh Ghat, Manikarnika Ghat, Panchaganga Ghat, ...",
+                        "date": "21 Dec 2023",
+                        "position": 4
+                    },
+                    {
+                        "title": "Stairways to spirituality – Varanasi ghats where life and death dance",
+                        "link": "https://www.savaari.com/blog/ghats-of-varanasi/",
+                        "snippet": "Varanasi is home to a diverse range of ghats, each radiating its own unique aura and significance. Often described as a gateway to the divine.",
+                        "date": "5 Sept 2023",
+                        "position": 5
+                    },
+                    {
+                        "title": "The 85 Ghats of Banaras - Kevin Standage - WordPress.com",
+                        "link": "https://kevinstandagephotography.wordpress.com/2020/05/22/the-ghats-of-banaras-varanasi-kashi/",
+                        "snippet": "The list below takes you from the Assi Ghat in the south of the city, all the way up to Adi Keshava Ghat in the far north, beyond Malviya Bridge.",
+                        "date": "22 May 2020",
+                        "position": 6
+                    },
+                    {
+                        "title": "Munshi Ghat - Varanasi Smart City",
+                        "link": "https://varanasismartcity.gov.in/about/ghats",
+                        "snippet": "Ghats in Varanasi are riverfront steps leading to the banks of the River Ganges. The city has 88 ghats. Most of the ghats are bathing and puja ceremony ghats, ...",
+                        "position": 7
+                    },
+                    {
+                        "title": "From Assi to Manikarnika: Varanasi Ghat Name List",
+                        "link": "https://www.travelzonevaranasi.com/travel-blogs/from-assi-to-manikarnika-varanasi-ghat-name-list",
+                        "snippet": "One of the most revered ghats in Varanasi, India, is Sakki Ghat, which is located on the banks of the Ganges. The Ghat is named after the Sakshi Vinayaka Temple ...",
+                        "position": 8
+                    },
+                    {
+                        "title": "Varanasi - Wikipedia",
+                        "link": "https://en.wikipedia.org/wiki/Varanasi",
+                        "snippet": "Of particular note are the Dashashwamedh Ghat, the Panchganga Ghat, the Manikarnika Ghat, and the Harishchandra Ghat, the last two being where Hindus cremate ...",
                         "sitelinks": [
                             {
-                                "title": "33 Best Hotels In Varanasi...",
-                                "link": "https://www.holidify.com/hotel-collections/best-hotels-in-varanasi"
+                                "title": "Ghats",
+                                "link": "https://en.wikipedia.org/wiki/Ghats_in_Varanasi"
                             },
                             {
-                                "title": "Ganga Aarti in Varanasi",
-                                "link": "https://www.holidify.com/places/varanasi/ganga-aarti-sightseeing-122667.html"
+                                "title": "Varanasi Metro",
+                                "link": "https://en.wikipedia.org/wiki/Varanasi_Metro"
                             },
                             {
-                                "title": "Varanasi Tour Packages",
-                                "link": "https://www.holidify.com/places/varanasi/packages.html"
+                                "title": "Varanasi division",
+                                "link": "https://en.wikipedia.org/wiki/Varanasi_division"
+                            },
+                            {
+                                "title": "Religion in Varanasi",
+                                "link": "https://en.wikipedia.org/wiki/Religion_in_Varanasi"
+                            }
+                        ],
+                        "position": 9
+                    },
+                    {
+                        "title": "Life and death along the ghats of Varanasi",
+                        "link": "https://www.wilton-photography.com/news-stories/life-and-death-along-the-ghats-of-varanasi",
+                        "snippet": "Varanasi lies on the River Ganges, India's most holy river. The water can be reached via a long series of riverfront steps know as 'ghats'. ...",
+                        "date": "9 May 2024",
+                        "position": 10
+                    }
+                ],
+                "places": [
+                    {
+                        "title": "Manikarnika Ghat",
+                        "address": "near Lalita Ghat",
+                        "rating": 4.6,
+                        "ratingCount": 9342,
+                        "cid": "9034287784815775792"
+                    },
+                    {
+                        "title": "Assi Ghat Varanasi",
+                        "address": "Nagwa Rd",
+                        "rating": 4.6,
+                        "ratingCount": 69621,
+                        "cid": "9275168188361037964"
+                    },
+                    {
+                        "title": "Dashashwamedh Ghat",
+                        "address": "Dashashwamedh Ghat Rd",
+                        "rating": 4.6,
+                        "ratingCount": 65472,
+                        "cid": "11969141977600804924"
+                    }
+                ],
+                "peopleAlsoAsk": [
+                    {
+                        "question": "What are the 5 ghats of Varanasi?",
+                        "snippet": "According to the puranic sources, there are five key ghats on the riverfront which are important because of their association with a defining feature of the holy city of Kashi: Assi Ghat, Dashashwamedh Ghat, Manikarnika Ghat, Panchganga Ghat, Rajendra Prasad Ghat, and Adi Keshav Ghat.",
+                        "title": "Ghats in Varanasi - Wikipedia",
+                        "link": "https://en.wikipedia.org/wiki/Ghats_in_Varanasi"
+                    },
+                    {
+                        "question": "Why is Banaras ghat famous?",
+                        "snippet": "There is a tale associated with this ghat that is, Goddess Durga after slaughtering the demons Shumbha and Nishumbha, threw her sword (Khadga) away to a place, which resulted in the origin of the river asi, on whose banks this ghat is situated. This is the famous cremation ground, especially for the Maharajas of Kasi.",
+                        "title": "The Significance of the Divine Ghats Of Varanasi - Vivada Cruises",
+                        "link": "https://vivadacruises.com/pdf/article-The%20Ghats%20of%20Varanasi.pdf"
+                    },
+                    {
+                        "question": "Which ghat is best for bathing in Varanasi?",
+                        "snippet": "Panch-Tirtha Yatra means going to these five places to take a bath. You should use these five ghats in a certain order when you take a bath. First, you bathe in Assi Ghat, then Dasaswamedh Ghat, then the Ghat by the Adi Keshava Temple near the Varuna River, then Panch-Ganga, and finally Manikarnika.",
+                        "title": "A Comprehensive Guide to Dashashwamedh Ghat, Varanasi.",
+                        "link": "https://treeofliferesorts.com/varanasi/a-comprehensive-guide-to-dashashwamedh-ghat-varanasi/"
+                    }
+                ],
+                "relatedSearches": [
+                    {
+                        "query": "Varanasi ghats photos"
+                    },
+                    {
+                        "query": "Varanasi Ghat name list"
+                    },
+                    {
+                        "query": "How many ghats in Varanasi with name"
+                    },
+                    {
+                        "query": "Varanasi ghats map"
+                    },
+                    {
+                        "query": "Top 10 ghats in Varanasi"
+                    },
+                    {
+                        "query": "Ghats of Varanasi PDF"
+                    },
+                    {
+                        "query": "Most famous ghat in Varanasi"
+                    },
+                    {
+                        "query": "Assi Ghat"
+                    }
+                ],
+                "credits": 1
+            }
+        },
+        {
+            "spiritual and cultural life": {
+                "searchParameters": {
+                    "q": "spiritual and cultural life",
+                    "gl": "in",
+                    "type": "search",
+                    "engine": "google"
+                },
+                "answerBox": {
+                    "snippet": "Spirituality is deeply entwined with many cultural practices around the world. It often involves a pursuit of transcendence, finding meaning, and a connection to something greater than oneself. Cultural practices may include traditional rituals, ceremonies, or everyday customs that express spiritual beliefs and values.",
+                    "snippetHighlighted": [
+                        "Spirituality is deeply entwined with many cultural practices around the world"
+                    ],
+                    "title": "Spirituality and Culture: Themes & Identity | StudySmarter",
+                    "link": "https://www.studysmarter.co.uk/explanations/religious-studies/spirituality/spirituality-and-culture/",
+                    "date": "1 Oct 2024"
+                },
+                "organic": [
+                    {
+                        "title": "On the Spiritual and the Cultural Life - The Imaginative Conservative",
+                        "link": "https://theimaginativeconservative.org/2023/04/spiritual-cultural-life-michael-de-sapio.html",
+                        "snippet": "The spiritual life and the cultural life overlap and interpenetrate each other. Culture binds our experiences in life together into a meaningful ...",
+                        "date": "15 Apr 2023",
+                        "position": 1
+                    },
+                    {
+                        "title": "Cultural and spiritual differences can challenge us, enrich our faith ...",
+                        "link": "https://www.globalsistersreport.org/religious-life/cultural-and-spiritual-differences-can-challenge-us-enrich-our-faith-journeys",
+                        "snippet": "Religious life often leads us to encounters with diverse cultures and faith traditions. These experiences can profoundly challenge our long ...",
+                        "date": "30 Sept 2024",
+                        "position": 2
+                    },
+                    {
+                        "title": "How can we differentiate between culture and spirituality? - Quora",
+                        "link": "https://www.quora.com/How-can-we-differentiate-between-culture-and-spirituality",
+                        "snippet": "Spirituality is the knowledge and awareness of the spiritual nature or reality, while culture is a set of beliefs and practices that can refer to anything.",
+                        "date": "20 May 2018",
+                        "sitelinks": [
+                            {
+                                "title": "How would you outline your social, cultural, and spiritual difference?",
+                                "link": "https://www.quora.com/How-would-you-outline-your-social-cultural-and-spiritual-difference"
+                            },
+                            {
+                                "title": "What do we know about 'spiritual culture'? - Quora",
+                                "link": "https://www.quora.com/What-do-we-know-about-spiritual-culture"
+                            },
+                            {
+                                "title": "What role or purpose does religion / spirituality serve in a culture?",
+                                "link": "https://www.quora.com/What-role-or-purpose-does-religion-spirituality-serve-in-a-culture"
                             }
                         ],
                         "position": 3
                     },
                     {
-                        "title": "Tourist Attractions - Varanasi Development Authority",
-                        "link": "https://vdavns.com/tourist",
-                        "snippet": "Beautiful Attractions In Varanasi · Shri Kashi Vishwanath Temple · Dashashwamedh Ghat · Assi Ghat · New Vishwanath Temple · Banaras Hindu University (BHU) · Sarnath.",
+                        "title": "How Does Spirituality Impact Different Cultural Perspectives ...",
+                        "link": "https://medium.com/@avenet.alex/how-does-spirituality-impact-different-cultural-perspectives-unveiling-diverse-experiences-78e3710f1205",
+                        "snippet": "Cultural spirituality offers us a treasury of wisdom and perspectives that enrich our spiritual journey. Each culture brings forth its unique ...",
+                        "date": "6 Jul 2023",
                         "position": 4
                     },
                     {
-                        "title": "Top 11 Places In Varanasi You Must Visit | Curly Tales - YouTube",
-                        "link": "https://www.youtube.com/watch?v=890MOuBOUGE&pp=ygUJI2JhbmFyYXN2",
-                        "snippet": "Varanasi is a perfect place in India where you experience spirituality at its best. With more than 88 ghats and 'n' number of temples, ...",
-                        "date": "21 Oct 2020",
+                        "title": "Spiritual and cultural influences on end-of-life care and decision ...",
+                        "link": "https://pubmed.ncbi.nlm.nih.gov/37105859/",
+                        "snippet": "This review describes the religious/philosophical principles, cultural-related practices/rituals, and traditions in end-of-life care in major spiritual groups ...",
                         "position": 5
                     },
                     {
-                        "title": "Ultimate travel guide to Varanasi: What to see and do in 2 days",
-                        "link": "https://www.thehosteller.com/blogs/ultimate-travel-guide-to-Varanasi",
-                        "snippet": "Top 5 must visit places in Varanasi · 1. Kashi Vishwanath temple · 2. Dashashwamedh ghat · 3. Assi Ghat · 4. Ramnagar fort · 5. Bharat Kala Bhavan ...",
-                        "date": "16 Jul 2024",
+                        "title": "[PDF] Spiritual, Religious and Cultural Wishes - Together for Short Lives",
+                        "link": "https://www.togetherforshortlives.org.uk/app/uploads/2018/01/FamRes-Spiritual-Religious-and-Cultural-Wishes-Factsheet.pdf",
+                        "snippet": "Spirituality refers to what it is to be human – to the things that give life meaning and value, and as such is a deeply personal and subjective thing.",
                         "position": 6
                     },
                     {
-                        "title": "10 Best Places To Visit In Varanasi Must-See Attractions",
-                        "link": "https://www.tripplannersindia.com/blog/places-to-visit-in-varanasi",
-                        "snippet": "Top 10 list of tourist places in Varanasi · 1. Kashi Vishwanath Temple · 2. Durga Temple · 3. Bharat Mata Temple · 4. Dashashwamedh Ghat · 5.",
-                        "date": "27 Aug 2024",
+                        "title": "The Culture of Spirituality - CPS GLOBAL",
+                        "link": "https://cpsglobal.org/books/leading-a-spiritual-life/the-culture-of-spirituality",
+                        "snippet": "To save our own freedom, we have to tolerate the freedom of others. And to save our own spirituality, we have to overlook the misuse of freedom by others.",
                         "position": 7
                     },
                     {
-                        "title": "The Top 5 Varanasi Tourist Places You Simply Cannot Miss",
-                        "link": "https://staybanaras.co.in/varanasi-tourist-places",
-                        "snippet": "The Must-Visit Varanasi Tourist Places · Kashi Vishwanath Temple · Kashi Vishwanath Temple · Ganga Aarti at Dashashwamedh Ghat · Ganga Aarti at Dashashwamedh ...",
+                        "title": "[PDF] The Relationship between Spirituality, Religion, and Culture",
+                        "link": "https://bibliotekanauki.pl/articles/558443.pdf",
+                        "snippet": "Abstract: The author establishes that religion, spirituality, and culture are intertwi- ned and have a strong influence on each other.",
                         "position": 8
                     },
                     {
-                        "title": "List of tourist attractions in Varanasi - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Varanasi",
-                        "snippet": "List ; Museum. Man Mahal Observatory ; Park. Sant Ravidas Smarak Park ; Fort. Chet Singh Fort ; Cathedral. St. Mary's Cathedral ...",
+                        "title": "Thoughts on Spiritual Culture | URI",
+                        "link": "https://www.uri.org/uri-story/20150830-thoughts-spiritual-culture",
+                        "snippet": "Spiritual Culture is a bridge between old and new stages of the world development, guaranteeing the positive development and coexistence of the ...",
+                        "date": "30 Aug 2015",
+                        "position": 9
+                    }
+                ],
+                "peopleAlsoAsk": [
+                    {
+                        "question": "What is the relationship between culture and spirituality?",
+                        "snippet": "Therefore, culture permeates all the dimensions of man and the community in which he lives and works. It also permeates religion and spirituality. At the same time, man and the community form a culture with the religion to which they belong, and with the spirituality they live and practice.",
+                        "title": "The Relationship between Spirituality, Religion, and Culture",
+                        "link": "https://bibliotekanauki.pl/articles/558443.pdf"
+                    },
+                    {
+                        "question": "What is spiritual and cultural wellbeing?",
+                        "snippet": "Spiritual wellbeing is: related to our sense of meaning and purpose, formed through a range of influences including culture, community and religion and includes beliefs, values and ethics we hold.",
+                        "title": "Spiritual wellbeing strategies - NSW Department of Education",
+                        "link": "https://education.nsw.gov.au/schooling/school-community/wellbeing-framework-for-schools/spiritual-wellbeing-strategies"
+                    },
+                    {
+                        "question": "What is spiritual and cultural care?",
+                        "snippet": "Spiritual care can help individuals cope with illness and other challenges, and can be an important part of end-of-life care. Cultural care involves understanding and respecting the cultural beliefs, practices, and values of patients and their families.",
+                        "title": "Spiritual and cultural care: Video, Causes, & Meaning - Osmosis",
+                        "link": "https://www.osmosis.org/learn/Spiritual_and_cultural_care"
+                    },
+                    {
+                        "question": "What is spiritual and cultural value?",
+                        "snippet": "Cultural and spiritual values may relate to a range of uses and issues, including spiritual relationships, language, song lines, stories, sacred places, customary use, the plants and animals associated with water, drinking water, and recreational or commercial activities.",
+                        "title": "Cultural and spiritual values - Water Quality Australia",
+                        "link": "https://www.waterquality.gov.au/anz-guidelines/guideline-values/derive/cultural-values"
+                    }
+                ],
+                "relatedSearches": [
+                    {
+                        "query": "Spiritual culture examples"
+                    },
+                    {
+                        "query": "Spiritual culture meaning"
+                    },
+                    {
+                        "query": "Spiritual and cultural needs examples"
+                    },
+                    {
+                        "query": "Spirituality in different cultures"
+                    },
+                    {
+                        "query": "What is culture"
+                    },
+                    {
+                        "query": "Religion and spirituality across cultures"
+                    },
+                    {
+                        "query": "Cultures and religions"
+                    },
+                    {
+                        "query": "How culture affects religion"
+                    }
+                ],
+                "credits": 1
+            }
+        },
+        {
+            "religious rituals": {
+                "searchParameters": {
+                    "q": "religious rituals",
+                    "gl": "in",
+                    "type": "search",
+                    "engine": "google"
+                },
+                "answerBox": {
+                    "snippet": "Definition. A religious ritual is any repetitive and patterned behavior that is prescribed by or tied to a religious institution, belief, or custom, often with the intention of communicating with a deity or supernatural power.",
+                    "title": "Religious Ritual - SpringerLink",
+                    "link": "https://link.springer.com/10.1007%2F978-1-4419-1005-9_1592"
+                },
+                "organic": [
+                    {
+                        "title": "Ritual - Wikipedia",
+                        "link": "https://en.wikipedia.org/wiki/Ritual",
+                        "snippet": "A ritual is a sequence of activities involving gestures, words, actions, or revered objects. [1] [2] Rituals may be prescribed by the traditions of a community.",
+                        "position": 1
+                    },
+                    {
+                        "title": "Ritual | Religious, Cultural, & Social Practices - Britannica",
+                        "link": "https://www.britannica.com/topic/ritual",
+                        "snippet": "Ritual is the performance of ceremonial acts prescribed by tradition or by sacerdotal decree. Ritual is a specific, observable mode of ...",
+                        "date": "7 days ago",
+                        "sitelinks": [
+                            {
+                                "title": "Functions of ritual",
+                                "link": "https://www.britannica.com/topic/ritual/Functions-of-ritual"
+                            },
+                            {
+                                "title": "Imitative",
+                                "link": "https://www.britannica.com/topic/ritual/Imitative"
+                            },
+                            {
+                                "title": "The functional approach",
+                                "link": "https://www.britannica.com/topic/ritual/The-functional-approach"
+                            },
+                            {
+                                "title": "Rites of passage",
+                                "link": "https://www.britannica.com/topic/ritual/Rites-of-passage"
+                            }
+                        ],
+                        "position": 2
+                    },
+                    {
+                        "title": "[PDF] Ritual and Religious faith",
+                        "link": "https://www.govtgirlsekbalpur.com/Study_Materials/Sociology/Ritual_and_Religious_faith.pdf",
+                        "snippet": "Religious rituals reinforce the basic tenets of religion. When rituals make people feel good, they reinforce the belief that their religion in the correct one.",
+                        "position": 3
+                    },
+                    {
+                        "title": "Rituals and Rites of Passage in Society | Overview & Examples",
+                        "link": "https://study.com/academy/lesson/rituals-rites-of-passage-in-society.html",
+                        "snippet": "Rituals are mostly connected to religious activities, traditions, values, and the culture of a specific community.",
+                        "position": 4
+                    },
+                    {
+                        "title": "Worship - Rituals, Beliefs, Practices - Britannica",
+                        "link": "https://www.britannica.com/topic/worship/Focuses-of-worship",
+                        "snippet": "Worship - Rituals, Beliefs, Practices: Religious communities are aided in worship through a variety of objects and activities.",
+                        "date": "7 days ago",
+                        "position": 5
+                    },
+                    {
+                        "title": "Religious practices in India | Pew Research Center",
+                        "link": "https://www.pewresearch.org/religion/2021/06/29/religious-practices-2/",
+                        "snippet": "Indians are highly religious. A majority of Indian adults pray daily (60%), more than two-thirds visit a house of worship at least monthly (71%), and an ...",
+                        "date": "29 Jun 2021",
+                        "position": 6
+                    },
+                    {
+                        "title": "Category:Religious rituals - Wikipedia",
+                        "link": "https://en.wikipedia.org/wiki/Category:Religious_rituals",
+                        "snippet": "A · Acerra (incense box) · Agnihotra · Cult (religious practice) · Lustratio · Roman triumph · Sellisternium · Votive offering · Apocryphal prayer. B. Black ...",
+                        "position": 7
+                    },
+                    {
+                        "title": "Rituals | Overview, Types & Examples - Lesson - Study.com",
+                        "link": "https://study.com/academy/lesson/rituals-definition-types-challenges.html",
+                        "snippet": "Rituals can be formal and religious, or informal and cultural. A formal, religious ritual includes the Holy Eucharist, which reenacts the death of Christ.",
+                        "position": 8
+                    },
+                    {
+                        "title": "RELIGIOUS RITUAL definition and meaning - Collins Dictionary",
+                        "link": "https://www.collinsdictionary.com/dictionary/english/religious-ritual",
+                        "snippet": "A ritual is a religious service or other ceremony which involves a series of actions performed in a fixed order. [...]",
+                        "position": 9
+                    }
+                ],
+                "peopleAlsoAsk": [
+                    {
+                        "question": "What are examples of religious rituals?",
+                        "snippet": "A formal, religious ritual includes the Holy Eucharist, which reenacts the death of Christ. An informal, cultural tradition would include a man kneeling and offering his bride-to-be a diamond ring.",
+                        "title": "Rituals | Overview, Types & Examples - Lesson - Study.com",
+                        "link": "https://study.com/academy/lesson/rituals-definition-types-challenges.html"
+                    },
+                    {
+                        "question": "What are the religious rituals in India?",
+                        "snippet": "The most common rituals practiced in all Hindu households are puja, meditation, silent prayers, yoga, recitation of scriptures from Bhagavad Gita or bhajans, reading religious books, participating in Satsang (prayer meets), performing charitable work, visiting a temple, and chanting the name of their beloved God.",
+                        "title": "Important Hindu Rituals in India - Sodha Travel",
+                        "link": "https://www.sodhatravel.com/blog/important-hindu-rituals-in-india"
+                    },
+                    {
+                        "question": "What are the 4 types of rituals?",
+                        "snippet": "Gluckman (1962) distinguishes four kinds of ritual—magic action, religious action, substantive or constitutive ritual, and factitive ritual—clearly point out that rite of passage is a typical constitutive ritual.",
+                        "title": "Does ritual exist? Defining and classifying ritual based on belief ...",
+                        "link": "https://journalofchinesesociology.springeropen.com/articles/10.1186/s40711-018-0073-x"
+                    }
+                ],
+                "relatedSearches": [
+                    {
+                        "query": "Religious rituals examples"
+                    },
+                    {
+                        "query": "Religious rituals meaning in Hindi"
+                    },
+                    {
+                        "query": "Religious rituals in Hinduism"
+                    },
+                    {
+                        "query": "Religious rituals islam"
+                    },
+                    {
+                        "query": "Examples of religious rituals in Christianity"
+                    },
+                    {
+                        "query": "Religious rituals meaning in malayalam"
+                    },
+                    {
+                        "query": "Religious rituals around the world"
+                    },
+                    {
+                        "query": "What is ritual"
+                    }
+                ],
+                "credits": 1
+            }
+        },
+        {
+            "daily life": {
+                "searchParameters": {
+                    "q": "daily life",
+                    "gl": "in",
+                    "type": "search",
+                    "engine": "google"
+                },
+                "knowledgeGraph": {
+                    "title": "Everyday life",
+                    "type": "Everyday life, daily life or routine life comprises the ways in which people typically act, think, and feel on a daily basis. Everyday life may be described ..."
+                },
+                "organic": [
+                    {
+                        "title": "Everyday life - Wikipedia",
+                        "link": "https://en.wikipedia.org/wiki/Everyday_life",
+                        "snippet": "Everyday life, daily life or routine life comprises the ways in which people typically act, think, and feel on a daily basis. Everyday life may be described ...",
+                        "position": 1
+                    },
+                    {
+                        "title": "DAILY LIFE definition and meaning | Collins English Dictionary",
+                        "link": "https://www.collinsdictionary.com/dictionary/english/daily-life",
+                        "snippet": "noun Your daily life is the things that you do every day as part of your normal life. the routines of our daily life.",
+                        "position": 2
+                    },
+                    {
+                        "title": "daily life - Longman Dictionary",
+                        "link": "https://www.ldoceonline.com/dictionary/daily-life",
+                        "snippet": "daily life meaning, definition, what is daily life: the ordinary things that you usually do ...: Learn more.",
+                        "position": 3
+                    },
+                    {
+                        "title": "DailyLife - My Diary, Journal - Apps on Google Play",
+                        "link": "https://play.google.com/store/apps/details?id=com.dailylife.communication&hl=en",
+                        "snippet": "Capture every precious moment and inner thought with DailyLife, the beautifully designed diary and journal app perfect for keeping your memories ...",
+                        "date": "19 Nov 2024",
+                        "rating": 4.7,
+                        "ratingCount": 69353,
+                        "position": 4
+                    },
+                    {
+                        "title": "EVERYDAY LIFE | English meaning - Cambridge Dictionary",
+                        "link": "https://dictionary.cambridge.org/dictionary/english/everyday-life",
+                        "snippet": "the ordinary, typical, or usual parts of life, or of the life of a particular person or group. For me, music is an escape from everyday life.",
+                        "position": 5
+                    },
+                    {
+                        "title": "Daily Life | VLOG - YouTube",
+                        "link": "https://www.youtube.com/playlist?list=PLSAWS96hdiTgCgC8v76m8V5hVQvIZG0O3",
+                        "snippet": "Daily Life | VLOG · Homeschool Goat Keeping Class (Fool's Spring is Over) | VLOG · A brand new garden? (This wasn't quite in the plan) | VLOG · It feels good to ...",
+                        "position": 6
+                    },
+                    {
+                        "title": "Daily Life Forever52: Buy Cosmetic Products & Beauty Products ...",
+                        "link": "https://www.dailylifeforever52.in/?srsltid=AfmBOop0m0o0JhJD4JoPBE4crmhOQbmHI0JQtTVH8NLdKb8KSUZ5hh2-",
+                        "snippet": "Buy Cosmetic Products, Skincare & Beauty Products online from Forever52. The most renowned cosmetic brands with a high range of fashion & make-up products.",
+                        "position": 7
+                    },
+                    {
+                        "title": "Important English Phrases for DAILY LIFE - YouTube",
+                        "link": "https://www.youtube.com/watch?v=GGa9GtvL2B8",
+                        "snippet": "Download the free PDF worksheet for this lesson here: https://speakenglishwithvanessa.kit.com/1be9b085fc Download my free e-book: \"5 Steps ...",
+                        "date": "24 Jan 2025",
+                        "position": 8
+                    },
+                    {
+                        "title": "Daily Life - an overview | ScienceDirect Topics",
+                        "link": "https://www.sciencedirect.com/topics/mathematics/daily-life",
+                        "snippet": "Daily life is therefore highly challenging from basic (e.g., bathing, eating) to more complex activities (e.g., walking, shopping). Nevertheless, people with ...",
+                        "position": 9
+                    }
+                ],
+                "images": [
+                    {
+                        "title": "Daily Life Royalty-Free Images, Stock Photos & Pictures | Shutterstock",
+                        "imageUrl": "https://www.shutterstock.com/image-vector/illustration-day-night-daily-life-260nw-2188356055.jpg",
+                        "link": "https://www.shutterstock.com/search/daily-life"
+                    },
+                    {
+                        "title": "58,200+ Daily Activities Stock Photos, Pictures & Royalty-Free ...",
+                        "imageUrl": "https://media.istockphoto.com/id/1286091197/vector/female-routine-lifestyle-activities-temporal-distribution-young-woman-daily-schedule-life.jpg?s=612x612&w=0&k=20&c=YiytpcVrY0giFHEH3IMjkoCbU36vH0_zFLW2s4F47dk=",
+                        "link": "https://www.istockphoto.com/photos/daily-activities"
+                    },
+                    {
+                        "title": "The 21 Daily Routines and Habits of Highly Productive Founders and ...",
+                        "imageUrl": "https://assets.plan.io/images/blog/daily-routines-and-habits.png",
+                        "link": "https://plan.io/blog/daily-routines/"
+                    },
+                    {
+                        "title": "How successful creatives harness the power of a daily routine ...",
+                        "imageUrl": "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/05/Daily-Routine-1.jpg?auto=format&q=60&w=1860&h=1090&fit=crop&crop=faces",
+                        "link": "https://99designs.com/blog/creative-thinking/daily-routine/"
+                    },
+                    {
+                        "title": "Essay On Daily Routine in English for Class 1, 2 & 3: 10 Lines ...",
+                        "imageUrl": "https://cdn.firstcry.com/education/2022/07/30180535/Essay-On-Daily-Routine-10-Lines-Short-and-Long-Essay-For-Children.jpg",
+                        "link": "https://www.firstcry.com/intelli/articles/essay-on-daily-routine-10-lines-short-and-long-essay-for-children/"
+                    },
+                    {
+                        "title": "7 Benefits of Following Daily Routines | Clockwise",
+                        "imageUrl": "https://cdn.prod.website-files.com/634681057b887c6f4830fae2/6712a1ef7b1e01b237fa5bfe_6367ddcf2529d14dd234e809_62e988d92c773535b74a6a0b_Following%252520Daily%252520Routines.png",
+                        "link": "https://www.getclockwise.com/blog/benefits-daily-routines"
+                    },
+                    {
+                        "title": "Daily routines concept healthy life Royalty Free Vector",
+                        "imageUrl": "https://cdn.vectorstock.com/i/1000v/45/83/daily-routines-concept-healthy-life-vector-13724583.jpg",
+                        "link": "https://www.vectorstock.com/royalty-free-vector/daily-routines-concept-healthy-life-vector-13724583"
+                    },
+                    {
+                        "title": "Learn 30 Daily Life Activities 🍽 English Vocabulary in USE - YouTube",
+                        "imageUrl": "https://i.ytimg.com/vi/AOIYjtQLg9U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA_s4CzMd6CaQGb1vW96CMhwA6zJQ",
+                        "link": "https://www.youtube.com/watch?v=AOIYjtQLg9U"
+                    },
+                    {
+                        "title": "Daily Life Vectors & Illustrations for Free Download | Freepik",
+                        "imageUrl": "https://img.freepik.com/free-vector/school-child-schedule_74855-6645.jpg",
+                        "link": "https://www.freepik.com/vectors/daily-life"
+                    }
+                ],
+                "peopleAlsoAsk": [
+                    {
+                        "question": "What does daily life mean?",
+                        "snippet": "(ˈdeɪlɪ laɪf ) noun. Your daily life is the things that you do every day as part of your normal life. the routines of our daily life. The reforms were implemented in the hope of improving people's daily lives.",
+                        "title": "DAILY LIFE definition and meaning | Collins English Dictionary",
+                        "link": "https://www.collinsdictionary.com/dictionary/english/daily-life"
+                    },
+                    {
+                        "question": "What is an example daily life?",
+                        "snippet": "ADLs are defined as \"the things we normally do... such as feeding ourselves, bathing, dressing, grooming, work, homemaking, and leisure\". The ability and the extent to which the elderly can perform these activities is at the focus of gerontology and understandings of later life.",
+                        "title": "Everyday life - Wikipedia",
+                        "link": "https://en.wikipedia.org/wiki/Everyday_life"
+                    },
+                    {
+                        "question": "What is my daily routine life?",
+                        "snippet": "You can make a list of everyday activities: wake up/get up, brush my teeth, have/eat breakfast (or have something FOR breakfast), have a shower, get dressed, go to work/shool, get to work/school, check my emails, check my social media, work ON my computer, have lessons, have/eat lunch, finish work, go home, get home, ...",
+                        "title": "Writing about my daily routine - Test-English",
+                        "link": "https://test-english.com/explanation/a1-writing/writing-about-my-daily-routine/"
+                    }
+                ],
+                "relatedSearches": [
+                    {
+                        "query": "Education"
+                    },
+                    {
+                        "query": "Daily life essay"
+                    },
+                    {
+                        "query": "Daily life writing"
+                    },
+                    {
+                        "query": "Daily life synonym"
+                    },
+                    {
+                        "query": "Daily life examples"
+                    },
+                    {
+                        "query": "Daily life meaning"
+                    },
+                    {
+                        "query": "Daily lives or daily life"
+                    },
+                    {
+                        "query": "Daily life paragraph"
+                    },
+                    {
+                        "query": "Our daily life"
+                    }
+                ],
+                "credits": 1
+            }
+        },
+        {
+            "sacred and mundane": {
+                "searchParameters": {
+                    "q": "sacred and mundane",
+                    "gl": "in",
+                    "type": "search",
+                    "engine": "google"
+                },
+                "organic": [
+                    {
+                        "title": "The Sacred and the Mundane - Where Peter Is",
+                        "link": "https://wherepeteris.com/the-sacred-and-the-mundane/",
+                        "snippet": "What is the “sacred”? Too often, we see it as the opposite of the mundane or common. This view is incorrect and can damage our understanding ...",
+                        "date": "3 Dec 2021",
+                        "position": 1
+                    },
+                    {
+                        "title": "Mundane or Sacred is Your Making - Isha Foundation",
+                        "link": "https://isha.sadhguru.org/en/wisdom/article/mundane-sacred-your-making",
+                        "snippet": "The mundane and the sacred exist not because of the nature of something, but because of the type of attention you pay to it. If you pay the same ...",
+                        "date": "12 Oct 2017",
+                        "position": 2
+                    },
+                    {
+                        "title": "THE SACRED AND THE MUNDANE - Rabbi Pini Dunner",
+                        "link": "https://rabbidunner.com/the-sacred-and-the-mundane/",
+                        "snippet": "The mundane and the sacred are simply not one and the same. The ordinary tasks of life, the laws that govern society, the daily grind of human existence.",
+                        "date": "27 Jan 2022",
+                        "position": 3
+                    },
+                    {
+                        "title": "Sacred Mundane: How to Find Freedom, Purpose, and Joy",
+                        "link": "https://www.amazon.in/Sacred-Mundane-Find-Freedom-Purpose/dp/0825444470",
+                        "snippet": "If you long to grow in God and make a real difference in your world--no matter how small--Sacred Mundane contains everything you need to glean the truth hidden ...",
+                        "rating": 4.3,
+                        "ratingCount": 61,
+                        "position": 4
+                    },
+                    {
+                        "title": "Sacred Mundane: The Blog - Kari Patterson",
+                        "link": "https://www.karipatterson.com/sacredmundane/",
+                        "snippet": "Sacred Mundane: The Blog · Because none of us can buy what we want most of all… · What Buoys Me · How to have wide joy · How to be an Available Person.",
+                        "position": 5
+                    },
+                    {
+                        "title": "The Sacred Mundane",
+                        "link": "https://www.readthesequences.com/The-Sacred-Mundane",
+                        "snippet": "Made of the same fabric as yourself and all other things. Most holy and beautiful, the sacred mundane. Adam Frank, The Constant Fire: Beyond the Science vs.",
+                        "position": 6
+                    },
+                    {
+                        "title": "The Sacred and the Mundane - Global InCH",
+                        "link": "https://globalinch.org/article/the-sacred-and-the-mundane/",
+                        "snippet": "It's been said of India art that it is both sacred and profane; that the beauty of form can be created on dung covered walls; that Mughal miniatures can ...",
+                        "position": 7
+                    },
+                    {
+                        "title": "The Sacred and the Mundane - Medium",
+                        "link": "https://medium.com/peregrinatio-blog/the-sacred-and-the-mundane-b3cd43b48ac",
+                        "snippet": "In yoga philosophy, existence is divided into two different realms: prakṛiti and puruṣa. Prakṛiti is the mundane: the everyday, material world ...",
+                        "date": "23 Nov 2019",
+                        "position": 8
+                    },
+                    {
+                        "title": "The sacred and the mundane - The Hindu",
+                        "link": "https://www.thehindu.com/features/homes-and-gardens/the-sacred-and-the-mundane/article5534635.ece",
+                        "snippet": "The sacred and the mundane. The spring or the 'Jhira' flows continuously, carries sweet water and fills in a pond where pilgrims take a dip ...",
+                        "date": "3 Jan 2014",
                         "position": 9
                     },
                     {
-                        "title": "5 must-visit places in Varanasi - Times of India",
-                        "link": "https://timesofindia.indiatimes.com/travel/destinations/5-must-visit-places-in-varanasi/articleshow/115978318.cms",
-                        "snippet": "Assi Ghat is popular among devotees and tourists. You can take a morning yoga session, watch live classical performances, and enjoy the peaceful ...",
-                        "date": "4 Dec 2024",
+                        "title": "The Sacred and the Mundane: The Message of Leviticus",
+                        "link": "https://www.religion-online.org/article/the-sacred-and-the-mundane-the-message-of-leviticus/",
+                        "snippet": "The Hebrew scriptures also express the Israelite priests' deep concern for the sacralizing possibilities inherent in the mundane activity of everyday life. This ...",
                         "position": 10
                     }
                 ],
                 "peopleAlsoAsk": [
                     {
-                        "question": "What is very famous in Varanasi?",
-                        "snippet": "The city is known worldwide for its many ghats—steps leading down the steep river bank to the water—where pilgrims perform rituals. Of particular note are the Dashashwamedh Ghat, the Panchganga Ghat, the Manikarnika Ghat, and the Harishchandra Ghat, the last two being where Hindus cremate their dead.",
-                        "title": "Varanasi - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/Varanasi"
+                        "question": "What is the difference between sacred and mundane?",
+                        "snippet": "Durkheim was among the first to distinguish between the two. The sacred are those things we set apart as extraordinary, which inspire awe and reverence. The profane are those things considered mundane and ordinary elements of everyday life as well as those things that oppose the sacred.",
+                        "title": "Profane vs. Sacred | Definition, Examples & Dichotomy - Study.com",
+                        "link": "https://study.com/academy/lesson/profane-vs-sacred-definitions-lesson-quiz.html"
                     },
                     {
-                        "question": "Is 2 days enough for Varanasi?",
-                        "snippet": "Experience the enchanting Ganga Aarti at Dashashwamedh Ghat, explore the famous Kashi Vishwanath Temple, and stroll through vibrant local markets. This itinerary is ideal for travelers wanting to experience the essence of Varanasi in 2 days, blending spirituality, history, and culture.",
-                        "title": "Varanasi 2 Days Itinerary - Kashi Yatra",
-                        "link": "https://kashiyatra.in/varanasi-2-days-itinerary/"
+                        "question": "What is the spiritual meaning of mundane?",
+                        "snippet": "Mundane is everything pertaining to the physical reality around us, as opposed to spiritual. It relates to our daily chores like waking up in the morning to everything we do until we sleep. For most, life is a struggle from where they want to escape.",
+                        "title": "Mundane techniques: Futile in spirituality - Deccan Herald",
+                        "link": "https://www.deccanherald.com/opinion/mundane-techniques-futile-in-spirituality-1072088.html"
                     },
                     {
-                        "question": "What are the five tourist places in Varanasi?",
-                        "snippet": "Shri Kashi Vishwanath Temple. The Shri Kashi Vishwanath Temple is a beacon of faith and spirituality in Varanasi, dedicated to Lord Shiva. ...\nDashashwamedh Ghat. ...\nAssi Ghat. ...\nNew Vishwanath Temple. ...\nBanaras Hindu University (BHU) ...\nSarnath. ...\nGanga Aarti. ...\nTibetan Temple.",
-                        "title": "Tourist Attractions - Varanasi Development Authority",
-                        "link": "https://vdavns.com/tourist"
-                    },
-                    {
-                        "question": "How can I plan 3 days in Varanasi?",
-                        "snippet": "HOW TO SPEND 3 DAYS IN VARANASI INDIA\n1\nPLACES TO VISIT IN VARANASI IN 3 DAYS.\n2\nDAY ONE. VISIT SARNATH, THAI TEMPLE AND LOCAL MONASTERIES. ...\n3\nDINE AT TREE OF LIFE. ...\n4\nDAY 2.\n5\nMORNING AARTI. ...\n6\nVISIT AN AKHADA. ...\n7\nWEAVING VILLAGE TOUR. ...\n8\nDAY 3.",
-                        "title": "Things to Do & Places to Visit in Varanasi: 3 Days Itinerary",
-                        "link": "https://www.wanderershub.com/?destination=places-to-visit-in-varanasi-in-3-days"
-                    }
-                ],
-                "relatedSearches": [
-                    {
-                        "query": "Best places to visit in varanasi in 2 days"
-                    },
-                    {
-                        "query": "Best places to visit in varanasi in 1 day"
-                    },
-                    {
-                        "query": "Best places to visit in varanasi at night"
-                    },
-                    {
-                        "query": "Best places to visit in varanasi for couples"
-                    },
-                    {
-                        "query": "Best places to visit in varanasi with family"
-                    },
-                    {
-                        "query": "Places to visit in Varanasi in 3 days"
-                    },
-                    {
-                        "query": "Top 5 places to visit in Varanasi"
-                    },
-                    {
-                        "query": "10 best places to visit in Varanasi"
+                        "question": "What does God say about the mundane?",
+                        "snippet": "Similarly, Jesus says that the simple and mundane affairs of life are massive heart revealers: “He who is faithful in a very little thing is faithful also in much; and he who is unrighteous in a very little thing is unrighteous also in much” (Luke 16:10).",
+                        "title": "Life Is Mundane — CBCD | Center for Biblical Counseling & Discipleship",
+                        "link": "https://thecbcd.org/resources/life-is-mundane"
                     }
                 ],
                 "credits": 1
