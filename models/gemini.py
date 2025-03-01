@@ -26,7 +26,8 @@ class GeminiModel(BaseModel):
         self.model = genai.GenerativeModel(model_name = model_name, generation_config=self.generation_config, safety_settings=self.safety_settings)
 
     def generate_content(self, prompt: str) -> str:
-        
-        response = self.model.generate_content([prompt])
-        
-        return response.text
+        try:
+            response = self.model.generate_content(prompt)
+            return response.text
+        except Exception as e:
+            raise Exception(f"Failed to generate content: {str(e)}")
