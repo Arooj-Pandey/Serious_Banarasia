@@ -159,21 +159,25 @@ async def process_chat(
     start_time = time.time()
     
     try:
-        # Define a timeout threshold - adjust based on your server limitations
-        # Most web servers have a 30-60 second timeout
-        MAX_PROCESSING_TIME = 25  # seconds
+        # Define a timeout threshold - adjusted for faster response
+        MAX_PROCESSING_TIME = 12  # seconds - reduced from 25 to 12
         
         user_query = request.query
         logger.info(f"Processing query: {user_query}")
         
-        # Log each step to help diagnose which part might be causing timeout
-        logger.info("Step 1: Starting query translation")
-        restructured_query = translator.translate_query(user_query)
-        logger.info(f"Step 1 complete: Query translated successfully")
+        # Skip translation for simple queries (optimization)
+        if len(user_query.split()) <= 8 and any(keyword in user_query.lower() for keyword in ["varanasi", "banaras", "kashi"]):
+            restructured_query = user_query
+            logger.info("Simple query detected, skipping translation")
+        else:
+            # Log each step to help diagnose which part might be causing timeout
+            logger.info("Step 1: Starting query translation")
+            restructured_query = translator.translate_query(user_query)
+            logger.info(f"Step 1 complete: Query translated successfully")
         
         # Check elapsed time after each major operation
         current_time = time.time()
-        if current_time - start_time > MAX_PROCESSING_TIME * 0.4:  # 40% of max time
+        if current_time - start_time > MAX_PROCESSING_TIME * 0.3:  # 30% of max time
             logger.warning(f"Translation taking too long: {current_time - start_time} seconds")
             return ChatResponse(
                 response="I apologize, but processing your query is taking longer than expected. Please try a simpler question.",
@@ -186,9 +190,16 @@ async def process_chat(
         keywords = segregator.keywords_seggregator(restructured_query)
         logger.info(f"Step 2 complete: Keywords extracted: {keywords}")
         
+        # Limit the number of keywords processed
+        if "search_api" in keywords and len(keywords["search_api"]) > 2:
+            keywords["search_api"] = keywords["search_api"][:2]  # Limit to top 2 search keywords
+            
+        if "image_api" in keywords and len(keywords["image_api"]) > 1:
+            keywords["image_api"] = keywords["image_api"][:1]  # Limit to top 1 image keyword
+        
         # Check elapsed time
         current_time = time.time()
-        if current_time - start_time > MAX_PROCESSING_TIME * 0.6:  # 60% of max time
+        if current_time - start_time > MAX_PROCESSING_TIME * 0.5:  # 50% of max time
             logger.warning(f"Keywords extraction taking too long: {current_time - start_time} seconds")
             return ChatResponse(
                 response="I'm processing your complex query, but it's taking longer than expected. Please try again with a more focused question.",
@@ -205,7 +216,7 @@ async def process_chat(
         
         # Check elapsed time
         current_time = time.time()
-        if current_time - start_time > MAX_PROCESSING_TIME * 0.8:  # 80% of max time
+        if current_time - start_time > MAX_PROCESSING_TIME * 0.7:  # 70% of max time
             logger.warning(f"Query routing taking too long: {current_time - start_time} seconds")
             # If we have results but running out of time, use a simplified approach
             simple_response = "Based on your query, I found some information but couldn't complete full processing in time. Here's what I can tell you: "
@@ -222,7 +233,7 @@ async def process_chat(
         
         # Format for LLM
         logger.info("Step 4: Formatting response for LLM")
-        formatter = ResponseFormatter(raw_results)
+        formatter = ResponseFormatter(raw_results, max_content_length=2000)  # Reduced from default 4000
         formatted_results = formatter.format_for_llm()
         logger.info(f"Step 4 complete: Response formatted for LLM")
         
@@ -231,10 +242,10 @@ async def process_chat(
         ai_response = generate_final_prompt(formatted_results, user_query)
         logger.info(f"Step 5 complete: Final response generated")
         
-        # Format sources according to the Source model
+        # Format sources according to the Source model - limit to top 2 sources
         sources = []
         if formatted_results.get("organic_results"):
-            for result in formatted_results["organic_results"][:3]:
+            for result in formatted_results["organic_results"][:2]:  # Reduced from 3 to 2
                 snippet = result.get("snippet", "")
                 if not snippet and result.get("main_content"):
                     snippet = result["main_content"][0] if isinstance(result["main_content"], list) else str(result["main_content"])
@@ -242,14 +253,14 @@ async def process_chat(
                 source = Source(
                     domain=result.get("domain", "unknown"),
                     link=result.get("link", ""),
-                    snippet=snippet
+                    snippet=snippet[:150]  # Limit snippet length to 150 chars
                 )
                 sources.append(source)
         
-        # Format images according to the Image model
+        # Format images according to the Image model - limit to top 2 images
         images = []
         if formatted_results.get("image_results"):
-            for image in formatted_results["image_results"][:4]:
+            for image in formatted_results["image_results"][:2]:  # Reduced from 4 to 2
                 image_obj = Image(
                     url=image.get("url", ""),
                     title=image.get("title")
@@ -283,14 +294,4 @@ __all__ = ['app']
 
 if __name__ == "__main__":
     import uvicorn
-    
-    # Use port 8080 as configured
-    port = int(os.getenv("PORT", 8080))
-    
-    # Use the app instance directly rather than an import string
-    uvicorn.run(
-        app,
-        host="0.0.0.0",
-        port=port,
-        reload=False  # Disable reload when running directly with the app instance
-    )
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)

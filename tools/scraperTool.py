@@ -3,6 +3,9 @@ import requests
 from requests.exceptions import RequestException
 from bs4 import BeautifulSoup
 from typing import Dict, List, Optional
+import time
+import random
+import logging
 
 
 class Scraper:
@@ -10,6 +13,13 @@ class Scraper:
         self._html_tags = re.compile(r'<[^>]+>')
         self._whitespace = re.compile(r'\s+')
         self._non_printable = re.compile(r'[^\x20-\x7E]')
+        self._user_agents = [
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15',
+            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36'
+        ]
+        self._cache = {}
 
     def _process_text(self, text: str, 
                      lowercase: bool = False,
@@ -23,24 +33,24 @@ class Scraper:
         Returns:
             Processed text string
         """
-        # Basic cleaning
-        text = self._html_tags.sub(' ', text)  # Remove HTML tags
+        if not text:
+            return ""
+            
+        text = self._html_tags.sub(' ', text)  
         text = text.replace('\n', ' ').replace('\t', ' ')
         text = self._whitespace.sub(' ', text).strip()
         
-        # Advanced cleaning
         if remove_special:
-            text = re.sub(r'[^a-zA-Z0-9\s.,!?\-&\'"]', '', text)
+            text = re.sub(r'[^\w\s.,!?\-&\'"]', '', text)
         if lowercase:
             text = text.lower()
             
-        # Remove non-printable characters
         text = self._non_printable.sub(' ', text)
         return text
 
     def content_extractor(self, response: bytes, 
-                         max_paragraphs: int = 20,
-                         max_headings: int = 10) -> Dict[str, List[str]]:
+                         max_paragraphs: int = 5,
+                         max_headings: int = 5) -> Dict[str, List[str]]:
         """
         Extract and process content from HTML response
         Args:
@@ -50,39 +60,49 @@ class Scraper:
         Returns:
             Dictionary containing processed content
         """
-        soup = BeautifulSoup(response, 'html.parser')
+        soup = BeautifulSoup(response, 'lxml')
         if not soup:
             return {}
 
-        # Extract and process paragraphs
-        paragraphs = [
-            self._process_text(p.text) 
-            for p in soup.find_all('p')[:max_paragraphs]
-        ]
+        main_content = soup.find_all(['main', 'article', 'div', 'section'])
+        target = soup
+        if main_content:
+            target = max(main_content, key=lambda x: len(x.get_text()), default=soup)
 
-        # Extract and process headings
-        headings = [
-            self._process_text(h.text)
-            for h in soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])[:max_headings]
-        ]
+        paragraphs = []
+        for p in target.find_all('p'):
+            if len(paragraphs) >= max_paragraphs:
+                break
+            clean_text = self._process_text(p.text)
+            if clean_text and len(clean_text) > 40:  
+                paragraphs.append(clean_text)
+
+        headings = []
+        for h in target.find_all(['h1', 'h2', 'h3'])[:max_headings]:  
+            clean_text = self._process_text(h.text)
+            if clean_text and len(clean_text) > 5:  
+                headings.append(clean_text)
+
+        title = soup.title.string if soup.title else ""
+        meta_desc = ""
+        meta_tag = soup.find("meta", {"name": "description"})
+        if meta_tag and "content" in meta_tag.attrs:
+            meta_desc = meta_tag["content"]
 
         return {
             "paragraphs": paragraphs,
             "headings": headings,
-            "cleaned_text": self._process_text(soup.get_text()),
             "domain_info": {
-                "title": self._process_text(soup.title.string) if soup.title else "",
-                "meta_description": self._process_text(
-                    soup.find("meta", {"name": "description"})["content"]
-                ) if soup.find("meta", {"name": "description"}) else ""
+                "title": self._process_text(title),
+                "meta_description": self._process_text(meta_desc)
             }
         }
 
     def get_website_content(self, link: str, 
-                           timeout: int = 10, 
+                           timeout: int = 5, 
                            headers: Optional[Dict] = None,
-                           max_paragraphs: int = 20,
-                           max_headings: int = 10) -> Dict:
+                           max_paragraphs: int = 5,
+                           max_headings: int = 5) -> Dict:
         """
         Fetch and process website content
         Args:
@@ -96,13 +116,27 @@ class Scraper:
         Raises:
             RequestException: For network-related errors
         """
+        cache_key = f"{link}_{max_paragraphs}_{max_headings}"
+        if cache_key in self._cache:
+            return self._cache[cache_key]
+            
+        if not link.startswith(('http://', 'https://')):
+            raise ValueError(f"Invalid URL format: {link}")
+            
+        skip_extensions = ['.pdf', '.doc', '.docx', '.xls', '.xlsx', '.ppt', '.pptx', 
+                          '.jpg', '.jpeg', '.png', '.gif', '.mp3', '.mp4', '.avi', '.mov']
+        if any(link.endswith(ext) for ext in skip_extensions):
+            raise ValueError(f"Skipping binary/media file: {link}")
+
         default_headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
-                          'AppleWebKit/537.36 (KHTML, like Gecko) '
-                          'Chrome/91.0.4472.124 Safari/537.36',
-            'Accept-Language': 'en-US,en;q=0.5'
+            'User-Agent': random.choice(self._user_agents),
+            'Accept-Language': 'en-US,en;q=0.5',
+            'Accept': 'text/html,application/xhtml+xml,application/xml',
+            'Connection': 'keep-alive',
+            'DNT': '1'
         }
 
+        start_time = time.time()
         try:
             response = requests.get(
                 url=link,
@@ -113,18 +147,36 @@ class Scraper:
             )
             response.raise_for_status()
 
-            # Check content type before processing
             content_type = response.headers.get('Content-Type', '')
-            if 'text/html' not in content_type:
+            if 'text/html' not in content_type and 'application/xhtml+xml' not in content_type:
                 raise ValueError(f"Unsupported content type: {content_type}")
 
-            return self.content_extractor(
-                response.content,
-                max_paragraphs=max_paragraphs,
-                max_headings=max_headings
-            )
+            content_length = int(response.headers.get('Content-Length', 0))
+            if content_length > 1_000_000:  
+                soup = BeautifulSoup("<html><head><title>Large Page</title></head><body></body></html>", 'lxml')
+                result = {
+                    "paragraphs": ["This page is too large to process quickly."],
+                    "headings": [],
+                    "domain_info": {
+                        "title": response.url.split('/')[-1],
+                        "meta_description": f"Large page ({content_length/1000:.1f}KB)"
+                    }
+                }
+            else:
+                result = self.content_extractor(
+                    response.content,
+                    max_paragraphs=max_paragraphs,
+                    max_headings=max_headings
+                )
+                
+            self._cache[cache_key] = result
+            return result
 
         except RequestException as e:
             raise RequestException(f"Network error fetching {link}: {str(e)}") from e
         except Exception as e:
             raise RuntimeError(f"Error processing {link}: {str(e)}") from e
+        finally:
+            processing_time = time.time() - start_time
+            if processing_time > 2:  
+                logging.getLogger(__name__).warning(f"Slow scraping for {link}: {processing_time:.2f}s")
