@@ -62,10 +62,6 @@ class ResponseFormatter:
             main_content = scraped_content.get('paragraphs', [])
             if not main_content and result.get('snippet'):
                 main_content = [result.get('snippet')]
-            elif not main_content:
-                # Fallback content about Varanasi if both scraping and snippet failed
-                if 'varanasi' in link.lower() or 'banaras' in link.lower() or 'kashi' in link.lower():
-                    main_content = ["Varanasi is one of the oldest continuously inhabited cities in the world, located on the banks of the river Ganges in Uttar Pradesh, India. It is a major religious hub and pilgrimage destination for Hindus."]
 
             # Extract domain safely
             domain = "unknown"
@@ -95,13 +91,13 @@ class ResponseFormatter:
             self.logger.error(f"Error processing result: {str(e)}")
             # Return a basic result rather than None to ensure we always have something
             return {
-                'title': result.get('title', 'Varanasi Information'),
+                'title': result.get('title', 'Information'),
                 'domain': 'unknown',
                 'link': result.get('link', ''),
-                'snippet': result.get('snippet', 'Information about Varanasi'),
+                'snippet': result.get('snippet', 'Information'),
                 'content': {
                     'key_points': [],
-                    'main_content': [result.get('snippet', 'Varanasi is one of the oldest cities in the world and a major pilgrimage destination for Hindus.')],
+                    'main_content': [result.get('snippet', 'Information')],
                     'meta_description': '',
                     'last_updated': datetime.now().strftime('%Y-%m-%d')
                 },
@@ -122,30 +118,14 @@ class ResponseFormatter:
         """Process organic results in parallel with a timeout"""
         processed_results = []
         
-        # Ensure we have results to process
         if not results:
-            # Return a default result about Varanasi if no results available
-            return [{
-                'title': 'Varanasi - The Spiritual Capital of India',
-                'domain': 'varanasi.info',
-                'link': 'https://varanasi.info',
-                'snippet': 'Varanasi is one of the oldest continuously inhabited cities in the world and a major religious hub in India.',
-                'content': {
-                    'key_points': ['Spiritual significance of Varanasi'],
-                    'main_content': ['Varanasi, also known as Kashi or Benaras, is one of the oldest continuously inhabited cities in the world. Located on the banks of the sacred Ganges River in northern India, it is considered the spiritual capital of Hinduism and is known for its ghats, temples, and cultural significance.'],
-                    'meta_description': 'Information about Varanasi, the spiritual capital of India',
-                    'last_updated': datetime.now().strftime('%Y-%m-%d')
-                },
-                'position': 1,
-                'source_quality': 'high'
-            }]
+            return processed_results
         
         with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-            # Limit to top 5 results to process
             futures = {executor.submit(self._process_organic_result, result, 3): result 
-                      for result in results[:5]}  # Process max 5 results
+                      for result in results[:5]}
             
-            for future in concurrent.futures.as_completed(futures, timeout=8):  # 8 second total timeout
+            for future in concurrent.futures.as_completed(futures, timeout=8):
                 try:
                     processed = future.result()
                     if processed:
@@ -156,29 +136,10 @@ class ResponseFormatter:
                 except Exception as e:
                     self.logger.error(f"Parallel processing error: {str(e)}")
                     
-                # Break early if we have enough results
                 if len(processed_results) >= 3:
                     for f in futures:
                         f.cancel()
                     break
-            
-        # Ensure we have at least one processed result
-        if not processed_results:
-            # Add a default result about Varanasi
-            processed_results = [{
-                'title': 'Varanasi - The Spiritual Capital of India',
-                'domain': 'varanasi.info',
-                'link': 'https://varanasi.info',
-                'snippet': 'Varanasi is one of the oldest continuously inhabited cities in the world and a major religious hub in India.',
-                'content': {
-                    'key_points': ['Spiritual significance of Varanasi'],
-                    'main_content': ['Varanasi, also known as Kashi or Benaras, is one of the oldest continuously inhabited cities in the world. Located on the banks of the sacred Ganges River in northern India, it is considered the spiritual capital of Hinduism and is known for its ghats, temples, and cultural significance.'],
-                    'meta_description': 'Information about Varanasi, the spiritual capital of India',
-                    'last_updated': datetime.now().strftime('%Y-%m-%d')
-                },
-                'position': 1,
-                'source_quality': 'high'
-            }]
                     
         return processed_results
 
@@ -197,38 +158,19 @@ class ResponseFormatter:
         }
 
         try:
-            # Check if we have valid data
             if not self.json_data or not isinstance(self.json_data, dict):
                 self.logger.warning("Invalid or empty JSON data received")
-                # Add default content about Varanasi
-                formatted_data['organic_results'] = [{
-                    'title': 'Varanasi - The Spiritual Capital of India',
-                    'domain': 'varanasi.info',
-                    'link': 'https://varanasi.info',
-                    'snippet': 'Varanasi is one of the oldest continuously inhabited cities in the world and a major religious hub in India.',
-                    'content': {
-                        'key_points': ['Spiritual significance of Varanasi'],
-                        'main_content': ['Varanasi, also known as Kashi or Benaras, is one of the oldest continuously inhabited cities in the world. Located on the banks of the sacred Ganges River in northern India, it is considered the spiritual capital of Hinduism and is known for its ghats, temples, and cultural significance.'],
-                        'meta_description': 'Information about Varanasi, the spiritual capital of India',
-                        'last_updated': datetime.now().strftime('%Y-%m-%d')
-                    },
-                    'position': 1,
-                    'source_quality': 'high'
-                }]
                 return formatted_data
 
             for api_type, responses in self.json_data.items():
-                # Skip empty responses
                 if not responses:
                     continue
                     
-                # Limit the number of responses processed
-                for response_idx, response in enumerate(responses[:2]):  # Process max 2 response objects
+                for response_idx, response in enumerate(responses[:2]):
                     query = next(iter(response))
                     results = response[query]
 
                     if 'organic' in results:
-                        # Use parallel processing for organic results
                         processed_results = self._process_organic_results_parallel(
                             results['organic'], 
                             max_workers=3
@@ -237,78 +179,35 @@ class ResponseFormatter:
                         formatted_data['metadata']['sources_used'] += len(processed_results)
 
                     if 'images' in results and api_type == 'image_api':
-                        # Limit to max 3 images
-                        formatted_data['image_results'].extend([
-                            {
-                                'title': img.get('title', '')[:50],  # Limit title length
-                                'url': img.get('imageUrl', ''),
-                                'context': self._truncate_text(img.get('snippet', ''), 100)  # Reduced from 200
-                            } for img in results['images'][:3]  # Process max 3 images
-                        ])
+                        formatted_data['image_results'].extend([{
+                            'title': img.get('title', '')[:50],
+                            'url': img.get('imageUrl', ''),
+                            'context': self._truncate_text(img.get('snippet', ''), 100)
+                        } for img in results['images'][:3]])
 
                     if 'peopleAlsoAsk' in results:
-                        # Limit to max 2 related questions
-                        formatted_data['related_questions'].extend([
-                            {
-                                'question': q.get('question', '')[:80],  # Limit question length
-                                'summary': self._truncate_text(q.get('snippet', ''), 150),  # Reduced from 300
-                                'sources': [{'title': q.get('title', '')[:50], 'url': q.get('link', '')}]
-                            } for q in results.get('peopleAlsoAsk', [])[:2]  # Process max 2 related questions
-                        ])
+                        formatted_data['related_questions'].extend([{
+                            'question': q.get('question', '')[:80],
+                            'summary': self._truncate_text(q.get('snippet', ''), 150),
+                            'sources': [{'title': q.get('title', '')[:50], 'url': q.get('link', '')}]
+                        } for q in results.get('peopleAlsoAsk', [])[:2]])
 
-            # Sort results by position and quality
             formatted_data['organic_results'].sort(
                 key=lambda x: (x['position'], 0 if x['source_quality'] == 'high' else 1)
             )
             
-            # Further limit results if we have too many
             if len(formatted_data['organic_results']) > 3:
                 formatted_data['organic_results'] = formatted_data['organic_results'][:3]
-                
-            # Ensure we have at least one result
-            if not formatted_data['organic_results']:
-                # Add a default result about Varanasi
-                formatted_data['organic_results'] = [{
-                    'title': 'Varanasi - The Spiritual Capital of India',
-                    'domain': 'varanasi.info',
-                    'link': 'https://varanasi.info',
-                    'snippet': 'Varanasi is one of the oldest continuously inhabited cities in the world and a major religious hub in India.',
-                    'content': {
-                        'key_points': ['Spiritual significance of Varanasi'],
-                        'main_content': ['Varanasi, also known as Kashi or Benaras, is one of the oldest continuously inhabited cities in the world. Located on the banks of the sacred Ganges River in northern India, it is considered the spiritual capital of Hinduism and is known for its ghats, temples, and cultural significance.'],
-                        'meta_description': 'Information about Varanasi, the spiritual capital of India',
-                        'last_updated': datetime.now().strftime('%Y-%m-%d')
-                    },
-                    'position': 1,
-                    'source_quality': 'high'
-                }]
 
-            # Calculate total content length
             content_str = str(formatted_data)
             formatted_data['metadata']['total_content_length'] = len(content_str)
             
             if len(content_str) > self.max_content_length:
                 self.logger.warning(f"Formatted content exceeds {self.max_content_length} characters")
-                # Further truncate content if needed
                 for result in formatted_data['organic_results']:
-                    result['content']['main_content'] = result['content']['main_content'][:1]  # Keep only first paragraph
+                    result['content']['main_content'] = result['content']['main_content'][:1]
 
         except Exception as e:
             self.logger.error(f"Formatting failed: {str(e)}")
-            # Add default content about Varanasi even if everything fails
-            formatted_data['organic_results'] = [{
-                'title': 'Varanasi - The Spiritual Capital of India',
-                'domain': 'varanasi.info',
-                'link': 'https://varanasi.info',
-                'snippet': 'Varanasi is one of the oldest continuously inhabited cities in the world and a major religious hub in India.',
-                'content': {
-                    'key_points': ['Spiritual significance of Varanasi'],
-                    'main_content': ['Varanasi, also known as Kashi or Benaras, is one of the oldest continuously inhabited cities in the world. Located on the banks of the sacred Ganges River in northern India, it is considered the spiritual capital of Hinduism and is known for its ghats, temples, and cultural significance.'],
-                    'meta_description': 'Information about Varanasi, the spiritual capital of India',
-                    'last_updated': datetime.now().strftime('%Y-%m-%d')
-                },
-                'position': 1,
-                'source_quality': 'high'
-            }]
-
+            
         return formatted_data

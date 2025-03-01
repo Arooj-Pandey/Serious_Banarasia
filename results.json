@@ -2,192 +2,165 @@
     "image_api": [],
     "search_api": [
         {
-            "Varanasi": {
+            "Sankat Mochan Hanuman Mandir Varanasi": {
                 "searchParameters": {
-                    "q": "Varanasi",
+                    "q": "Sankat Mochan Hanuman Mandir Varanasi",
                     "gl": "in",
                     "type": "search",
                     "engine": "google"
                 },
+                "knowledgeGraph": {
+                    "title": "Sankat Mochan Hanuman Temple, Varanasi",
+                    "type": "Hindu temple in Varanasi, Uttar Pradesh",
+                    "website": "https://sankatmochanmandirvaranasi.com/",
+                    "rating": 4.8,
+                    "ratingCount": 7215,
+                    "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipM1xZwtzqnULDZFl9b3Cg9wJQIHM409PWaSJNLD=w72-h72-n-k-no",
+                    "description": "Sankat Mochan Hanuman Temple is a Hindu temple in Varanasi, Uttar Pradesh, India and is dedicated to the Hindu God Hanuman, in his form as \"Sankat Mochan,\" meaning the \"reliever from troubles\".",
+                    "attributes": {
+                        "Address": "Saket Nagar Colony, Sankata Mochan Leprosy, Varanasi, Uttar Pradesh 221005",
+                        "Hours": "Open ⋅ Closes 10 pm",
+                        "Phone": "063074 09877"
+                    }
+                },
                 "organic": [
                     {
-                        "title": "Varanasi - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/Varanasi",
-                        "snippet": "Varanasi is a city on the Ganges river in northern India that has a central place in the traditions of pilgrimage, death, and mourning in the Hindu world.",
-                        "sitelinks": [
-                            {
-                                "title": "Varanasi district",
-                                "link": "https://en.wikipedia.org/wiki/Varanasi_district"
-                            },
-                            {
-                                "title": "Religion in Varanasi",
-                                "link": "https://en.wikipedia.org/wiki/Religion_in_Varanasi"
-                            },
-                            {
-                                "title": "Varanasi division",
-                                "link": "https://en.wikipedia.org/wiki/Varanasi_division"
-                            },
-                            {
-                                "title": "Varanasi Metro",
-                                "link": "https://en.wikipedia.org/wiki/Varanasi_Metro"
-                            }
-                        ],
+                        "title": "संकट मोचन हनुमान मंदिर - विकिपीडिया",
+                        "link": "https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%95%E0%A4%9F_%E0%A4%AE%E0%A5%8B%E0%A4%9A%E0%A4%A8_%E0%A4%B9%E0%A4%A8%E0%A5%81%E0%A4%AE%E0%A4%BE%E0%A4%A8_%E0%A4%AE%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0",
+                        "snippet": "संकट मोचन हनुमान मंदिर हिन्दू भगवान हनुमान के पवित्र मंदिरों में से एक हैं। यह वाराणसी, उत्तर प्रदेश, भारत में स्थित है। यह बनारस हिंदू विश्वविद्यालय कॆ नजदीक दुर्गा मंदिर और नयॆ विश्वनाथ मंदिर के रास्ते में स्थित हैं।",
                         "position": 1
                     },
                     {
-                        "title": "District Varanasi, Government of Uttar Pradesh | Varanasi the city ...",
-                        "link": "https://varanasi.nic.in/",
-                        "snippet": "Varanasi, or Benaras, (also known as Kashi) is one of the oldest living cities in the world. Varanasi`s Prominence in Hindu mythology is virtually unrevealed.",
+                        "title": "Sankat Mochan Hanuman Temple",
+                        "link": "https://sankatmochanmandirvaranasi.com/",
+                        "snippet": "Sankat Mochan Hanuman Mandir is located on the tranquil banks of the Assi River in Varanasi. This famous temple of India is a symbol of faith and devotion.",
                         "sitelinks": [
                             {
-                                "title": "History",
-                                "link": "https://varanasi.nic.in/history/"
+                                "title": "Visitor information",
+                                "link": "https://sankatmochanmandirvaranasi.com/visitor-information/"
                             },
                             {
-                                "title": "Tourist Places",
-                                "link": "https://varanasi.nic.in/tourist-places/"
+                                "title": "Contact Us",
+                                "link": "https://sankatmochanmandirvaranasi.com/contact-us/"
                             },
                             {
-                                "title": "Tourism",
-                                "link": "https://varanasi.nic.in/tourism/"
+                                "title": "About",
+                                "link": "https://sankatmochanmandirvaranasi.com/about-us/"
                             },
                             {
-                                "title": "Nagar Nigam Varanasi",
-                                "link": "https://varanasi.nic.in/service/nagar-nigam-varanasi/"
+                                "title": "Events",
+                                "link": "https://sankatmochanmandirvaranasi.com/event/"
                             }
                         ],
                         "position": 2
                     },
                     {
-                        "title": "Places to Visit In Varanasi - Incredible India",
-                        "link": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi",
-                        "snippet": "Explore the beauty of Varanasi, India's spiritual capital. Discover why Varanasi is one of India's most popular tourist destinations.",
+                        "title": "बजरंगबली ने गोस्‍वामी तुलसीदास को दिए थे दर्शन, मिट्टी का स्वरूप धारण ...",
+                        "link": "https://www.jagran.com/uttar-pradesh/varanasi-city-sankatmochan-temple-of-varanasi-bajrangbali-had-given-darshan-to-goswami-tulsidas-took-form-of-clay-and-was-established-jagran-special-22629444.html",
+                        "snippet": "देश के ऐतिहासिक मंदिरों में शामिल काशी के संकट मोचन मंदिर का इतिहास करीब 400 साल पुराना है। इसी मंदिर में हनुमान ने राम भक्त गोस्वामी तुलसीदास को दर्शन दिए थे, जिसके बाद बजरंगबली मिट्टी का स्वरूप धारण कर यहीं ...",
+                        "date": "15 Apr 2022",
                         "position": 3
                     },
                     {
-                        "title": "History | District Varanasi, Government of Uttar Pradesh | India",
-                        "link": "https://varanasi.nic.in/history/",
-                        "snippet": "Varanasi, or Benaras, (also known as Kashi) is one of the oldest living cities in the world. Varanasi`s Prominence in Hindu mythology is virtually ...",
+                        "title": "यहां हनुमान ने तुलसीदास को दिए थे दर्शन, मिली थी रामचरितमानस लिखने की ...",
+                        "link": "https://www.bhaskar.com/news/UP-VAR-hanuman-appeared-in-sankat-mochan-temple-in-varanasi-4953755-PHO.html",
+                        "snippet": "बताया जाता है कि संवत 1631 और 1680 के बीच इस मंदिर को बनवाया गया। इसकी स्थापना तुलसीदास ने कराई थी। मान्यता है कि जब वे काशी में रह कर रामचरितमानस लिख रहे थे, तब उनके प्रेरणा स्त्रोत संकट मोचन हनुमान थे।",
+                        "rating": 4.1,
+                        "ratingCount": 587000,
                         "position": 4
                     },
                     {
-                        "title": "Varanasi | History, Map, Population, River, Pilgrimage, & Facts",
-                        "link": "https://www.britannica.com/place/Varanasi",
-                        "snippet": "Varanasi is one of the oldest continuously inhabited cities in the world. It was one of the first major urban settlements in the middle Ganges valley.",
+                        "title": "Sankat Mochan Hanuman Temple - Wikipedia",
+                        "link": "https://en.wikipedia.org/wiki/Sankat_Mochan_Hanuman_Temple",
+                        "snippet": "Sankat Mochan Hanuman Temple is a Hindu temple in Varanasi, Uttar Pradesh, India and is dedicated to the Hindu God Hanuman, in his form as \"Sankat Mochan,\" ...",
                         "position": 5
                     },
                     {
-                        "title": "IITBHU - Indian Institute of Technology (BHU) Varanasi | Indian ...",
-                        "link": "https://iitbhu.ac.in/",
-                        "snippet": "Welcome to the Indian Institute of Technology (BHU) Varanasi. This website can be viewed best in updated browsers of Chrome, Edge, Firefox and Safari.",
+                        "title": "Shree Sankat Mochan Hanuman Temple Varanasi. - Facebook",
+                        "link": "https://www.facebook.com/shreesankatmochanhanumantemplevaranasi/?locale=hi_IN",
+                        "snippet": "श्री संकटमोचन हनुमान मन्दिर के समीप ही भगवान श्रीनृसिंह का मन्दिर भी स्थापित है। ऐसी मान्यता है कि हनुमानजी की यह मूर्ति गोस्वामी तुलसीदासजी के तप एवं पुण्य से प्रकट हुई स्वयंभू मूर्ति है। इस मूर्ति में हनुमानजी दाएं हाथ में भक्तों को ...",
+                        "rating": 4.5,
+                        "ratingCount": 57,
                         "position": 6
                     },
                     {
-                        "title": "The VARANASI That Even Locals Don't Know! - YouTube",
-                        "link": "https://www.youtube.com/watch?v=6ReU0bgQa40",
-                        "snippet": "On my second trip to Varanasi within a year, I joined my friend and guide Nandan to see a side of the city that tourists don't go, ...",
-                        "date": "6 days ago",
+                        "title": "जय श्री राम - संकट मोचन हनुमान और तुलसी मानस मंदिर - धार्मिक तीर्थ ...",
+                        "link": "https://www.youtube.com/watch?v=xHTWCr1BvKU",
+                        "snippet": "जय श्री राम - संकट मोचन हनुमान और तुलसी मानस मंदिर - धार्मिक तीर्थ यात्रा | वाराणसी, उत्तर प्रदेश · Comments.",
+                        "date": "3 May 2021",
                         "position": 7
                     },
                     {
-                        "title": "Home - Banaras Hindu University, Varanasi, India.",
-                        "link": "https://www.bhu.ac.in/",
-                        "snippet": "Banaras Hindu University is an internationally reputed temple of learning, situated in the holy city of Varanasi. This creative and innovative university was ...",
-                        "sitelinks": [
-                            {
-                                "title": "Admission & Counselling",
-                                "link": "https://www.bhu.ac.in/Site/AdmissionCounselling/1_2_16_Main-Site"
-                            },
-                            {
-                                "title": "Recruitment and Assessment...",
-                                "link": "https://www.bhu.ac.in/Site/UnitHomeTemplate/1_3355_6217_Main-Site-Recruitment-and-Assessment-Cell"
-                            },
-                            {
-                                "title": "Departments",
-                                "link": "https://www.bhu.ac.in/Site/Page/1_2_17_3746_Main-Site-Departments"
-                            },
-                            {
-                                "title": "Login",
-                                "link": "https://www.bhu.ac.in/Login/Login"
-                            }
-                        ],
+                        "title": "संकट मोचन मंदिर, वाराणसी - आदि काशी",
+                        "link": "https://aadikashi.com/sankat-mochan-mandir-varanasi/",
+                        "snippet": "यह मंदिर उत्तर प्रदेश के वाराणसी जिले में स्थित है। वाराणसी में स्थित भगवान हनुमान जी का यह मंदिर लगभग 35,000 वर्ग मीटर में फैला हुआ है। हनुमान जी के इस मंदिर को इस प्रकार से बनाया गया है ...",
+                        "date": "1 Feb 2025",
                         "position": 8
+                    },
+                    {
+                        "title": "Contact Us - Sankat Mochan Hanuman Temple",
+                        "link": "https://sankatmochanmandirvaranasi.com/contact-us/",
+                        "snippet": "B 2/15, Tulsi Ghat, Bhadaini, Varanasi 221005. Support Our Mission. Sankat Mochan Mandir is an ancient temple and abode of deity Lord Hanuman Ji. The temple ...",
+                        "position": 9
+                    },
+                    {
+                        "title": "संकट मोचन मंदिर की कहानी, जहां तुलसीदासजी को हनुमान जी ने दिए थे दर्शन ...",
+                        "link": "https://www.patrika.com/temples/sankat-mochan-hanuman-mandir-varanasi-important-fact-sankat-mochan-temple-ki-kahani-where-hanuman-ji-gave-darshan-to-tulsidasji-know-significance-related-to-it-18692704",
+                        "snippet": "इस मंदिर को 16वीं सदी में संत तुलसीदास ने बनवाया था। मान्यता है कि यहीं संत तुलसीदास ने रामचरितमानस और हनुमान चालीसा की रचना की थी और तब हनुमानजी ने उन्हें इसी जगह पर दर्शन दिए थे।",
+                        "date": "14 May 2024",
+                        "position": 10
                     }
                 ],
-                "images": [
+                "peopleAlsoAsk": [
                     {
-                        "title": "Places to Visit In Varanasi | Incredible India",
-                        "imageUrl": "https://s7ap1.scene7.com/is/image/incredibleindia/manikarnika-ghat-city-hero?qlt=82&ts=1727959374496",
-                        "link": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi"
+                        "question": "संकट मोचन मंदिर क्यों प्रसिद्ध है?",
+                        "snippet": "वाराणसी. देश के ऐतिहासिक मंदिरों में शामिल काशी के संकट मोचन मंदिर का इतिहास करीब 400 साल पुराना है। इसी मंदिर में हनुमान ने राम भक्त गोस्वामी तुलसीदास को दर्शन दिए थे, जिसके बाद बजरंगबली मिट्टी का स्वरूप धारण कर यहीं स्थापित हो गए। बताया जाता है कि संवत 1631 और 1680 के बीच इस मंदिर को बनवाया गया।",
+                        "title": "यहां हनुमान ने तुलसीदास को दिए थे दर्शन, मिली थी रामचरितमानस लिखने की ...",
+                        "link": "https://www.bhaskar.com/news/UP-VAR-hanuman-appeared-in-sankat-mochan-temple-in-varanasi-4953755-PHO.html"
                     },
                     {
-                        "title": "Places to Visit In Varanasi | Incredible India",
-                        "imageUrl": "https://s7ap1.scene7.com/is/image/incredibleindia/dashashwamedh-ghat-varanasi-uttar-pradesh-city-hero?qlt=82&ts=1726649273578",
-                        "link": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi"
+                        "question": "संकट मोचन मंदिर कितने बजे बंद होता है?",
+                        "snippet": "संकट मोचन मंदिर, वाराणसी का प्रवेश शुल्क और समय\\n\\n मंदिर प्रतिदिन सुबह 5:00 बजे से रात 10:00 बजे तक खुला रहता है।",
+                        "title": "संकट मोचन मंदिर वाराणसी (समय, इतिहास, प्रवेश शुल्क, चित्र, आरती ...",
+                        "link": "https://translate.google.com/translate?u=https://varanasi.tourismindia.co.in/sankat-mochan-temple-varanasi&hl=hi&sl=en&tl=hi&client=rq&prev=search"
                     },
                     {
-                        "title": "Varanasi Tourism: All You Need to Know Before You Go (2025)",
-                        "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/be/17/41/caption.jpg?w=1400&h=1400&s=1",
-                        "link": "https://www.tripadvisor.in/Tourism-g297685-Varanasi_Varanasi_District_Uttar_Pradesh-Vacations.html"
+                        "question": "संकट मोचन मंदिर कितना पुराना है?",
+                        "snippet": "संकट मोचन संस्था\\n\\n संकट मोचन फाउंडेशन की स्थापना मंदिर के महंत श्री वीर भद्र मिश्र द्वारा १९८२ में हुई थी।",
+                        "title": "संकट मोचन हनुमान मंदिर - विकिपीडिया",
+                        "link": "https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%95%E0%A4%9F_%E0%A4%AE%E0%A5%8B%E0%A4%9A%E0%A4%A8_%E0%A4%B9%E0%A4%A8%E0%A5%81%E0%A4%AE%E0%A4%BE%E0%A4%A8_%E0%A4%AE%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0"
                     },
                     {
-                        "title": "Varanasi - Wikipedia",
-                        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg",
-                        "link": "https://hif.wikipedia.org/wiki/Varanasi"
-                    },
-                    {
-                        "title": "Varanasi | History, Map, Population, River, Pilgrimage, & Facts ...",
-                        "imageUrl": "https://cdn.britannica.com/13/189813-050-BF6163E7/Manikarnika-Ghat-cremation-site-Hindu-Ganges-River.jpg",
-                        "link": "https://www.britannica.com/place/Varanasi"
-                    },
-                    {
-                        "title": "84 Ghats of Varanasi - Kashi Yatra",
-                        "imageUrl": "https://kashiyatra.in/wp-content/uploads/2023/04/ghats-of-varanasi.jpg",
-                        "link": "https://kashiyatra.in/84-ghats-of-varanasi/"
-                    },
-                    {
-                        "title": "20 Things To Do In Varanasi For A Calm And Cool Vacay in 2024",
-                        "imageUrl": "https://www.captureatrip.com/_next/image?url=https%3A%2F%2Fcaptureatrip-cms-storage.s3.ap-south-1.amazonaws.com%2FThings_to_Do_in_Varanasi2_7bbab177de.jpg&w=3840&q=50",
-                        "link": "https://www.captureatrip.com/blog/things-to-do-in-varanasi"
-                    },
-                    {
-                        "title": "Varanasi Photography Tour Packages | Toehold Travel",
-                        "imageUrl": "https://d22eux7aqicogj.cloudfront.net/assets/destination-hero-image/varanasi.webp",
-                        "link": "https://www.toehold.in/destination/varanasi-photo-tours"
-                    },
-                    {
-                        "title": "Why visit Varanasi | FAQ | River Ganges | andBeyond",
-                        "imageUrl": "https://www.andbeyond.com/wp-content/uploads/sites/5/iStock_000058485880_XXXLarge.jpg",
-                        "link": "https://www.andbeyond.com/advice/asia/india/north-india/varanasi/why-visit-varanasi/"
+                        "question": "भारत में नंबर 1 हनुमान मंदिर कौन सा है?",
+                        "snippet": "1. सालासर हनुमान मंदिर, (राजस्थान) Salasar Hanuman Temple, (Rajasthan) राजस्थान के चूरू जिले में स्थित सालासर हनुमान मंदिर (Salasar Hanuman Mandir) श्रद्धालुओं के बीच गहरी आस्था का केंद्र है। यह मंदिर सालासर गांव में होने के कारण 'सालासर बालाजी' के नाम से प्रसिद्ध है।",
+                        "title": "हनुमान धारा से भेट-द्वारका तक, ये हैं भारत के सबसे अनोखे और प्रसिद्ध मंदिर।",
+                        "link": "https://janbhakti.com/hindu-temples/top-5-hanuman-temples-in-india/"
                     }
                 ],
                 "relatedSearches": [
                     {
-                        "query": "Jaunpur"
+                        "query": "Sankat Mochan Hanuman temple Varanasi timings"
                     },
                     {
-                        "query": "What is special about Varanasi"
+                        "query": "Sankat Mochan Temple Varanasi distance"
                     },
                     {
-                        "query": "Varanasi restaurant"
+                        "query": "संकट मोचन मंदिर वाराणसी दर्शन समय"
                     },
                     {
-                        "query": "Varanasi which state"
+                        "query": "Sankat Mochan Hanuman Temple Varanasi images"
                     },
                     {
-                        "query": "Varanasi map"
+                        "query": "Sankat Mochan Temple History"
                     },
                     {
-                        "query": "Varanasi is known as city of"
+                        "query": "Kashi Vishwanath Temple to Sankat Mochan Temple Varanasi"
                     },
                     {
-                        "query": "What is the old name of Varanasi"
+                        "query": "Sankat Mochan Hanuman temple location"
                     },
                     {
-                        "query": "Varanasi history"
-                    },
-                    {
-                        "query": "Varanasi Tourism"
+                        "query": "संकट मोचन मंदिर वाराणसी फोटो"
                     }
                 ],
                 "credits": 1
