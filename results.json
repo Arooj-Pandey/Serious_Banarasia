@@ -44,24 +44,6 @@
                         "title": "District Varanasi, Government of Uttar Pradesh | Varanasi the city ...",
                         "link": "https://varanasi.nic.in/",
                         "snippet": "Varanasi, or Benaras, (also known as Kashi) is one of the oldest living cities in the world. Varanasi`s Prominence in Hindu mythology is virtually unrevealed.",
-                        "sitelinks": [
-                            {
-                                "title": "History",
-                                "link": "https://varanasi.nic.in/history/"
-                            },
-                            {
-                                "title": "Tourist Places",
-                                "link": "https://varanasi.nic.in/tourist-places/"
-                            },
-                            {
-                                "title": "Tourism",
-                                "link": "https://varanasi.nic.in/tourism/"
-                            },
-                            {
-                                "title": "Nagar Nigam Varanasi",
-                                "link": "https://varanasi.nic.in/service/nagar-nigam-varanasi/"
-                            }
-                        ],
                         "position": 2
                     },
                     {
@@ -71,46 +53,50 @@
                         "position": 3
                     },
                     {
-                        "title": "Varanasi | History, Map, Population, River, Pilgrimage, & Facts",
-                        "link": "https://www.britannica.com/place/Varanasi",
-                        "snippet": "Varanasi is one of the oldest continuously inhabited cities in the world. It was one of the first major urban settlements in the middle Ganges valley.",
-                        "position": 4
-                    },
-                    {
-                        "title": "The VARANASI That Even Locals Don't Know! - YouTube",
-                        "link": "https://www.youtube.com/watch?v=6ReU0bgQa40",
-                        "snippet": "On my second trip to Varanasi within a year, I joined my friend and guide Nandan to see a side of the city that tourists don't go, ...",
-                        "date": "5 days ago",
-                        "position": 5
-                    },
-                    {
                         "title": "History | District Varanasi, Government of Uttar Pradesh | India",
                         "link": "https://varanasi.nic.in/history/",
                         "snippet": "Varanasi, or Benaras, (also known as Kashi) is one of the oldest living cities in the world. Varanasi`s Prominence in Hindu mythology is virtually ...",
-                        "position": 6
+                        "position": 4
+                    },
+                    {
+                        "title": "Varanasi | History, Map, Population, River, Pilgrimage, & Facts",
+                        "link": "https://www.britannica.com/place/Varanasi",
+                        "snippet": "Varanasi is one of the oldest continuously inhabited cities in the world. It was one of the first major urban settlements in the middle Ganges valley.",
+                        "position": 5
                     },
                     {
                         "title": "IITBHU - Indian Institute of Technology (BHU) Varanasi | Indian ...",
                         "link": "https://iitbhu.ac.in/",
                         "snippet": "Welcome to the Indian Institute of Technology (BHU) Varanasi. This website can be viewed best in updated browsers of Chrome, Edge, Firefox and Safari.",
+                        "position": 6
+                    },
+                    {
+                        "title": "The VARANASI That Even Locals Don't Know! - YouTube",
+                        "link": "https://www.youtube.com/watch?v=6ReU0bgQa40",
+                        "snippet": "On my second trip to Varanasi within a year, I joined my friend and guide Nandan to see a side of the city that tourists don't go, ...",
+                        "date": "6 days ago",
                         "position": 7
                     },
                     {
-                        "title": "Varanasi travel - Lonely Planet | Uttar Pradesh, India, Asia",
-                        "link": "https://www.lonelyplanet.com/india/uttar-pradesh/varanasi",
-                        "snippet": "Varanasi is the India of your imagination. This is one of the world's oldest continually inhabited cities, and one of the holiest in Hinduism.",
+                        "title": "Home - Banaras Hindu University, Varanasi, India.",
+                        "link": "https://www.bhu.ac.in/",
+                        "snippet": "Banaras Hindu University is an internationally reputed temple of learning, situated in the holy city of Varanasi. This creative and innovative university was ...",
                         "sitelinks": [
                             {
-                                "title": "A first-time guide to Varanasi...",
-                                "link": "https://www.lonelyplanet.com/articles/guide-to-varanasi"
+                                "title": "Admission & Counselling",
+                                "link": "https://www.bhu.ac.in/Site/AdmissionCounselling/1_2_16_Main-Site"
                             },
                             {
-                                "title": "Ramnagar Fort & Museum",
-                                "link": "https://www.lonelyplanet.com/india/uttar-pradesh/varanasi/attractions/ramnagar-fort-museum/a/poi-sig/449253/356519"
+                                "title": "Recruitment and Assessment...",
+                                "link": "https://www.bhu.ac.in/Site/UnitHomeTemplate/1_3355_6217_Main-Site-Recruitment-and-Assessment-Cell"
                             },
                             {
-                                "title": "Manikarnika Ghat",
-                                "link": "https://www.lonelyplanet.com/india/uttar-pradesh/varanasi/attractions/manikarnika-ghat/a/poi-sig/1321849/356519"
+                                "title": "Departments",
+                                "link": "https://www.bhu.ac.in/Site/Page/1_2_17_3746_Main-Site-Departments"
+                            },
+                            {
+                                "title": "Login",
+                                "link": "https://www.bhu.ac.in/Login/Login"
                             }
                         ],
                         "position": 8
@@ -138,6 +124,11 @@
                         "link": "https://hif.wikipedia.org/wiki/Varanasi"
                     },
                     {
+                        "title": "Varanasi | History, Map, Population, River, Pilgrimage, & Facts ...",
+                        "imageUrl": "https://cdn.britannica.com/13/189813-050-BF6163E7/Manikarnika-Ghat-cremation-site-Hindu-Ganges-River.jpg",
+                        "link": "https://www.britannica.com/place/Varanasi"
+                    },
+                    {
                         "title": "84 Ghats of Varanasi - Kashi Yatra",
                         "imageUrl": "https://kashiyatra.in/wp-content/uploads/2023/04/ghats-of-varanasi.jpg",
                         "link": "https://kashiyatra.in/84-ghats-of-varanasi/"
@@ -146,11 +137,6 @@
                         "title": "20 Things To Do In Varanasi For A Calm And Cool Vacay in 2024",
                         "imageUrl": "https://www.captureatrip.com/_next/image?url=https%3A%2F%2Fcaptureatrip-cms-storage.s3.ap-south-1.amazonaws.com%2FThings_to_Do_in_Varanasi2_7bbab177de.jpg&w=3840&q=50",
                         "link": "https://www.captureatrip.com/blog/things-to-do-in-varanasi"
-                    },
-                    {
-                        "title": "Varanasi | History, Map, Population, River, Pilgrimage, & Facts ...",
-                        "imageUrl": "https://cdn.britannica.com/13/189813-050-BF6163E7/Manikarnika-Ghat-cremation-site-Hindu-Ganges-River.jpg",
-                        "link": "https://www.britannica.com/place/Varanasi"
                     },
                     {
                         "title": "Varanasi Photography Tour Packages | Toehold Travel",
@@ -189,7 +175,7 @@
                         "query": "Varanasi history"
                     },
                     {
-                        "query": "Commissioner of Varanasi"
+                        "query": "Varanasi Tourism"
                     }
                 ],
                 "credits": 1
@@ -204,10 +190,8 @@
                     "engine": "google"
                 },
                 "knowledgeGraph": {
-                    "title": "Varanasi",
-                    "type": "City in Uttar Pradesh",
-                    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmW3IjDD2d7C-UlwqeHapadRUMuBJADqA&s=0",
-                    "description": "Varanasi is a city in the northern Indian state of Uttar Pradesh dating to the 11th century B.C. Regarded as the spiritual capital of India, the city draws Hindu pilgrims who bathe in the Ganges River’s sacred waters and perform funeral rites. Along the city's winding streets are some 2,000 temples, including Kashi Vishwanath, the “Golden Temple,” dedicated to the Hindu god Shiva."
+                    "title": "Shri Kashi Vishwanath Temple",
+                    "type": "Hindu temple in Uttar Pradesh"
                 },
                 "organic": [
                     {
@@ -234,8 +218,8 @@
                                 "link": "https://shrikashivishwanath.org/online/live_darshan"
                             },
                             {
-                                "title": "Mythology",
-                                "link": "https://shrikashivishwanath.org/mythology"
+                                "title": "Guest House",
+                                "link": "https://shrikashivishwanath.org/home/guesthouse"
                             }
                         ],
                         "position": 2
@@ -244,12 +228,44 @@
                         "title": "Kashi Vishwanath Temple - Wikipedia",
                         "link": "https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple",
                         "snippet": "Kashi Vishwanath Temple is a Hindu temple dedicated to Shiva. It is located in Vishwanath Gali, in Varanasi, Uttar Pradesh, India. The temple is a Hindu ...",
+                        "sitelinks": [
+                            {
+                                "title": "Gyanvapi Mosque",
+                                "link": "https://en.wikipedia.org/wiki/Gyanvapi_Mosque"
+                            },
+                            {
+                                "title": "Naqqar khana",
+                                "link": "https://en.wikipedia.org/wiki/Naqqar_khana"
+                            },
+                            {
+                                "title": "List of Hindu temples in Varanasi",
+                                "link": "https://en.wikipedia.org/wiki/List_of_Hindu_temples_in_Varanasi"
+                            }
+                        ],
                         "position": 3
                     },
                     {
                         "title": "Book Sugam Darshan - Kashi Vishwanath",
                         "link": "https://shrikashivishwanath.org/frontend/home/poojaList",
                         "snippet": "'Laksha' in telugu means 1 lakh. This pooja is performed by 1 lakh 'belva patri' or 'Bel Patra' which has special significance for Lord Shiva worship. It can be ...",
+                        "sitelinks": [
+                            {
+                                "title": "Pooja / Darshan Details",
+                                "link": "https://shrikashivishwanath.org/frontend/home/poojadetail/U3ViQWhsYms2WUoydkx5VkhvazgxUT09"
+                            },
+                            {
+                                "title": "Mangla Aarti",
+                                "link": "https://shrikashivishwanath.org/frontend/home/poojadetail/c1M2MS9DUG1ydzZQVVFqT0w0SVNydz09"
+                            },
+                            {
+                                "title": "Book Rudrabhishek (1 Shastri)",
+                                "link": "https://shrikashivishwanath.org/frontend/home/poojadetail/RVhLZWo1Y010UHY5WFdvd1JyR0l6QT09"
+                            },
+                            {
+                                "title": "0+",
+                                "link": "https://shrikashivishwanath.org/frontend/home/poojadetail/dmVHV0dYSHlpQjVMWUJZRE9iNzFmdz09"
+                            }
+                        ],
                         "position": 4
                     },
                     {
@@ -259,18 +275,103 @@
                         "position": 5
                     },
                     {
+                        "title": "Naga Sadhus leave for Kashi Vishwanath Temple for Mahashivratri",
+                        "link": "https://www.youtube.com/watch?v=Jac-3UAex-k",
+                        "snippet": "Drone visuals capture Naga Sadhus and saints in Varanasi as they head towards Kashi Vishwanath Temple to offer prayers on the occasion of ...",
+                        "date": "3 days ago",
+                        "position": 6
+                    },
+                    {
                         "title": "I Visited The All New Kashi-Vishwanath Dham & Corridor In ...",
                         "link": "https://www.instagram.com/kamiya_jani/p/Ca84qadjc_Q/?hl=en",
                         "snippet": "The newly built Corridor unites Ganga with Kashi Vishwanath Temple directly. The Vishvanath Dham has been built in a record time of 21 months, ...",
                         "date": "10 Mar 2022",
-                        "position": 6
+                        "position": 7
                     },
                     {
-                        "title": "काशी विश्वनाथ मन्दिर वाराणसी इतिहास | Kashi Vishwanath Mandir",
-                        "link": "https://www.youtube.com/watch?v=pLS5fsvP9jM",
-                        "snippet": "he Kashi Vishwanath Temple in Varanasi is an ancient and renowned temple dedicated to Lord Shiva. In this video, discover: The rich history ...",
-                        "date": "28 Dec 2024",
-                        "position": 7
+                        "title": "Kashi Darshan | Explore the Spiritual Capital of India with Kashi ...",
+                        "link": "https://darshan.kashi.gov.in/",
+                        "snippet": "Access over 15 popular attractions, live events, and activities in Kashi and create your own personalized tour of Kashi. Discover the spiritual capital of ...",
+                        "sitelinks": [
+                            {
+                                "title": "Login",
+                                "link": "https://darshan.kashi.gov.in/login"
+                            },
+                            {
+                                "title": "How it Works",
+                                "link": "https://darshan.kashi.gov.in/how-it-works"
+                            },
+                            {
+                                "title": "Services",
+                                "link": "https://darshan.kashi.gov.in/explore-services"
+                            }
+                        ],
+                        "position": 8
+                    }
+                ],
+                "topStories": [
+                    {
+                        "title": "In Kashi, it’s picture perfect serenity again after Mahashivratri rush",
+                        "link": "https://www.hindustantimes.com/cities/others/in-kashi-it-s-picture-perfect-serenity-again-after-mahashivratri-rush-101740768705257.html",
+                        "source": "Hindustan Times",
+                        "date": "5 hours ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0HAVetubJQ_crQHqfvR1rtCH3ws1dN9m71bhJG2Q1833aC8vELfbsQw9yuw&s"
+                    },
+                    {
+                        "title": "Mahakumbh culminates in record devotee turnout in Kashi on Mahashivaratri",
+                        "link": "https://www.newindianexpress.com/nation/2025/Feb/26/mahakumbh-culminates-in-record-devotee-turnout-in-kashi-on-mahashivaratri",
+                        "source": "The New Indian Express",
+                        "date": "2 days ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwihFWEuMQK-AlIPOs25fmV52JEN6cFBWIpWQfpLuje9LKyMlSjmTiqfl7iHPe&s"
+                    },
+                    {
+                        "title": "Four Dead, 19 Injured As Varanasi-Jaipur Bus Crashes Into Truck On Agra-Lucknow Expressway",
+                        "link": "https://english.jagran.com/india/four-dead-19-injured-as-varanasijaipur-bus-crashes-into-truck-on-agralucknow-expressway-10221256",
+                        "source": "Jagran English",
+                        "date": "39 minutes ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMooQYm4Y-PiPRcoxLV6LIz1UFDZKHvG5RPL_SGkz0h4c90J-jnaviZHgXIg&s"
+                    },
+                    {
+                        "title": "Unprecedented network traffic surge seen in Varanasi and Ayodhya during Maha Kumbh 2025: Ericsson",
+                        "link": "https://www.thehindu.com/sci-tech/technology/unprecedented-network-traffic-surge-seen-in-varanasi-and-ayodhya-during-maha-kumbh-2025-ericsson/article69273384.ece",
+                        "source": "The Hindu",
+                        "date": "1 day ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-TqmPIAI9kCtTochHqhz_tF8a5yqcDFaddCp3yZlc0VHrTEwOWEnqObJTmg&s"
+                    },
+                    {
+                        "title": "Varanasi’s Clean Sweep: QR Codes, Recycled Roads, and Empowered Women",
+                        "link": "https://indianmasterminds.com/features/varanasis-clean-sweep-qr-codes-recycled-roads-and-empowered-women-108178/",
+                        "source": "Indian Masterminds",
+                        "date": "3 hours ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTze7K_VwPxjEdeVtE7mJa5pZwcB6-obpByAgaRwgePPWxRsDXShTBbrCzq_g&s"
+                    },
+                    {
+                        "title": "Fact Check:Viral Video Claiming to Show Maha Kumbh Mela is from Dev Deepawali 2024 in Varanasi",
+                        "link": "https://dfrac.org/en/2025/02/28/viral-video-claiming-to-show-maha-kumbh-is-from-dev-deepawali-2024-varanasi/",
+                        "source": "DFRAC",
+                        "date": "20 hours ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXIz1oM6yIu2s19OBXm_afOWhn6Qv_OcVKyvbAxqtWKH8MVzXKGvwSQFTgEQ&s"
+                    },
+                    {
+                        "title": "Kashi Vishwanath Dham: 45 दिन में 953 वीआईपी आए, इनमें सात सीएम, सात राज्यपाल, 190 न्यायमूर्ति भी",
+                        "link": "https://www.amarujala.com/uttar-pradesh/varanasi/kashi-vishwanath-temple-953-vips-came-in-45-days-including-cm-and-governors-and-190-judges-2025-03-01",
+                        "source": "Amar Ujala",
+                        "date": "48 minutes ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjwMGLDT9NSjfxJ0ILklO8-s8UxuN-AOeUlrr5Do2UL6yAFmPPegN69XOUZg&s"
+                    },
+                    {
+                        "title": "काशी में 150 करोड़ के रुद्राक्ष-कुबेर बिके: 30 करोड़ के चंदन के टीके लगे, महाकुंभ के 45 दिन में कई रिकॉर्ड बने",
+                        "link": "https://www.bhaskar.com/local/uttar-pradesh/varanasi/news/varanasi-kashi-vishwanath-dham-record-mahakumbh-rudraksha-hotel-boat-booking-134555459.html",
+                        "source": "Dainik Bhaskar",
+                        "date": "1 day ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsepg-SFiQfvof16PS1Ohpe_cdhEJ0_VWML3SpO392quJlCd0nJvNQTT9Cdg&s"
+                    },
+                    {
+                        "title": "Maha Kumbh ends today, Varanasi gears up for surge in pilgrims from Prayagraj",
+                        "link": "https://indianexpress.com/article/india/maha-kumbh-ends-today-varanasi-gears-up-for-surge-in-pilgrims-from-prayagraj-9856569/",
+                        "source": "The Indian Express",
+                        "date": "3 days ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtac-Yiyt_6vd3Ce4VVgOrvLATYCgJKu7jXh52NEL_aiPJMPeVr3gLUZEF8g&s"
                     }
                 ],
                 "images": [
@@ -295,9 +396,19 @@
                         "link": "https://dhramshala.in/unheard-facts-about-saints-from-kashi/"
                     },
                     {
-                        "title": "Varanasi Tour Plan | Varanasi Tour Guide - Kashi Yatra",
-                        "imageUrl": "https://kashiyatra.in/wp-content/uploads/2023/09/varanasi-tour-plan-by-kashiyatra.webp",
-                        "link": "https://kashiyatra.in/varanasi-tour-plan-varanasi-tour-guide/"
+                        "title": "KASHI: THE ABODE OF SHIVA | Rupa Publications",
+                        "imageUrl": "https://rupapublications.co.in/wp-content/uploads/2024/02/Kashi-Front-scaled.jpg",
+                        "link": "https://rupapublications.co.in/books/kashi-the-abode-of-shiva/"
+                    },
+                    {
+                        "title": "Kashi Ayodhya Tour Package",
+                        "imageUrl": "https://kashiyatra.in/wp-content/uploads/2024/01/kashi-varanasi-ayodhya-tour-package.jpg",
+                        "link": "https://kashiyatra.in/kashi-ayodhya-tour-package/"
+                    },
+                    {
+                        "title": "Varanasi/Kashi - Madhu Tourism – Your Trusted Travel Partner for ...",
+                        "imageUrl": "https://madhutourism.com/wp-content/uploads/2022/01/kashi.jpg",
+                        "link": "https://madhutourism.com/destination/varanasi-kashi/"
                     },
                     {
                         "title": "I Visited The All New Kashi-Vishwanath Dham & Corridor In Varanasi ...",
@@ -305,19 +416,9 @@
                         "link": "https://www.instagram.com/kamiya_jani/p/Ca84qadjc_Q/"
                     },
                     {
-                        "title": "KASHI: THE ABODE OF SHIVA | Rupa Publications",
-                        "imageUrl": "https://rupapublications.co.in/wp-content/uploads/2024/02/Kashi-Front-scaled.jpg",
-                        "link": "https://rupapublications.co.in/books/kashi-the-abode-of-shiva/"
-                    },
-                    {
                         "title": "Kashi | Varanasi | Banaras - 3 names - One Special Spiritual Hub ...",
                         "imageUrl": "https://media.prayagpandits.com/media/2022/01/08165919/Untitled-design.webp",
                         "link": "https://prayagpandits.com/kashi-varanasi-banaras/"
-                    },
-                    {
-                        "title": "About Kashi Vishwanath Temple | Max Holidays",
-                        "imageUrl": "https://www.kailash-yatra.org/images/kashi-ghat.jpg",
-                        "link": "https://www.kailash-yatra.org/kashi-vishwanath-temple.html"
                     }
                 ],
                 "relatedSearches": [
@@ -337,10 +438,10 @@
                         "query": "Kashi Vishwanath Temple Varanasi timings"
                     },
                     {
-                        "query": "Where is Kashi in which state"
+                        "query": "Kashi Vishwanath Temple photos"
                     },
                     {
-                        "query": "Kashi Vishwanath Temple photos"
+                        "query": "Where is Kashi in which state"
                     },
                     {
                         "query": "Kashi Vishwanath Temple Jyotirlinga"
@@ -410,17 +511,17 @@
                         "position": 4
                     },
                     {
-                        "title": "Buy Benares - The Sacred Landscape of Varanasi - Amazon.in",
+                        "title": "Benares: The Sacred Landscape of Varanasi - Amazon.in",
                         "link": "https://www.amazon.in/Benares-Landscape-Varanasi-Niels-Gutschow/dp/393668104X",
-                        "snippet": "Amazon.in - Buy Benares: The Sacred Landscape of Varanasi book online at best prices in India on Amazon.in. Read Benares: The Sacred Landscape of Varanasi ...",
+                        "snippet": "A particularly scholarly vision of Varanasi's temples and spiritual life. With abundant photographs from the temple's interiors. The book includes a ...",
                         "rating": 3.1,
                         "ratingCount": 3,
                         "position": 5
                     },
                     {
-                        "title": "BENARES Definition & Meaning - Dictionary.com",
-                        "link": "https://www.dictionary.com/browse/benares",
-                        "snippet": "Benares definition: . See examples of BENARES used in a sentence.",
+                        "title": "BENARES (@benaresofficial) • Instagram photos and videos",
+                        "link": "https://www.instagram.com/benaresofficial/?hl=en",
+                        "snippet": "Indian Restaurant. Mayfair. 1 Michelin Star. Executive Chef @chefsameertaneja. Private Dining Rooms. 12a Berkeley Square, London, United Kingdom W1J 6BS",
                         "position": 6
                     },
                     {
@@ -479,27 +580,30 @@
                 ],
                 "peopleAlsoAsk": [
                     {
-                        "question": "What is Benares called now?",
-                        "snippet": "Varanasi, or Benaras, (also known as Kashi) is one of the oldest living cities in the world. Varanasi`s Prominence in Hindu mythology is virtually unrevealed.",
-                        "title": "History | District Varanasi, Government of Uttar Pradesh | India",
-                        "link": "https://varanasi.nic.in/history/"
+                        "question": "Why is Varanasi called Benares?",
+                        "snippet": "In Pali, the name of the city of Varanasi was spelled Baranasi, which eventually led to the creation of the name Banaras. Some people believe that the name Benares derives from the name of one of the city's kings, who was known as King Banara.",
+                        "title": "Why Kashi is called Banaras - Varanasi",
+                        "link": "https://www.varanasi.org.in/why-kashi-is-called-banaras"
+                    },
+                    {
+                        "question": "Is Benares a holy city?",
+                        "snippet": "Varanasi is known for hosting thousands of Hindus daily searching for spiritual atonement and cleansing. The city, known as Benares until the 18th century, is an important Hindu pilgrimage site, and its temples are regarded as some of the holiest in the world.",
+                        "title": "The Holy City of Varanasi - Unacademy",
+                        "link": "https://unacademy.com/content/railway-exam/study-material/geography/the-holy-city-of-varanasi/"
                     },
                     {
                         "question": "Does Benares have a Michelin star?",
                         "snippet": "“Michelin-starred Benares showcases refined dishes using high quality British ingredients enlivened with authentic Indian spices and techniques.”",
                         "title": "Benares Restaurant – – Indian Restaurant in Mayfair, London",
                         "link": "https://benaresrestaurant.com/"
-                    },
-                    {
-                        "question": "What is the meaning of Benares?",
-                        "snippet": "noun. the former name of Varanasi.",
-                        "title": "BENARES Definition & Meaning - Dictionary.com",
-                        "link": "https://www.dictionary.com/browse/benares"
                     }
                 ],
                 "relatedSearches": [
                     {
                         "query": "Haridwar"
+                    },
+                    {
+                        "query": "Benares meaning"
                     },
                     {
                         "query": "Benares Honkai"
@@ -508,193 +612,19 @@
                         "query": "Benares pronunciation"
                     },
                     {
-                        "query": "Benares meaning"
-                    },
-                    {
                         "query": "Where is Banaras located"
                     },
                     {
                         "query": "What is special about Varanasi"
                     },
                     {
+                        "query": "Banaras in which state"
+                    },
+                    {
                         "query": "Benares brass"
                     },
                     {
                         "query": "Varanasi is known as city of"
-                    },
-                    {
-                        "query": "Banaras in which state"
-                    }
-                ],
-                "credits": 1
-            }
-        },
-        {
-            "history": {
-                "searchParameters": {
-                    "q": "history",
-                    "gl": "in",
-                    "type": "search",
-                    "engine": "google"
-                },
-                "organic": [
-                    {
-                        "title": "Welcome to My Activity",
-                        "link": "https://myactivity.google.com/",
-                        "snippet": "Welcome to My Activity. Data helps make Google services more useful for you. Sign in to review and manage your activity, including things you've searched ...",
-                        "sitelinks": [
-                            {
-                                "title": "Sign in",
-                                "link": "https://myactivity.google.com/lite"
-                            },
-                            {
-                                "title": "Your browser version isn't ...",
-                                "link": "https://myactivity.google.com/browser-not-supported/"
-                            }
-                        ],
-                        "position": 1
-                    },
-                    {
-                        "title": "History - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/History",
-                        "snippet": "History is the systematic study of the past. As an academic discipline, it analyzes and interprets evidence to construct narratives about what happened and ...",
-                        "position": 2
-                    },
-                    {
-                        "title": "HISTORY | Watch Full Episodes of Your Favorite Shows",
-                        "link": "https://www.history.com/",
-                        "snippet": "Watch full episodes of your favorite HISTORY series, and dive into thousands of historical articles and videos. To know History is to know life.",
-                        "position": 3
-                    },
-                    {
-                        "title": "HISTORY (@history) • Instagram photos and videos",
-                        "link": "https://www.instagram.com/history/?hl=en",
-                        "snippet": "From standing atop ancient ruins to analyzing artifacts, experience history in a way you never have before. Because history isn't just told—it's experienced.",
-                        "position": 4
-                    },
-                    {
-                        "title": "HISTORY - YouTube",
-                        "link": "https://www.youtube.com/HISTORY",
-                        "snippet": "The HISTORY® Channel, a division of A+E Networks, is the premier destination for historical storytelling. From best-in-class documentary events, to a ...",
-                        "position": 5
-                    },
-                    {
-                        "title": "HISTORY Definition & Meaning - Merriam-Webster",
-                        "link": "https://www.merriam-webster.com/dictionary/history",
-                        "snippet": "1. tale, story 2. a : a chronological record of significant events (such as those affecting a nation or institution) often including an explanation of their ...",
-                        "date": "20 Feb 2025",
-                        "position": 6
-                    },
-                    {
-                        "title": "History | Definition & Discipline | Britannica",
-                        "link": "https://www.britannica.com/topic/history",
-                        "snippet": "History, as a discipline, is traditionally centred on peoples, cultures, countries, and regions, but everything has a history that can be described and studied.",
-                        "position": 7
-                    },
-                    {
-                        "title": "HISTORY | English meaning - Cambridge Dictionary",
-                        "link": "https://dictionary.cambridge.org/dictionary/english/history",
-                        "snippet": "the study of or a record of past events considered together, especially events of a particular period, country, or subject.",
-                        "position": 8
-                    }
-                ],
-                "images": [
-                    {
-                        "title": "084 How Historians Read Historical Sources (Doing History) - YouTube",
-                        "imageUrl": "https://i.ytimg.com/vi/iiL452jJaPQ/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAAlAADIQj0AgKJD8AEB-AG2CIACuAiKAgwIABABGH8gUiggMA8=&rs=AOn4CLDZPIQo7Ab8fwnueXX1roI9AiHygA",
-                        "link": "https://www.youtube.com/watch?v=iiL452jJaPQ"
-                    },
-                    {
-                        "title": "Watch HISTORY Full Episodes & Videos Online | HISTORY Channel",
-                        "imageUrl": "https://www.history.com/assets/images/history/generic-thumb.jpg",
-                        "link": "https://www.history.com/videos"
-                    },
-                    {
-                        "title": "Epic History - YouTube",
-                        "imageUrl": "https://yt3.googleusercontent.com/pA3MMarJwnoFENoW2WvazT1_rcegyUOlee8y2ciwjArN1tXqAQyVESaXZ9HHD-qIzQV2mhhG=s900-c-k-c0x00ffffff-no-rj",
-                        "link": "https://www.youtube.com/@EpichistoryTv"
-                    },
-                    {
-                        "title": "HISTORY | Watch Full Episodes of Your Favorite Shows",
-                        "imageUrl": "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2021/02/svod-key-art-brand-websites-hv16x9-v1.jpg",
-                        "link": "https://www.history.com/"
-                    },
-                    {
-                        "title": "History | Definition & Discipline | Britannica",
-                        "imageUrl": "https://cdn.britannica.com/19/153419-131-91ADC6E8/Ruins-statues-Karnak-Egypt.jpg",
-                        "link": "https://www.britannica.com/topic/history"
-                    },
-                    {
-                        "title": "Harvard University | History Department | Department of History",
-                        "imageUrl": "https://history.fas.harvard.edu/sites/g/files/omnuum4421/files/hwp_hyard/mobile_logo/test%20mobile%20HDD.png",
-                        "link": "https://history.fas.harvard.edu/"
-                    },
-                    {
-                        "title": "HISTORY - YouTube",
-                        "imageUrl": "https://yt3.googleusercontent.com/PuK25BOIG4MnfQL68iXXMaI_AbJ1vACxdE_seCkpTeD3hftaEOhdl-i0LYBBoWelxWUZNvWi=s900-c-k-c0x00ffffff-no-rj",
-                        "link": "https://www.youtube.com/channel/UC9MAhZQQd9egwWCxrwSIsJQ"
-                    },
-                    {
-                        "title": "Home - History & Policy",
-                        "imageUrl": "https://historyandpolicy.org/wp-content/uploads/2025/01/Homepage-HOC-debates-scaled.jpg",
-                        "link": "https://historyandpolicy.org/"
-                    },
-                    {
-                        "title": "Ancient history - Wikipedia",
-                        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Denis_Bourez_-_British_Museum%2C_London_%288747049029%29_%282%29.jpg",
-                        "link": "https://en.wikipedia.org/wiki/Ancient_history"
-                    }
-                ],
-                "peopleAlsoAsk": [
-                    {
-                        "question": "What is history do?",
-                        "snippet": "History is an academic discipline which uses a narrative to describe, examine, question, and analyse past events, and investigate their patterns of cause and effect. Historians debate which narrative best explains an event, as well as the significance of different causes and effects.",
-                        "title": "History - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/History"
-                    },
-                    {
-                        "question": "How can I see my history?",
-                        "snippet": "1\nOn your computer, open Chrome.\n2\nIn the address bar, enter @history .\n3\nPress tab or space. In the suggestions, you can also select Search History .\n4\nEnter keywords for the page you previously visited.\n5\nSelect the page from the list.",
-                        "title": "Check or delete your Chrome browsing history - Google Help",
-                        "link": "https://support.google.com/chrome/answer/95589?hl=en&co=GENIE.Platform%3DDesktop"
-                    },
-                    {
-                        "question": "What is history 5 points?",
-                        "snippet": "It is an Inquiry into what happened in the past, when it happened, and how it happened. It is an inquiry into the inevitable changes in human affairs in the past and the ways these changes affect, influence or determine the patterns of life in the society. History is, or should be an attempt to re-think the past.",
-                        "title": "History UNIT I Concept of History Meaning, Nature and Scope of ...",
-                        "link": "https://ddceutkal.ac.in/Syllabus/MA_Education/Education_Paper_5_history.pdf"
-                    },
-                    {
-                        "question": "Which best defines history?",
-                        "snippet": "Thus the best and most concise definition of history is: The bodies of knowledge about the past produced by historians, together with everything that is involved in the production, communication of, and teaching about that knowledge.",
-                        "title": "History in Focus: What is History? - IHR Web Archives",
-                        "link": "https://archives.history.ac.uk/history-in-focus/Whatishistory/marwick1.html"
-                    }
-                ],
-                "relatedSearches": [
-                    {
-                        "query": "My history"
-                    },
-                    {
-                        "query": "Search history"
-                    },
-                    {
-                        "query": "Delete history"
-                    },
-                    {
-                        "query": "My activity history"
-                    },
-                    {
-                        "query": "History Google"
-                    },
-                    {
-                        "query": "History subject"
-                    },
-                    {
-                        "query": "History book"
-                    },
-                    {
-                        "query": "Chrome history"
                     }
                 ],
                 "credits": 1
@@ -754,16 +684,16 @@
                         "position": 4
                     },
                     {
+                        "title": "Ganges River - Students | Britannica Kids | Homework Help",
+                        "link": "https://kids.britannica.com/students/article/Ganges-River/274488",
+                        "snippet": "The Ganges, or Ganga, is one of the world's great rivers. Its wide valley stretches across northern India and Bangladesh from the Himalayas to the Bay of Bengal ...",
+                        "position": 5
+                    },
+                    {
                         "title": "Course of Ganga - National Mission for Clean Ganga | NMCG",
                         "link": "https://nmcg.nic.in/courseofganga.aspx",
                         "snippet": "It traverses a course of 2525 km before flowing into the Bay of Bengal. It has a large number of tributaries joining it during this journey. ☆ ...",
                         "date": "4 days ago",
-                        "position": 5
-                    },
-                    {
-                        "title": "Ganges River - Students | Britannica Kids | Homework Help",
-                        "link": "https://kids.britannica.com/students/article/Ganges-River/274488",
-                        "snippet": "The Ganges, or Ganga, is one of the world's great rivers. Its wide valley stretches across northern India and Bangladesh from the Himalayas to the Bay of Bengal ...",
                         "position": 6
                     },
                     {
@@ -785,7 +715,7 @@
                         "title": "5 Youths Drown In Ganga River In Bihar, Three Bodies Recovered: Cops",
                         "link": "https://www.ndtv.com/india-news/5-youths-drown-in-ganga-river-in-bihar-three-bodies-recovered-cops-7803361",
                         "source": "NDTV",
-                        "date": "1 day ago",
+                        "date": "2 days ago",
                         "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzAJ46_X5ZCHQkG7HhYIpr_fsfBe92pQAB6nmlGBnKZH_HHFKWItrO4yoA6w&s"
                     },
                     {
@@ -813,9 +743,9 @@
                         "link": "https://www.britannica.com/place/Ganges-River"
                     },
                     {
-                        "title": "The Story and Significance of River Ganga",
-                        "imageUrl": "https://www.sodhatravel.com/hubfs/The%20Story%20and%20Significance%20of%20River%20Ganga-Sodha%20Travel.jpg",
-                        "link": "https://www.sodhatravel.com/blog/the-story-and-significance-of-river-ganga"
+                        "title": "Travel the Ganges: Five Ways to Explore India's Most Famous River",
+                        "imageUrl": "https://www.greavesindia.co.uk/wp-content/uploads/2018/01/Rishikesh-1.jpg",
+                        "link": "https://www.greavesindia.co.uk/travel-ganges-five-ways-explore-indias-famous-river/"
                     },
                     {
                         "title": "BMC Series blog Cleaning up a public health threat – the River Ganges",
@@ -823,24 +753,24 @@
                         "link": "https://blogs.biomedcentral.com/bmcseriesblog/2017/07/17/cleaning-up-a-public-health-threat-the-river-ganges/"
                     },
                     {
+                        "title": "The Story and Significance of River Ganga",
+                        "imageUrl": "https://www.sodhatravel.com/hubfs/The%20Story%20and%20Significance%20of%20River%20Ganga-Sodha%20Travel.jpg",
+                        "link": "https://www.sodhatravel.com/blog/the-story-and-significance-of-river-ganga"
+                    },
+                    {
+                        "title": "The Ganges: How India's Most Sacred River Is Under Threat From ...",
+                        "imageUrl": "https://i.ytimg.com/vi/pH0fhLBr-Mg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA3K67MRnU1AaUb1rc2zFtbYv2ncg",
+                        "link": "https://www.youtube.com/watch?v=pH0fhLBr-Mg"
+                    },
+                    {
                         "title": "10 facts about Ganges, the largest river in India | Times of India",
                         "imageUrl": "https://static.toiimg.com/thumb/111502165/111502165.jpg?height=746&width=420&resizemode=76&imgsize=96052",
                         "link": "https://timesofindia.indiatimes.com/travel/web-stories/10-facts-about-ganges-the-largest-river-in-india/photostory/111502148.cms"
                     },
                     {
-                        "title": "The Healing Power of India's Ganges River | Condé Nast Traveler",
-                        "imageUrl": "https://media.cntraveler.com/photos/598a329cdc6626401ba5cdde/master/w_1600%2Cc_limit/Ganges_Healing_GettyImages-585659517.jpg",
-                        "link": "https://www.cntraveler.com/story/the-healing-power-of-indias-ganges-river"
-                    },
-                    {
                         "title": "Why visit Varanasi | FAQ | River Ganges | andBeyond",
                         "imageUrl": "https://www.andbeyond.com/wp-content/uploads/sites/5/iStock_000058485880_XXXLarge.jpg",
                         "link": "https://www.andbeyond.com/advice/asia/india/north-india/varanasi/why-visit-varanasi/"
-                    },
-                    {
-                        "title": "Ganges - World History Encyclopedia",
-                        "imageUrl": "https://www.worldhistory.org/img/r/p/500x600/3882.jpg?v=1624562103",
-                        "link": "https://www.worldhistory.org/Ganges/"
                     }
                 ],
                 "peopleAlsoAsk": [
@@ -954,18 +884,6 @@
                         "position": 4
                     },
                     {
-                        "title": "uppolice.gov.in| Official Website of Uttar Pradesh Police",
-                        "link": "https://uppolice.gov.in/",
-                        "snippet": "This is an Official Website of Uttar Pradesh Police (UP Police) that provides online information about CCTNS services, police units, emergency services, ...",
-                        "position": 5
-                    },
-                    {
-                        "title": "Uttar Pradesh Chief Minister Office, Lucknow",
-                        "link": "https://upcmo.up.nic.in/",
-                        "snippet": "मुख्यमंत्री पीड़ित सहायता कोष में दान देने हेतु सम्बंधित खाते का विवरण ... Email:cmup@nic.in Our Location : Lok Bhawan, Lucknow, Uttar Pradesh . Disclaimer : Copyright © Chief Minister ...",
-                        "position": 6
-                    },
-                    {
                         "title": "Uttar Pradesh | History, Government, Map, & Population - Britannica",
                         "link": "https://www.britannica.com/place/Uttar-Pradesh",
                         "snippet": "Uttar Pradesh, the most populous and fourth largest state of India. It lies in the north-central part of the country. Varanasi, Uttar Pradesh, India: ...",
@@ -987,177 +905,117 @@
                                 "link": "https://www.britannica.com/place/Uttar-Pradesh/The-British-period"
                             }
                         ],
+                        "position": 5
+                    },
+                    {
+                        "title": "uppolice.gov.in| Official Website of Uttar Pradesh Police",
+                        "link": "https://uppolice.gov.in/",
+                        "snippet": "This is an Official Website of Uttar Pradesh Police (UP Police) that provides online information about CCTNS services, police units, emergency services, ...",
+                        "position": 6
+                    },
+                    {
+                        "title": "Uttar Pradesh Chief Minister Office, Lucknow",
+                        "link": "https://upcmo.up.nic.in/",
+                        "snippet": "मुख्यमंत्री पीड़ित सहायता कोष में दान देने हेतु सम्बंधित खाते का विवरण ... Email:cmup@nic.in Our Location : Lok Bhawan, Lucknow, Uttar Pradesh . Disclaimer : Copyright © Chief Minister ...",
                         "position": 7
                     },
                     {
                         "title": "Uttar Pradesh Tourism",
                         "link": "https://uptourism.gov.in/",
                         "position": 8
+                    },
+                    {
+                        "title": "उत्तर प्रदेश - विकिपीडिया",
+                        "link": "https://hi.wikipedia.org/wiki/%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%B0_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A6%E0%A5%87%E0%A4%B6",
+                        "snippet": "उत्तर प्रदेश (अंग्रेज़ी: Uttar Pradesh) भारत का सबसे बड़ा (जनसंख्या के आधार पर) राज्य और क्षेत्रफल की दृष्टि के आधार पर चौथा सबसे बड़ा राज्य है। लखनऊ प्रदेश की प्रशासनिक व विधायिक राजधानी है और प्रयागराज न्यायिक ...",
+                        "sitelinks": [
+                            {
+                                "title": "लखनऊ",
+                                "link": "https://hi.wikipedia.org/wiki/%E0%A4%B2%E0%A4%96%E0%A4%A8%E0%A4%8A"
+                            },
+                            {
+                                "title": "उत्तराखण्ड",
+                                "link": "https://hi.wikipedia.org/wiki/%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BE%E0%A4%96%E0%A4%A3%E0%A5%8D%E0%A4%A1"
+                            },
+                            {
+                                "title": "सरकार",
+                                "link": "https://hi.wikipedia.org/wiki/%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%B0_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A6%E0%A5%87%E0%A4%B6_%E0%A4%B8%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0"
+                            },
+                            {
+                                "title": "अयोध्या",
+                                "link": "https://hi.wikipedia.org/wiki/%E0%A4%85%E0%A4%AF%E0%A5%8B%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%BE"
+                            }
+                        ],
+                        "position": 9
                     }
                 ],
                 "topStories": [
                     {
-                        "title": "Ajay Rai accuses Uttar Pradesh govt of prioritising VIPs over public safety at Maha Kumbh",
-                        "link": "https://www.deccanherald.com/india/uttar-pradesh/ajay-rai-accuses-uttar-pradesh-govt-of-prioritising-vips-over-public-safety-at-maha-kumbh-3425191",
-                        "source": "Deccan Herald",
-                        "date": "1 day ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkd6EUURP5Vj7H-zrD6Yqufl5qwc-tP5_DuVd-eHyidWPpzS2m_47VuhPjsg&s"
-                    },
-                    {
-                        "title": "गांवों को मॉडल बनाने में मुरादाबाद मंडल के दो जिले टॉप-3 में",
-                        "link": "https://www.livehindustan.com/uttar-pradesh/rampur/story-bijnor-and-rampur-districts-shine-as-top-model-villages-in-uttar-pradesh-201740776261309.html",
-                        "source": "Hindustan",
-                        "date": "40 minutes ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh45te_8X-1sm8uEDLR-7mPKRKSU6tg__uDA1m1MSuBvK_AC5LqSVABtRaWw&s"
-                    },
-                    {
-                        "title": "UP News Today Live: उत्तर प्रदेश ब्रेकिंग न्यूज, पढ़ें 1 मार्च के मुख्य और ताजा समाचार",
-                        "link": "https://www.amarujala.com/live/uttar-pradesh/up-latest-and-breaking-news-today-in-hindi-live-up-ke-taaja-samachar-2025-03-01",
-                        "source": "Amar Ujala",
-                        "date": "7 minutes ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnrbZXU3fS3-jVaBhQRGKHDzqXTPAG2244dIloTvnUxvjhmtXZcaiyC38RMQ&s"
-                    },
-                    {
-                        "title": "'31 मार्च से पहले ड्रेन की सफाई करें', यूपी में बाढ़ को रोकने के लिए सीएम योगी का बड़ा कदम",
-                        "link": "https://hindi.news18.com/news/uttar-pradesh/lucknow-cm-yogi-adityanath-took-a-big-step-to-prevent-floods-in-uttar-pradesh-9067101.html",
-                        "source": "News18 Hindi",
-                        "date": "1 hour ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScV20ZVEDoYRCW9eXkXFxVlLy3lZOGktA1X25qyBagIzmaK_Qx7wMW_ERJeg&s"
-                    },
-                    {
-                        "title": "This state of India consumes maximum tea, it's not Uttar Pradesh, Bihar, Assam, Tamil Nadu, Madhya Pradesh, t",
-                        "link": "https://www.india.com/news/india/this-state-of-india-consumes-maximum-tea-its-not-uttar-pradesh-bihar-assam-tamil-nadu-madhya-pradesh-the-name-is-gujarat-7647491/",
-                        "source": "India.Com",
+                        "title": "Fire tenders to deliver Sangam water across 75 districts of Uttar Pradesh",
+                        "link": "https://www.business-standard.com/india-news/fire-tenders-to-deliver-sangam-water-across-75-districts-of-uttar-pradesh-125022801469_1.html",
+                        "source": "Business Standard",
                         "date": "2 hours ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuI64Jm_PTAS64Z3_Y55eP-qhDKfHAT8p6aOfJzo8E-_QDS0n_XGw_KDu9Iw&s"
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs0A4kYeRUoapgCyF-bvcUYlqVCBvy1F47H-Ssi5OM9XyLtV2iSHt_oAMONA&s"
                     },
                     {
-                        "title": "U.P. to send skilled labourers to Croatia, Germany and Japan too: Minister",
-                        "link": "https://www.hindustantimes.com/cities/lucknow-news/up-to-send-skilled-labourers-to-croatia-germany-and-japan-too-minister-101740766538511.html",
-                        "source": "Hindustan Times",
-                        "date": "3 hours ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoQA-gKG1lz4Ko66dslkw8BIOGMk7b1wtForoRM4DOLitjC02txdsIeKlnQQ&s"
+                        "title": "Uttar Pradesh: 'She could have called for help,' says deceased IT employee's sister",
+                        "link": "https://m.economictimes.com/news/india/uttar-pradesh-she-could-have-called-for-help-says-deceased-it-employees-sister/articleshow/118641266.cms",
+                        "source": "The Economic Times",
+                        "date": "2 hours ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1j71JRBX5EewYcnkaHaG_wV8eL6j_GreG08tY59HEqJPt3Sg6L0xYWNkrZg&s"
                     },
                     {
-                        "title": "यूपी में शराब की दुकान का लाइसेंस लेने की बढ़ी तारीख, योगी सरकार ने कमाए 1,987 करोड़ रुपये से ज्यादा",
-                        "link": "https://navbharattimes.indiatimes.com/metro/lucknow/administration/date-for-the-license-of-liquor-shops-in-up-has-been-extended/articleshow/118607421.cms",
-                        "source": "Navbharat Times",
-                        "date": "1 day ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQt6JqiZ1TM0jUSQLCq3dDloTymKYqvK24NsxMJkX8mliDHoa4JWgVhnYamA&s"
-                    },
-                    {
-                        "title": "Uttar Pradesh: IT firm employee dies by suicide in Agra, blames wife in live-streaming video",
-                        "link": "https://www.indiatvnews.com/uttar-pradesh/it-firm-employee-dies-by-suicide-in-agra-blames-wife-in-live-streaming-video-manav-sharma-ends-life-social-media-viral-footage-uttar-pradesh-police-2025-02-28-978409",
-                        "source": "India TV News",
-                        "date": "11 hours ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRxo7ZSLBt8kJYi3souPZC32jw-kRmjSZNzDWFI-8rWRwd5vYg3uY6gc-7Vw&s"
-                    },
-                    {
-                        "title": "Uttar Pradesh: School administrator wears skull cap, threatens to convert to Islam. Here is why",
-                        "link": "https://www.opindia.com/news-updates/ashok-paisal-thereatens-to-convert-to-islam-wears-skull-cap-syed-nagli-amroha-uttar-pradesh-details/",
-                        "source": "OpIndia",
-                        "date": "9 hours ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzu146KLfk5eGVaRXa_DO3Eb4Q1-LsqIoa86e_92UX8G-TDgfqtvOsjdUAxw&s"
-                    },
-                    {
-                        "title": "UP CMO Transfer: यूपी में बड़ा फेरबदल, आठ जिलों के सीएमओ बदले; देखें पूरी लिस्ट",
-                        "link": "https://www.jagran.com/uttar-pradesh/lucknow-city-major-reshuffle-in-uttar-pradesh-eight-chief-medical-officers-transferred-23892574.html",
-                        "source": "Jagran",
-                        "date": "6 hours ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXsHhwo_hvMjVzBriz9j2hZkV8HJejqQfP_cgTwA7Q9Rbh67xbeWwDxxMkKQ&s"
-                    }
-                ],
-                "images": [
-                    {
-                        "title": "Uttar Pradesh – Travel guide at Wikivoyage",
-                        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Uttar_Pradesh_in_India_%28disputed_hatched%29.svg",
-                        "link": "https://en.wikivoyage.org/wiki/Uttar_Pradesh"
-                    },
-                    {
-                        "title": "Uttar Pradesh | History, Government, Map, & Population | Britannica",
-                        "imageUrl": "https://cdn.britannica.com/45/127645-050-772CB4CB/Uttar-Pradesh-India-locator-map.jpg",
-                        "link": "https://www.britannica.com/place/Uttar-Pradesh"
-                    },
-                    {
-                        "title": "Uttar Pradesh - Wikipedia",
-                        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/IN-UP.svg/300px-IN-UP.svg.png",
-                        "link": "https://en.wikipedia.org/wiki/Uttar_Pradesh"
-                    },
-                    {
-                        "title": "Uttar Pradesh",
-                        "imageUrl": "https://s7ap1.scene7.com/is/image/incredibleindia/dashashwamedh-ghat-varanasi-uttar-pradesh-city-hero?qlt=82&ts=1726649273578",
-                        "link": "https://www.incredibleindia.gov.in/en/uttar-pradesh"
-                    },
-                    {
-                        "title": "Uttar Pradesh - Wikipedia",
-                        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Uttar_Pradesh_administrative_divisions.svg/200px-Uttar_Pradesh_administrative_divisions.svg.png",
-                        "link": "https://en.wikipedia.org/wiki/Uttar_Pradesh"
-                    },
-                    {
-                        "title": "Districts in Uttar Pradesh - OpenStreetMap Wiki",
-                        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Uttar_Pradesh_districts.png/800px-Uttar_Pradesh_districts.png",
-                        "link": "https://wiki.openstreetmap.org/wiki/Districts_in_Uttar_Pradesh"
-                    },
-                    {
-                        "title": "States Uts - Uttar Pradesh - Know India: National Portal of India",
-                        "imageUrl": "https://knowindia.india.gov.in/assets/images/img-uttar-pradesh1.jpg",
-                        "link": "https://knowindia.india.gov.in/states-uts/uttar-pradesh.php"
-                    },
-                    {
-                        "title": "Uttar Pradesh | History, Government, Map, & Population | Britannica",
-                        "imageUrl": "https://cdn.britannica.com/22/124522-050-D8C3C313/pilgrims-Varanasi-Ganges-River-India-Uttar-Pradesh.jpg",
-                        "link": "https://www.britannica.com/place/Uttar-Pradesh"
-                    },
-                    {
-                        "title": "Uttar Pradesh Location Map",
-                        "imageUrl": "https://www.mapsofindia.com/maps/uttarpradesh/uttarpradesh-location-map.jpg",
-                        "link": "https://www.mapsofindia.com/maps/uttarpradesh/uttarpradeshlocation.htm"
+                        "title": "IMD warns of hailstorm, thunderstorm in parts of Uttar Pradesh",
+                        "link": "https://ddnews.gov.in/en/imd-warns-of-hailstorm-thunderstorm-in-parts-of-uttar-pradesh/",
+                        "source": "DD News",
+                        "date": "1 hour ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdksOKy2KylLwK8BqwwGxvhkSnIQn_H_iTKAAYAR30ReFPNcne7fODRJcpog&s"
                     }
                 ],
                 "peopleAlsoAsk": [
                     {
-                        "question": "Which language will speak in Uttar Pradesh?",
-                        "snippet": "According to the Uttar Pradesh Official Language Act 1951, the official language of Uttar Pradesh is \"Hindi\". This act was amended in 1989, after which Urdu also became the official language of Uttar Pradesh. That is, there are two official languages ​​of Uttar Pradesh, Hindi, and Urdu.",
-                        "title": "[Solved] Which of the following languages is one of the two official",
-                        "link": "https://testbook.com/question-answer/which-of-the-following-languages-is-one-of-the-two--60bda94f85a5d623b53d61e8"
-                    },
-                    {
-                        "question": "What is Uttar Pradesh's old name?",
-                        "snippet": "The British combined Agra and Oudh into one province and called it United Provinces of Agra and Oudh. The name was shortened to the United Provinces in 1935. In January 1950 the United Provinces was renamed as Uttar Pradesh.",
-                        "title": "States Uts - Uttar Pradesh - Know India",
-                        "link": "https://knowindia.india.gov.in/states-uts/uttar-pradesh.php"
+                        "question": "Which is the 75 district of UP?",
+                        "snippet": "No.\nName of District\nName of Head Quarters\n72\nVaranasi (Kashi)\nVaranasi\n73\nAllahabad\nAllahabad\n74\nAmethi\nAmethi\n75\nBagpat\nBagpat",
+                        "title": "List of Districts of Uttar Pradesh - NRIOL",
+                        "link": "https://www.nriol.com/india-statistics/uttarpradesh/districts.asp"
                     },
                     {
                         "question": "What is Uttar Pradesh state or city?",
                         "snippet": "Uttar Pradesh is the most populous state in India. Uttar Pradesh occupies 6.88 per cent of the India's land surface area but is home to 16.49 per cent of the India's population. As of 2011, 64 cities in the state had a population of over 100,000 people.",
                         "title": "List of cities in Uttar Pradesh by population - Wikipedia",
                         "link": "https://en.wikipedia.org/wiki/List_of_cities_in_Uttar_Pradesh_by_population"
+                    },
+                    {
+                        "question": "What is Uttar Pradesh old name?",
+                        "snippet": "The British combined Agra and Oudh into one province and called it United Provinces of Agra and Oudh. The name was shortened to the United Provinces in 1935. In January 1950 the United Provinces was renamed as Uttar Pradesh.",
+                        "title": "States Uts - Uttar Pradesh - Know India",
+                        "link": "https://knowindia.india.gov.in/states-uts/uttar-pradesh.php"
                     }
                 ],
                 "relatedSearches": [
                     {
-                        "query": "Uttar Pradesh population"
+                        "query": "75 district name of Uttar Pradesh"
                     },
                     {
                         "query": "Uttar Pradesh Map"
                     },
                     {
-                        "query": "75 district name of Uttar Pradesh"
+                        "query": "Uttar Pradesh population"
                     },
                     {
                         "query": "Uttar Pradesh Map with District"
                     },
                     {
-                        "query": "Uttar Pradesh Public Service Commission"
-                    },
-                    {
-                        "query": "Uttar Pradesh in English"
+                        "query": "History of Uttar Pradesh"
                     },
                     {
                         "query": "Uttar Pradesh Map PDF"
                     },
                     {
                         "query": "Uttar Pradesh language"
+                    },
+                    {
+                        "query": "Uttar Pradesh population by religion"
                     }
                 ],
                 "credits": 1
@@ -1181,35 +1039,9 @@
                 },
                 "organic": [
                     {
-                        "title": "India - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/India",
-                        "snippet": "India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area; the most populous country from June 2023 ...",
-                        "date": "14 hours ago",
-                        "sitelinks": [
-                            {
-                                "title": "Names for India",
-                                "link": "https://en.wikipedia.org/wiki/Names_for_India"
-                            },
-                            {
-                                "title": "India (disambiguation)",
-                                "link": "https://en.wikipedia.org/wiki/India_(disambiguation)"
-                            },
-                            {
-                                "title": "Punjab, India",
-                                "link": "https://en.wikipedia.org/wiki/Punjab,_India"
-                            },
-                            {
-                                "title": "South India",
-                                "link": "https://en.wikipedia.org/wiki/South_India"
-                            }
-                        ],
-                        "position": 1
-                    },
-                    {
                         "title": "National Portal of India",
                         "link": "https://www.india.gov.in/",
                         "snippet": "National Portal of India provides a single-window access to information and services that are electronically delivered from all Government Departments, ...",
-                        "date": "14 hours ago",
                         "sitelinks": [
                             {
                                 "title": "India at a Glance",
@@ -1226,6 +1058,31 @@
                             {
                                 "title": "Know India",
                                 "link": "https://knowindia.india.gov.in/"
+                            }
+                        ],
+                        "position": 1
+                    },
+                    {
+                        "title": "India - Wikipedia",
+                        "link": "https://en.wikipedia.org/wiki/India",
+                        "snippet": "India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area; the most populous country from June 2023 ...",
+                        "date": "22 hours ago",
+                        "sitelinks": [
+                            {
+                                "title": "Names for India",
+                                "link": "https://en.wikipedia.org/wiki/Names_for_India"
+                            },
+                            {
+                                "title": "India (disambiguation)",
+                                "link": "https://en.wikipedia.org/wiki/India_(disambiguation)"
+                            },
+                            {
+                                "title": "Punjab, India",
+                                "link": "https://en.wikipedia.org/wiki/Punjab,_India"
+                            },
+                            {
+                                "title": "South India",
+                                "link": "https://en.wikipedia.org/wiki/South_India"
                             }
                         ],
                         "position": 2
@@ -1279,22 +1136,46 @@
                         "position": 4
                     },
                     {
-                        "title": "Integrated Government Online Directory : Home",
-                        "link": "https://igod.gov.in/",
-                        "snippet": "A one-point source to access Indian Government Websites at all levels and from all sectors.",
+                        "title": "India : Development news, research, data | World Bank",
+                        "link": "https://www.worldbank.org/en/country/india",
+                        "snippet": "With a population of more than 1.4 billion, India is the world's largest democracy. Over the past decade, the country's integration into the global economy has ...",
+                        "sitelinks": [
+                            {
+                                "title": "India",
+                                "link": "https://data.worldbank.org/country/india"
+                            },
+                            {
+                                "title": "India Development Update",
+                                "link": "https://www.worldbank.org/en/country/india/publication/development-update-domestic-reforms-encourage-investments"
+                            },
+                            {
+                                "title": "Overview",
+                                "link": "https://www.worldbank.org/en/country/india/overview"
+                            },
+                            {
+                                "title": "Celebrating 75 Years of World...",
+                                "link": "https://www.worldbank.org/en/country/india/brief/75-years-of-world-bank-in-india"
+                            }
+                        ],
                         "position": 5
-                    },
-                    {
-                        "title": "e-Visa - India Visa Online",
-                        "link": "https://indianvisaonline.gov.in/evisa/tvoa.html",
-                        "snippet": "E-VISA APPLICATION PROCESS · Apply online · Pay eVisa fee online · Receive ETA Online · Fly To India. Print ETA and present at Immigration Check Post where ...",
-                        "position": 6
                     },
                     {
                         "title": "Home | Ministry of Health and Family Welfare | GOI",
                         "link": "https://mohfw.gov.in/",
                         "snippet": "MInistry of Health and Family Welfare is a Ministry under the Government of India and is charged with formulation, implementatio.",
+                        "position": 6
+                    },
+                    {
+                        "title": "Integrated Government Online Directory : Home",
+                        "link": "https://igod.gov.in/",
+                        "snippet": "A one-point source to access Indian Government Websites at all levels and from all sectors.",
                         "position": 7
+                    },
+                    {
+                        "title": "e-Visa - India Visa Online",
+                        "link": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+                        "snippet": "E-VISA APPLICATION PROCESS · Apply online · Pay eVisa fee online · Receive ETA Online · Fly To India. Print ETA and present at Immigration Check Post where ...",
+                        "position": 8
                     },
                     {
                         "title": "Home | Ministry of Tourism | Government of India",
@@ -1314,118 +1195,93 @@
                                 "link": "https://tourism.gov.in/incredible-india-magazine"
                             }
                         ],
-                        "position": 8
-                    },
-                    {
-                        "title": "India : Development news, research, data | World Bank",
-                        "link": "https://www.worldbank.org/en/country/india",
-                        "snippet": "With a population of more than 1.4 billion, India is the world's largest democracy. Over the past decade, the country's integration into the global economy has ...",
-                        "date": "11 hours ago",
-                        "sitelinks": [
-                            {
-                                "title": "India",
-                                "link": "https://data.worldbank.org/country/india"
-                            },
-                            {
-                                "title": "India Development Update",
-                                "link": "https://www.worldbank.org/en/country/india/publication/development-update-domestic-reforms-encourage-investments"
-                            },
-                            {
-                                "title": "Overview",
-                                "link": "https://www.worldbank.org/en/country/india/overview"
-                            },
-                            {
-                                "title": "Celebrating 75 Years of World...",
-                                "link": "https://www.worldbank.org/en/country/india/brief/75-years-of-world-bank-in-india"
-                            }
-                        ],
                         "position": 9
                     }
                 ],
                 "topStories": [
                     {
-                        "title": "India Q3 GDP FY25 Highlights: Maha Kumbh to help India achieve 6.5% growth in FY25, says CEA",
-                        "link": "https://m.economictimes.com/news/newsblogs/india-q3-gdp-data-fy25-live-update-today-rbi-annual-report-insights-indian-economic-growth-rate-trends-gross-domestic-product-today-latest-news-28th-february-2025/liveblog/118615670.cms",
+                        "title": "India’s Q3 GDP growth quickens to 6.2%, FY25 output still seen at 4-year low",
+                        "link": "https://m.economictimes.com/news/economy/indicators/indias-q3-gdp-growth-quickens-to-6-2-on-rural-demand-govt-spending-but-is-all-well-ahead/articleshow/118621118.cms",
                         "source": "The Economic Times",
-                        "date": "2 hours ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqWjEaS5u0BdqEmBUkREaCLBNY4dtIgHPU-LoXKMpTGgcZXB4DL8dJQ5IKIg&s"
+                        "date": "20 hours ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfwxjd5REjI-VDOdhTLH8dplPAwojn9yyBDeZa0CxsreF_1jKCDEYsjGWB8Q&s"
                     },
                     {
-                        "title": "India’s GDP growth forecast: Indian economy grew at 6.2% in Q3 GDP data of 2024-25, down from 9.5% in the previous year",
-                        "link": "https://www.thehindu.com/business/Economy/indias-gdp-grows-62-in-q3-economy-to-expand-at-65-in-fy25-govt-data/article69274816.ece",
-                        "source": "The Hindu",
-                        "date": "9 hours ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9-f1p-FMnoeHDvahGLjmpPIm5fq_cRZLwKYFOY2aGsRvWzfkUhPbQ8zCmOg&s"
-                    },
-                    {
-                        "title": "75-yr-old dies in bee attack on yajna",
-                        "link": "https://timesofindia.indiatimes.com/india/75-yr-old-dies-in-bee-attack-on-yajna/articleshow/118637300.cms",
+                        "title": "Q3 FY25 GDP grows at 6.2%; India sees 'highest growth in 12 years' in FY24 - top 10 data points to know",
+                        "link": "https://timesofindia.indiatimes.com/business/india-business/q3-fy25-gdp-grows-at-6-2-india-sees-highest-growth-in-12-years-in-fy24-top-10-data-points-to-know/articleshow/118631760.cms",
                         "source": "Times of India",
-                        "date": "36 minutes ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfSwFN5P1bypKNjpWWTFwOoZLBX0wXvLnvIdjN-WcJTnnjEY6LFT2xTWa4_g&s"
+                        "date": "15 hours ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDJw2gDyvwJdG4XvwS8oYaaHMdtbBZ8U0cNpPSRUncgph3N26Nf-3Fz99kYA&s"
                     },
                     {
-                        "title": "Science Minister claims India to surpass U.S. in scientific publications by 2029",
-                        "link": "https://www.thehindu.com/news/national/science-minister-claims-india-to-surpass-us-in-scientific-publications-by-2029/article69275670.ece",
-                        "source": "The Hindu",
-                        "date": "5 minutes ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc1qYtoyZL9XAHbc7OW7urlv2U1pnZsVzycUel8DVLNpNBqZjiybeibSH-kw&s"
+                        "title": "M&M Beats Hyundai Motor India to No.2 Rank in India",
+                        "link": "https://www.autocarpro.in/news/mm-beats-hyundai-motor-india-to-no2-rank-in-india-125185",
+                        "source": "Autocar Professional",
+                        "date": "2 hours ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvIcnw1s1ZFVP6CXBgfAOyKA0jYkGsQUPwHiUcFl_a1MBXiibPoq4cswzfHQ&s"
                     },
                     {
-                        "title": "Ramadan 2025 India moon sighting highlights: Crescent not sighted, Muslims to begin fasting from March 02",
-                        "link": "https://www.hindustantimes.com/lifestyle/festivals/ramadan-2025-india-moon-sighting-live-updates-muslims-gear-to-sight-ramzan-crescent-in-delhi-lucknow-mumbai-kerala-101740733159701.html",
+                        "title": "India find support from New Zealand star amid ‘Dubai advantage’ jibes from England, Pakistan, Australia and South Africa",
+                        "link": "https://www.hindustantimes.com/cricket/india-find-support-from-new-zealand-star-amid-dubai-advantage-jibes-from-england-pakistan-australia-and-south-africa-101740804349809.html",
                         "source": "Hindustan Times",
-                        "date": "3 hours ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4_yGQpKQw8WAMHyCmxcDbSHo2pl_9OIQxdSS1HK9iHsCfrwUMwDBxsDWowA&s"
+                        "date": "1 hour ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzeLZ9pB5JGWbiK2bdX4ILWGkHyWCL5hDP7OW7twwe9dMC8F4hysBH9B6zXQ&s"
                     },
                     {
-                        "title": "Maersk says will invest $5 billion in India, but conditions apply | Company Business News",
-                        "link": "https://www.livemint.com/companies/maersk-gujarat-india-investment-pipavav-vadhavan-sea-port-landslide-11740745152666.html",
-                        "source": "Mint",
-                        "date": "5 hours ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTup_573qAbIBxt9DfzpE-4qdRJt6XzWrxdsVUxGWtSuZL2gc292vN_KW9mMw&s"
+                        "title": "Accelerating India’s green mobility: The role of biofuels in CAFE norms",
+                        "link": "https://www.orfonline.org/expert-speak/accelerating-india-s-green-mobility-the-role-of-biofuels-in-cafe-norms",
+                        "source": "orfonline.org",
+                        "date": "31 minutes ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh0L_Xd_zefA42m2_GWq33-rcWE9mPV7mRXWXN9iCM-poJWGhvw39jB-gk1g&s"
                     },
                     {
-                        "title": "In India-EU Talks, Free Trade Pact Gets Deadline, Europe Corridor Gets Push",
-                        "link": "https://www.ndtv.com/world-news/in-india-eu-talks-free-trade-pact-gets-deadline-europe-corridor-gets-push-7816463",
-                        "source": "NDTV",
-                        "date": "9 hours ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYBBf0d_UcAGbw_tX5CYLudnLFsFZYI49sZZoI0bZR-fB6snAMBu4BjaGmtw&s"
+                        "title": "South India took the country forward. Language of the failing Hindi belt can’t be imposed on it",
+                        "link": "https://theprint.in/opinion/sharp-edge/south-india-took-country-forward-language-failing-hindi-belt-cannot-be-imposed/2514579/",
+                        "source": "ThePrint",
+                        "date": "1 day ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0MLhWUDmRTfpErZlU1f34BTYle-1HWqTgU96sdMlypCkr0U6FL8KMQUkTUg&s"
                     },
                     {
-                        "title": "India needs 35-40 fighter jets annually to replace aging fleet: Air Force Chief",
-                        "link": "https://www.indiatoday.in/india/story/india-needs-35-40-fighter-jets-annually-to-replace-aging-fleet-air-force-chief-2687159-2025-02-28",
-                        "source": "India Today",
-                        "date": "8 hours ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_6FPMQfXcSzj2kGa7rJUZ_-obAcNTQvQfVOIo75Uj_AC_pkQCyi10nqqliQ&s"
-                    },
-                    {
-                        "title": "New India Cooperative Bank case: ‘Manohar Arunachalam was directly in touch with prime accused, accepted Rs 20L from him’ says EOW",
-                        "link": "https://indianexpress.com/article/cities/mumbai/new-india-cooperative-bank-case-manohar-arunachalam-was-directly-in-touch-with-prime-accused-accepted-rs-20l-from-him-says-eow-9861966/",
+                        "title": "Ram Madhav writes on Maha Kumbh: India’s spiritual unity in diversity",
+                        "link": "https://indianexpress.com/article/opinion/columns/ram-madhav-writes-on-maha-kumbh-indias-spiritual-unity-in-diversity-9862116/",
                         "source": "The Indian Express",
-                        "date": "3 hours ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS93-iYfy93qCgQV6fGUnbwtzPD3dVa1P7GXpebHFY6oFkUxc5eR1_byHHz2w&s"
+                        "date": "4 hours ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWvHunrB9Aff4KmnZbSLFhbaJA-05lX88saUSdHMms2R3j3X7q_3_6JiPzA&s"
                     },
                     {
-                        "title": "Fake banks, bogus courts, and cybercrime: India’s deepening conscape",
-                        "link": "https://www.deccanherald.com/opinion/fake-banks-bogus-courts-and-cybercrime-india-s-deepening-conscape-3425251",
-                        "source": "Deccan Herald",
+                        "title": "32 rescued after avalanche hits Badrinath, over 25 still trapped",
+                        "link": "https://www.indiatoday.in/india/story/avalanche-uttarakhands-badrinath-chamoli-workers-feared-trapped-rescue-operations-snowfall-weather-2686942-2025-02-28",
+                        "source": "India Today",
+                        "date": "22 hours ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGKDXNnqqMoXi9w6iC2U9k68ZAjYa-26cpOHi8_OgLXC_6H0OOwXGtMimHKg&s"
+                    },
+                    {
+                        "title": "Coursera sees India as the largest opportunity for enterprise business growth | Company Business News",
+                        "link": "https://www.livemint.com/companies/start-ups/coursera-enterprise-business-sees-courses-in-india-generative-ai-courses-coursera-for-campus-coursera-in-india-11740731216846.html",
+                        "source": "Mint",
                         "date": "21 hours ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdPG3rDecrIKfK-NwKzNRFuIXP0euynDn5w7Rn7Oyz6x8YzgfLLIYhMp5h5A&s"
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg429nOhpNLuT1mZEM5SjTIKy2x8GyHLBpWGO3V7QBTn4frHsVXzkpYFyl2Q&s"
+                    },
+                    {
+                        "title": "This is not a time to place limits on India-E.U. cooperation: Von der Leyen",
+                        "link": "https://www.thehindu.com/news/national/eu-ursula-von-der-leyen-india-visit-pm-modi-fta-february-28-2025/article69273651.ece",
+                        "source": "The Hindu",
+                        "date": "1 day ago",
+                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-EHEcZIK85ppTu6UaPZEGgeGQFqyjyVIkR_eZzhz5jS9ZoUyuvVGaywM1Wg&s"
                     }
                 ],
                 "peopleAlsoAsk": [
-                    {
-                        "question": "What are the 5 names of India?",
-                        "snippet": "Answer: India Arya Varta, Tenjiku, Bharat, Hindustan, and Al-Hind are the five names. Bharat: Bharat word comes from 'Bharata,' the Sanskrit word. It refers to 'Agni' (fire). Additionally, Bharat was the son of Shakuntala and Dushyant.",
-                        "title": "What are the five names of India? - Unacademy",
-                        "link": "https://unacademy.com/content/question-answer/gk/what-are-the-five-names-of-india/"
-                    },
                     {
                         "question": "What is India so famous for?",
                         "snippet": "India is famous for its rich cultural heritage, historical monuments like the Taj Mahal, diverse cuisine, vibrant festivals, and spiritual destinations. The country's natural landscapes, from the Himalayas to Kerala's backwaters, and bustling cities like Delhi and Mumbai also attract numerous tourists.",
                         "title": "What is India Famous For | A Guide to Famous Places and Affordable Trip ...",
                         "link": "https://www.bajajfinserv.in/insurance/what-is-india-famous-for"
+                    },
+                    {
+                        "question": "What are the 5 names of India?",
+                        "snippet": "Answer: India Arya Varta, Tenjiku, Bharat, Hindustan, and Al-Hind are the five names. Bharat: Bharat word comes from 'Bharata,' the Sanskrit word. It refers to 'Agni' (fire). Additionally, Bharat was the son of Shakuntala and Dushyant.",
+                        "title": "What are the five names of India? - Unacademy",
+                        "link": "https://unacademy.com/content/question-answer/gk/what-are-the-five-names-of-india/"
                     },
                     {
                         "question": "Is Indian a good country to live?",
@@ -1457,7 +1313,7 @@
                         "query": "Indian girl"
                     },
                     {
-                        "query": "India Post tracking"
+                        "query": "India map"
                     }
                 ],
                 "credits": 1
@@ -1504,7 +1360,7 @@
                         "position": 3
                     },
                     {
-                        "title": "Importance of Religion and Religious Beliefs - Pew Research Center",
+                        "title": "Chapter 1: Importance of Religion and Religious Beliefs",
                         "link": "https://www.pewresearch.org/religion/2015/11/03/chapter-1-importance-of-religion-and-religious-beliefs/",
                         "snippet": "Paths to Eternal Life. Two-thirds of those who identify with a religious group say many religions (not just their own) can lead to eternal life ...",
                         "date": "3 Nov 2015",
@@ -1520,19 +1376,19 @@
                         "title": "Religion | Definition, Types, Beliefs, Symbols, Examples, Importance ...",
                         "link": "https://www.britannica.com/topic/religion",
                         "snippet": "Religion, human beings' relation to that which they regard as holy, sacred, absolute, spiritual, divine, or worthy of especial reverence.",
-                        "date": "17 Jan 2025",
+                        "date": "15 Feb 2025",
                         "position": 6
-                    },
-                    {
-                        "title": "The Religious Significance of Land - jstor",
-                        "link": "https://www.jstor.org/stable/717542",
-                        "snippet": "Earth was to these nature worshippers literally the Mother. But the Native religious attitude toward land was not confined to a generalised attitude of ...",
-                        "position": 7
                     },
                     {
                         "title": "Religious significance of Jerusalem - Wikipedia",
                         "link": "https://en.wikipedia.org/wiki/Religious_significance_of_Jerusalem",
                         "snippet": "The city of Jerusalem is sacred to many religious traditions, including the Abrahamic religions of Judaism, Christianity and Islam which consider it a holy city ...",
+                        "position": 7
+                    },
+                    {
+                        "title": "The Religious Significance of the Humanity of Jesus - jstor",
+                        "link": "https://www.jstor.org/stable/3155403",
+                        "snippet": "RELIGIOUS SIGNIFICANCE OF JESUS' HUMANITY 207 in senile complacency or hostile to the ongoing development of human welfare. The most conspicuous and ...",
                         "position": 8
                     },
                     {
@@ -1545,28 +1401,28 @@
                 ],
                 "peopleAlsoAsk": [
                     {
-                        "question": "What is the significance of religion?",
-                        "snippet": "Religion teaches people moral behavior and thus helps them learn how to be good members of society. In the Judeo-Christian tradition, the Ten Commandments are perhaps the most famous set of rules for moral behavior. A fourth function of religion is greater psychological and physical well-being.",
-                        "title": "Sociological Perspectives on Religion",
-                        "link": "https://pressbooks.howardcc.edu/soci101/chapter/17-3-sociological-perspectives-on-religion/"
-                    },
-                    {
                         "question": "What is a place of religious significance?",
                         "snippet": "Human beings tend to relate to their religious beliefs through symbolism. Religious and sacred places—common destinations for pilgrims—represent a physical connection that helps believers express their devotion.",
                         "title": "Religious Places Portal | Britannica",
                         "link": "https://www.britannica.com/browse/Religious-Places"
                     },
                     {
-                        "question": "What is an object of religious significance?",
-                        "snippet": "Importantly, religious books (codices, scrolls, etc.) themselves were objects of veneration, provided with elaborate coverings, kept in sacred locations with restricted access, and in some contexts attributed a divine efficacy, especially in the case of miniature books worn as amulets or ritual handbooks.",
-                        "title": "Objects and Ancient Religions - Oxford Research Encyclopedias",
-                        "link": "https://oxfordre.com/religion/display/10.1093/acrefore/9780199340378.001.0001/acrefore-9780199340378-e-22?mediaType=Article"
-                    },
-                    {
                         "question": "What is the significance of religious life?",
                         "snippet": "The spirituality of a religious congregation makes present in a lived and vibrant way the spiritual values passed on to each generation from the original source. There are numerous spiritual approaches to living the truths of the Catholic Church and the vows of religious life.",
                         "title": "What is Religious Life? - Council of Major Superiors of Women Religious",
                         "link": "https://cmswr.org/about/religious-life/"
+                    },
+                    {
+                        "question": "What is meant by significance?",
+                        "snippet": "Significance means having the quality of being \"significant\" — meaningful, important. It also refers to the meaning of something. A certain date might have significance because it's your birthday or the anniversary of Princess Di's wedding. Significance starts with the word sign for a reason.",
+                        "title": "Significance - Definition, Meaning & Synonyms - Vocabulary.com",
+                        "link": "https://www.vocabulary.com/dictionary/significance"
+                    },
+                    {
+                        "question": "What is the significance of religion in India?",
+                        "snippet": "Indian culture is heavily influenced by religion. Many aspects of Indian culture, such as the caste system, have their origins in religion. Religion also plays a role in Indian politics and society. Hindus, for example, make up a majority of the population, and Hinduism has a significant influence on Indian culture.",
+                        "title": "A Comprehensive Guide to Culture and Religion in India - Unacademy",
+                        "link": "https://unacademy.com/content/nda/study-material/geography/culture-and-religion-in-india/"
                     }
                 ],
                 "relatedSearches": [
@@ -1589,10 +1445,10 @@
                         "query": "What is your religion"
                     },
                     {
-                        "query": "5 reasons why religion is important"
+                        "query": "Characteristics of religion"
                     },
                     {
-                        "query": "Characteristics of religion"
+                        "query": "3 types of religion"
                     }
                 ],
                 "credits": 1
@@ -1607,18 +1463,43 @@
                     "engine": "google"
                 },
                 "answerBox": {
-                    "snippet": "Hinduism is the world's third-largest religion, with approximately 1.20 billion followers, or around 15% of the global population, known as Hindus. It is the most widely professed faith in India, Nepal, Mauritius, and in Bali, Indonesia.",
+                    "snippet": "Hinduism is a faith as well as a way of life, a world view and philosophy upholding the principles of virtuous and true living for the Indian diaspora throughout the world. The history of Hinduism is intimately entwined with, and has had a profound influence on, the history of the Indian sub-continent.",
                     "snippetHighlighted": [
-                        "the world's third-largest religion"
+                        "a faith as well as a way of life, a world view and philosophy upholding the principles of virtuous and true living for the Indian diaspora throughout the world"
                     ],
-                    "title": "Hinduism - Wikipedia",
-                    "link": "https://en.wikipedia.org/wiki/Hinduism"
+                    "title": "Religious fact sheets - Hinduism - Northern Territory Government",
+                    "link": "https://dpsc.nt.gov.au/__data/assets/pdf_file/0014/252221/nt-hinduism-fact-sheet.pdf"
                 },
                 "organic": [
                     {
+                        "title": "Hinduism - Wikipedia",
+                        "link": "https://en.wikipedia.org/wiki/Hinduism",
+                        "snippet": "Hinduism is the world's third-largest religion, with approximately 1.20 billion followers, or around 15% of the global population, known as Hindus.",
+                        "sitelinks": [
+                            {
+                                "title": "Hinduism by country",
+                                "link": "https://en.wikipedia.org/wiki/Hinduism_by_country"
+                            },
+                            {
+                                "title": "India",
+                                "link": "https://en.wikipedia.org/wiki/Hinduism_in_India"
+                            },
+                            {
+                                "title": "History",
+                                "link": "https://en.wikipedia.org/wiki/History_of_Hinduism"
+                            },
+                            {
+                                "title": "Balinese Hinduism",
+                                "link": "https://en.wikipedia.org/wiki/Balinese_Hinduism"
+                            }
+                        ],
+                        "position": 1
+                    },
+                    {
                         "title": "Hinduism | Origin, History, Beliefs, Gods, & Facts - Britannica",
                         "link": "https://www.britannica.com/topic/Hinduism",
-                        "snippet": "Hinduism is a major world religion originating on the Indian subcontinent and comprising several and varied systems of philosophy, belief, and ritual.",
+                        "snippet": "Hinduism is a major world religion originating on the Indian subcontinent and comprising several and varied systems of philosophy, belief, ...",
+                        "date": "8 days ago",
                         "sitelinks": [
                             {
                                 "title": "Karma, Samsara, Moksha",
@@ -1629,17 +1510,25 @@
                                 "link": "https://www.britannica.com/topic/Hinduism/General-nature-of-Hinduism"
                             },
                             {
-                                "title": "The history of Hinduism",
-                                "link": "https://www.britannica.com/topic/Hinduism/The-history-of-Hinduism"
+                                "title": "Hinduism",
+                                "link": "https://www.britannica.com/topic/Hinduism/The-spread-of-Hinduism-in-Southeast-Asia-and-the-Pacific"
+                            },
+                            {
+                                "title": "Pilgrimage",
+                                "link": "https://www.britannica.com/topic/Hinduism/Pilgrimage"
                             }
                         ],
-                        "position": 1
+                        "position": 2
                     },
                     {
                         "title": "Hinduism - Religion - BBC",
                         "link": "https://www.bbc.co.uk/religion/religions/hinduism/",
                         "snippet": "Hinduism is the religion of the majority of people in India and Nepal. It also exists among significant populations outside of the sub continent and has ...",
                         "sitelinks": [
+                            {
+                                "title": "At a Glance",
+                                "link": "https://www.bbc.co.uk/religion/religions/hinduism/ataglance/glance.shtml"
+                            },
                             {
                                 "title": "Abortion",
                                 "link": "https://www.bbc.co.uk/religion/religions/hinduism/hinduethics/abortion_1.shtml"
@@ -1651,45 +1540,27 @@
                             {
                                 "title": "Euthanasia and Suicide",
                                 "link": "https://www.bbc.co.uk/religion/religions/hinduism/hinduethics/euthanasia.shtml"
-                            },
-                            {
-                                "title": "Shiva",
-                                "link": "https://www.bbc.co.uk/religion/religions/hinduism/deities/shiva.shtml"
                             }
                         ],
-                        "position": 2
+                        "position": 3
                     },
                     {
                         "title": "r/hinduism - Reddit",
                         "link": "https://www.reddit.com/r/hinduism/",
                         "snippet": "r/hinduism: Hinduism is also referred to as the Sanātana Dharma (Devanāgarī: सनातन धर्म meaning \"eternal dharma\"). It is the oldest living religion in…",
-                        "position": 3
+                        "position": 4
                     },
                     {
                         "title": "Hinduism Basics - Hindu American Foundation",
                         "link": "https://www.hinduamerican.org/hinduism-basics/",
                         "snippet": "Hinduism, also known as Sanatana Dharma, is the world's oldest living religion. It is a natural religion, meaning its philosophies and practices are considered ...",
-                        "position": 4
-                    },
-                    {
-                        "title": "Hinduism ‑ Origins, Facts & Beliefs | HISTORY",
-                        "link": "https://www.history.com/topics/religion/hinduism",
-                        "snippet": "Hinduism is the world's oldest religion, according to many scholars, with roots and customs dating back more than 4,000 years.",
-                        "date": "6 Oct 2017",
                         "position": 5
-                    },
-                    {
-                        "title": "7 facts about Hindus around the world | Pew Research Center",
-                        "link": "https://www.pewresearch.org/short-reads/2022/10/26/7-facts-about-hindus-around-the-world/",
-                        "snippet": "There are more than 1.1 billion Hindus in the world and roughly 94% of them live in India, according to Pew Research Center projections for 2020.",
-                        "date": "26 Oct 2022",
-                        "position": 6
                     },
                     {
                         "title": "Hinduism | The Pluralism Project",
                         "link": "https://pluralism.org/hinduism",
                         "snippet": "The Hindu tradition reflects the interweaving of Harappan, Aryan, Dravidian, and tribal cultures across the many regions of India.",
-                        "position": 7
+                        "position": 6
                     },
                     {
                         "title": "Hindus - Wikipedia",
@@ -1713,61 +1584,29 @@
                                 "link": "https://en.wikipedia.org/wiki/Pravacana"
                             }
                         ],
+                        "position": 7
+                    },
+                    {
+                        "title": "7 facts about Hindus around the world | Pew Research Center",
+                        "link": "https://www.pewresearch.org/short-reads/2022/10/26/7-facts-about-hindus-around-the-world/",
+                        "snippet": "There are more than 1.1 billion Hindus in the world and roughly 94% of them live in India, according to Pew Research Center projections for 2020.",
+                        "date": "26 Oct 2022",
                         "position": 8
-                    }
-                ],
-                "topStories": [
-                    {
-                        "title": "Vedas don’t mention Hindu pilgrimages. When did they become mainstream?",
-                        "link": "https://theprint.in/opinion/vedas-dont-mention-hindu-pilgrimages-when-did-they-become-mainstream/2513409/",
-                        "source": "ThePrint",
-                        "date": "1 day ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSwuQr-NlSnURFQmn3nBtZUIqk1xDfvjuMmzJ_6hZjteMZLhW0wG5iaQmTLQ&s"
                     },
                     {
-                        "title": "Hindus Urged to Rape, Kill Christians on March 1 in Chhattisgarh",
-                        "link": "https://www.persecution.org/2025/02/26/hindus-urged-to-rape-kill-christians-on-march-1-in-chhattisgarh/",
-                        "source": "International Christian Concern",
-                        "date": "2 days ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGnc50yZlko7xqkKRxQ0JgtDEE06lVVA4LIOCQjxtIm3tBgc8NYofNvEHYQw&s"
-                    },
-                    {
-                        "title": "Eshwarappa praises DK Shivakumar for his stand on Hinduism",
-                        "link": "https://www.udayavani.com/english-news/eshwarappa-praises-dk-shivakumar-for-his-stand-on-hinduism",
-                        "source": "Udayavani Kannada",
-                        "date": "17 hours ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR58R8LiG6d5Y-XRe7W3rQfIOcXL1EumKPxozst1whsHw&s"
-                    },
-                    {
-                        "title": "Chandra Darshan March 2025: Date, Time, Rituals and Significance",
-                        "link": "https://timesofindia.indiatimes.com/religion/rituals-puja/chandra-darshan-march-2025-date-time-rituals-and-significance/articleshow/118623898.cms",
-                        "source": "Times of India",
-                        "date": "13 hours ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb8w9Y5TntrPPhV6QzIz2Hz7LMmkgB9oQKPDmpmKGE8QTF2CIiEwnQ6cEtPw&s"
-                    },
-                    {
-                        "title": "'This is a govt of Mollahs... we were voted in by Hindus': Bengal BJP leader Suvendu Adhikari draws the line",
-                        "link": "https://www.altnews.in/this-is-a-govt-of-mollahs-we-were-voted-in-by-hindus-bengal-bjp-leader-suvendu-adhikari-draws-the-line/",
-                        "source": "Alt News",
-                        "date": "2 days ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT79dLo3ADPW50i7PjcXhaXawZKFy2jTa2OQMwNh3Oj8pQTeCHp6Mm1HRtcQg&s"
-                    },
-                    {
-                        "title": "Fact Check: Are Hindus being attacked in Telangana? No, post is misleading",
-                        "link": "https://dfrac.org/en/2025/02/27/are-hindus-being-attacked-in-telangana-no-post-is-misleading/",
-                        "source": "DFRAC ORG",
-                        "date": "1 day ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6NUHPIKkudbSv9N4e88YKjkBngrZdMdp9yF8XrWDww7mRRhHT3qxACCXEWA&s"
-                    },
-                    {
-                        "title": "Will choose Dharma over winning votes, says Andhra Pradesh Deputy Pawan Kalyan",
-                        "link": "https://www.indiatoday.in/india/andhra-pradesh/story/andhra-pradesh-deputy-chief-minister-pawan-kalyan-says-he-will-protect-dharma-even-at-the-cost-of-votes-2685470-2025-02-25",
-                        "source": "India Today",
-                        "date": "3 days ago",
-                        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4mC6DCx4L86wuiegAjjSmRxmcf39zRoHFqgPpz4pwYN4QboSSt1Bd44CaSg&s"
+                        "title": "Roots of Hinduism (article) | Khan Academy",
+                        "link": "https://www.khanacademy.org/humanities/art-asia/beginners-guide-asian-culture/hindu-art-culture/a/roots-of-hinduism",
+                        "snippet": "Hinduism developed over many centuries from a variety of sources: cultural practices, sacred texts, and philosophical movements, as well as local popular ...",
+                        "position": 9
                     }
                 ],
                 "peopleAlsoAsk": [
+                    {
+                        "question": "What are the main beliefs in Hinduism?",
+                        "snippet": "Hindus believe in the doctrines of samsara (the continuous cycle of life, death, and reincarnation) and karma (the universal law of cause and effect). One of the key thoughts of Hinduism is “atman,” or the belief in soul. This philosophy holds that living creatures have a soul, and they're all part of the supreme soul.",
+                        "title": "Hinduism ‑ Origins, Facts & Beliefs | HISTORY",
+                        "link": "https://www.history.com/topics/religion/hinduism"
+                    },
                     {
                         "question": "Who is the founder of Hinduism?",
                         "snippet": "While there is no shortage of historical scholars, sages, and teachers in Hinduism, there is no historical founder of the religion as a whole, no figure comparable to Jesus, the Buddha, Abraham, or Muhammad. As a consequence, there is no firm date of origin for Hinduism, either.",
@@ -1779,12 +1618,6 @@
                         "snippet": "THE MORE EACH INDIVIDUAL FIGHTS AGAINST THEM, THE LONGER DHARMA WILL ENDURE IN THIS YUGA.\nLust or desire for sensual pleasure – काम – Kama.\nAnger – क्रोध – Krodha.\nGreed – लोभ – Lobha.\nWant/desire – मोह – Moha.\nEgo – मद – Mada.\nEnvy or Jealousy – मत्सर्य – Matsarya.",
                         "title": "Arishadvargas - Wikipedia",
                         "link": "https://en.wikipedia.org/wiki/Arishadvargas"
-                    },
-                    {
-                        "question": "Which country has 90% Hindu population?",
-                        "snippet": "India contains 94% of the global Hindu population. According to a statistical study, an estimated 100 million Hindus live outside of India.",
-                        "title": "Hinduism by country - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/Hinduism_by_country"
                     },
                     {
                         "question": "What God does Hinduism worship?",
@@ -1807,7 +1640,7 @@
                         "query": "Hinduism gods"
                     },
                     {
-                        "query": "Hinduism founder"
+                        "query": "Who is the founder of Hinduism"
                     },
                     {
                         "query": "How old is Hinduism"
@@ -1817,170 +1650,6 @@
                     },
                     {
                         "query": "Hinduism beliefs and practices"
-                    }
-                ],
-                "credits": 1
-            }
-        },
-        {
-            "moksha": {
-                "searchParameters": {
-                    "q": "moksha",
-                    "gl": "in",
-                    "type": "search",
-                    "engine": "google"
-                },
-                "answerBox": {
-                    "snippet": "The definition of moksha is the freedom from the eternal cycle of life, death, and rebirth. This is the ultimate goal of an individual who practices Hinduism. Moksha is derived from the Sanskrit word, muc, which means to free. In Indian culture, the term moksha literally means freedom from samsara.",
-                    "snippetHighlighted": [
-                        "the freedom from the eternal cycle of life, death, and rebirth"
-                    ],
-                    "title": "Moshka in Hinduism | Definition, Concept & Stages - Study.com",
-                    "link": "https://study.com/academy/lesson/moksha-in-hinduism-definition-lesson-quiz.html"
-                },
-                "organic": [
-                    {
-                        "title": "Moksha - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/Moksha",
-                        "snippet": "Moksha also called vimoksha, vimukti, and mukti, is a term in Jainism, Buddhism, Hinduism, and Sikhism for various forms of emancipation, liberation, ...",
-                        "sitelinks": [
-                            {
-                                "title": "Moksha (Jainism)",
-                                "link": "https://en.wikipedia.org/wiki/Moksha_(Jainism)"
-                            },
-                            {
-                                "title": "Gajendra Moksha",
-                                "link": "https://en.wikipedia.org/wiki/Gajendra_Moksha"
-                            },
-                            {
-                                "title": "Moksha (disambiguation)",
-                                "link": "https://en.wikipedia.org/wiki/Moksha_(disambiguation)"
-                            }
-                        ],
-                        "position": 1
-                    },
-                    {
-                        "title": "Moksha | Salvation, Dharma & Karma - Britannica",
-                        "link": "https://www.britannica.com/topic/moksha-Indian-religion",
-                        "snippet": "Moksha, in Indian philosophy and religion, liberation from the cycle of death and rebirth (samsara). Derived from the Sanskrit word muc (“to free”), ...",
-                        "position": 2
-                    },
-                    {
-                        "title": "[PDF] THE CONCEPT OF LIBERATION (MOKSHA) IN THE BHAGAVAD ...",
-                        "link": "https://www.mssv.ac.in/media-library/uploads/LxnLSBQpiUMYP3Oiq3eBJzoDZlNSEYmJxqxYIEzj.pdf",
-                        "snippet": "The Bhagavad Gita describes liberation or moksha as the attainment of individual's natural state by relinquishing its imposed state. Liberation is the supreme ...",
-                        "position": 3
-                    },
-                    {
-                        "title": "Mokshaa",
-                        "link": "https://mokshaaworld.com/?srsltid=AfmBOoo8MW5ZM3zjG2ADfwT2j1vxqv7Wa5FXT-LiYwAdbt-XYiTAbkAU",
-                        "snippet": "Shop by Style. Designer Sarees · Sequin Sarees · Handloom Sarees · Ready to Wear Sarees · Printed Sarees · Silk with Embroidery Sarees · Fancy Sarees.",
-                        "position": 4
-                    },
-                    {
-                        "title": "Moksha (Jainism) - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/Moksha_(Jainism)",
-                        "snippet": "In Jainism, moksha is the highest and the noblest objective that a soul should strive to achieve. In fact, it is the only objective that a person should have; ...",
-                        "position": 5
-                    },
-                    {
-                        "title": "Religions - Hinduism: Moksha - BBC",
-                        "link": "https://www.bbc.co.uk/religion/religions/hinduism/beliefs/moksha.shtml",
-                        "snippet": "Moksha is the end of the death and rebirth cycle and is classed as the fourth and ultimate artha (goal). It is the transcendence of all arthas.",
-                        "date": "19 Jul 2006",
-                        "position": 6
-                    },
-                    {
-                        "title": "Can you please explain what Moksh is? Sadhguru - YouTube",
-                        "link": "https://www.youtube.com/watch?v=YPg6cia_bMU",
-                        "snippet": "Moksha is in being complete within ourself. God is complete. He doesn't need anything, not even our love. He loves everyone equally, good or ...",
-                        "date": "29 Jun 2010",
-                        "position": 7
-                    },
-                    {
-                        "title": "MOKSHA Definition & Meaning - Merriam-Webster",
-                        "link": "https://www.merriam-webster.com/dictionary/moksha",
-                        "snippet": "The meaning of MOKSHA is release from samsara and liberation from karma together with the attainment of Nirvana for the Hindu or kaivalya for the Jain ...",
-                        "position": 8
-                    },
-                    {
-                        "title": "What happens in Moksha? : r/hinduism - Reddit",
-                        "link": "https://www.reddit.com/r/hinduism/comments/10eoszu/what_happens_in_moksha/",
-                        "snippet": "In moksha, one can view and experience bliss, but the person no longer needs their physical body to do so. Up until the point before it, the ...",
-                        "date": "17 Jan 2023",
-                        "position": 9
-                    }
-                ],
-                "places": [
-                    {
-                        "title": "Moksha Cannabis",
-                        "address": "North York, ON, Canada",
-                        "rating": 4.7,
-                        "ratingCount": 245,
-                        "cid": "9479805628483735524"
-                    },
-                    {
-                        "title": "Moksha EATS",
-                        "address": "South Plainfield, NJ, United States",
-                        "rating": 4.9,
-                        "ratingCount": 130,
-                        "cid": "4513201687095310120"
-                    },
-                    {
-                        "title": "Moksha Indian Bistro Niagara Falls Restaurant and Caterer",
-                        "address": "Niagara Falls, ON, Canada",
-                        "rating": 3.3,
-                        "ratingCount": 2438,
-                        "cid": "3829319642461689330"
-                    }
-                ],
-                "peopleAlsoAsk": [
-                    {
-                        "question": "How does a person reach moksha?",
-                        "snippet": "Once a person has attained Bhakti he becomes fit for Moksha. Hence in most modern schools of Hinduism the progression is from Karma Yoga (selfless service/work) to Bhakti Yoga (devotion/love for God) to Jnana Yoga (realization of the Self). Householders typically do not go beyond karma yoga or bhakti yoga.",
-                        "title": "How difficult is it to attain moksha? : r/hinduism - Reddit",
-                        "link": "https://www.reddit.com/r/hinduism/comments/17n6xg4/how_difficult_is_it_to_attain_moksha/"
-                    },
-                    {
-                        "question": "Is moksha the same as nirvana?",
-                        "snippet": "Nirvana, a concept common in Buddhism, is accompanied by the realization that all experienced phenomena are not self; while moksha, a concept common in many schools of Hinduism, is acceptance of Self (soul), realization of liberating knowledge, the consciousness of Oneness with Brahman, all existence and understanding ...",
-                        "title": "Moksha - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/Moksha"
-                    },
-                    {
-                        "question": "Is moksha better than heaven?",
-                        "snippet": "When it comes to Hindu belief, heaven is not the highest goal we can achieve. In Hinduism, moksha, liberation, or mukti, release, is considered far superior to swarg lok, heaven, which, at best, can only give us rewards for all the good we have done. For most Hindus, moksha is the highest goal.",
-                        "title": "place of god: Heaven and hell - The Economic Times",
-                        "link": "https://m.economictimes.com/opinion/speaking-tree/heaven-and-hell/articleshow/94359230.cms"
-                    }
-                ],
-                "relatedSearches": [
-                    {
-                        "query": "Saṃsāra"
-                    },
-                    {
-                        "query": "Moksha Hinduism"
-                    },
-                    {
-                        "query": "Moksha actress"
-                    },
-                    {
-                        "query": "Moksha in English"
-                    },
-                    {
-                        "query": "What happens after moksha"
-                    },
-                    {
-                        "query": "Moksha symbol"
-                    },
-                    {
-                        "query": "Moksha Buddhism"
-                    },
-                    {
-                        "query": "Moksha coffee"
-                    },
-                    {
-                        "query": "Moksha in Hindi"
                     }
                 ],
                 "credits": 1
@@ -2056,9 +1725,9 @@
                         "position": 2
                     },
                     {
-                        "title": "Western Ghats - WCS India - Wildlife Conservation Society",
-                        "link": "https://india.wcs.org/Programmes/Western-Ghats",
-                        "snippet": "A globally recognised biodiversity hotspot stretching from Kerala to Gujarat. This area encompasses a diverse range of ecosystems, spanning from wet to dry ...",
+                        "title": "Ganga Ghat | District Varanasi, Government of Uttar Pradesh | India",
+                        "link": "https://varanasi.nic.in/tourist-place/ganga-ghat/",
+                        "snippet": "Ghats in Varanasi are riverfront steps leading to the banks of the River Ganges. The city has 88 ghats. Most of the ghats are bathing and puja ceremony ...",
                         "position": 3
                     },
                     {
@@ -2068,55 +1737,55 @@
                         "position": 4
                     },
                     {
-                        "title": "Ganga Ghat | District Varanasi, Government of Uttar Pradesh | India",
-                        "link": "https://varanasi.nic.in/tourist-place/ganga-ghat/",
-                        "snippet": "Ghats in Varanasi are riverfront steps leading to the banks of the River Ganges. The city has 88 ghats. Most of the ghats are bathing and puja ceremony ...",
+                        "title": "GHAT Definition & Meaning - Merriam-Webster",
+                        "link": "https://www.merriam-webster.com/dictionary/ghat",
+                        "snippet": "The meaning of GHAT is a broad flight of steps that is situated on an Indian riverbank and that provides access to the water especially for bathing.",
                         "position": 5
+                    },
+                    {
+                        "title": "The Western Ghats",
+                        "link": "https://thewesternghats.indiabiodiversity.org/",
+                        "snippet": "The Western Ghats, a mountainous ridge running parallel to the west coast of India&rsquo;s ancient peninsula, has a rich and intriguing history. The Western ...",
+                        "position": 6
                     },
                     {
                         "title": "Learn about the mountains of the Western Ghats - WWF",
                         "link": "https://www.wwf.org.uk/where-we-work/western-ghats",
                         "snippet": "The mountains of the Western Ghats are more like rolling hills than snow-covered peaks. But what they lack in height they make up for in wildlife.",
-                        "position": 6
+                        "position": 7
                     },
                     {
-                        "title": "GHAT Definition & Meaning - Merriam-Webster",
-                        "link": "https://www.merriam-webster.com/dictionary/ghat",
-                        "snippet": "The meaning of GHAT is a broad flight of steps that is situated on an Indian riverbank and that provides access to the water especially for bathing.",
-                        "position": 7
+                        "title": "Western Ghats travel guide",
+                        "link": "https://www.responsibletravel.com/holidays/western-ghats/travel-guide",
+                        "snippet": "The Western Ghats run through five Indian states, so you'll encounter an assortment of beliefs and histories along the way. Intricately carved Hindu temples sit ...",
+                        "position": 8
                     },
                     {
                         "title": "Western Ghats Mountains, Definition, & Description | Britannica",
                         "link": "https://www.britannica.com/place/Western-Ghats",
                         "snippet": "The Western Ghats are a north–south-running range of mountains or hills in western India that forms the crest of the western edge of the ...",
                         "date": "7 Feb 2025",
-                        "position": 8
-                    },
-                    {
-                        "title": "Western Ghats travel guide",
-                        "link": "https://www.responsibletravel.com/holidays/western-ghats/travel-guide",
-                        "snippet": "The Western Ghats run through five Indian states, so you'll encounter an assortment of beliefs and histories along the way. Intricately carved Hindu temples sit ...",
                         "position": 9
                     }
                 ],
                 "peopleAlsoAsk": [
                     {
-                        "question": "What is the difference between Ghats and mountains?",
-                        "snippet": "Ghats refer to the stepped mountains with valleys in between them. They are also referred to as difficult passages or it also refers to the mountain ranges themselves. Ghats also refer to artificially terraced riverbanks used for religious purposes, bathing and also to ferry landing.",
-                        "title": "Differentiate between the Western and the Eastern Ghats - Vedantu",
-                        "link": "https://www.vedantu.com/question-answer/differentiate-between-the-western-and-the-class-9-social-science-cbse-604c3fca5db4b75cc455020c"
+                        "question": "What is the difference between hills and Ghats?",
+                        "snippet": "Answer. Hill: a naturally raised area of land, not as high or craggy as a mountain. Ghat: a flight of steps leading down to a river.",
+                        "title": "ii. Distinguish between ghat and hill?​ - Brainly.in",
+                        "link": "https://brainly.in/question/58438744"
                     },
                     {
-                        "question": "Which ghat is the largest in India?",
+                        "question": "Where is the Ghats in India?",
                         "snippet": "The Western Ghats, also known as the Sahyadri, is a mountain range that stretches 1,600 km (990 mi) along the western coast of the Indian peninsula. Covering an area of 160,000 km2 (62,000 sq mi), it traverses the states of Gujarat, Maharashtra, Goa, Karnataka, Kerala, and Tamil Nadu.",
                         "title": "Western Ghats - Wikipedia",
                         "link": "https://en.wikipedia.org/wiki/Western_Ghats"
                     },
                     {
-                        "question": "Who is the city of Ghats?",
-                        "snippet": "Ghats in Varanasi are riverfront steps leading to the banks of the Ganges river. The city has 84 ghats. Most of the ghats are bathing and puja ceremonial ghats, while two ghats, Manikarnika and Harishchandra, are used exclusively as cremation sites.",
-                        "title": "Ghats in Varanasi - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/Ghats_in_Varanasi"
+                        "question": "What is a Ghat slang?",
+                        "snippet": "Urban Dictionary explains that “GYAT\" is used when complimenting someone with a curvaceous body, while “GYATT\" (spelled with two Ts), describes a man or woman with a large butt. Dictionary.com defines it as: “Gyatt or gyat is a slang term that is used to express strong excitement, surprise, or admiration.”",
+                        "title": "The kids are saying 'GYAT': What does it mean? - The Today Show",
+                        "link": "https://www.today.com/parents/teens/gyat-meaning-rcna129527"
                     }
                 ],
                 "relatedSearches": [
@@ -2127,10 +1796,10 @@
                         "query": "Western ghats"
                     },
                     {
-                        "query": "Ghats in india"
+                        "query": "What is Ghats in Geography"
                     },
                     {
-                        "query": "What is Ghats in Geography"
+                        "query": "Ghats in india"
                     },
                     {
                         "query": "Famous ghats"
@@ -2142,10 +1811,10 @@
                         "query": "Ghats pronunciation"
                     },
                     {
-                        "query": "Ghats meaning in tamil"
+                        "query": "Western Ghats Map"
                     },
                     {
-                        "query": "What are ghats class 12"
+                        "query": "Varanasi ghats"
                     }
                 ],
                 "credits": 1
@@ -2164,29 +1833,11 @@
                         "title": "Temple - Wikipedia",
                         "link": "https://en.wikipedia.org/wiki/Temple",
                         "snippet": "A temple (from the Latin templum) is a place of worship, a building used for spiritual rituals and activities such as prayer and sacrifice.",
-                        "sitelinks": [
-                            {
-                                "title": "Hindu temple",
-                                "link": "https://en.wikipedia.org/wiki/Hindu_temple"
-                            },
-                            {
-                                "title": "Temple (anatomy)",
-                                "link": "https://en.wikipedia.org/wiki/Temple_(anatomy)"
-                            },
-                            {
-                                "title": "List of Hindu temples",
-                                "link": "https://en.wikipedia.org/wiki/List_of_Hindu_temples"
-                            },
-                            {
-                                "title": "Temple (disambiguation)",
-                                "link": "https://en.wikipedia.org/wiki/Temple_(disambiguation)"
-                            }
-                        ],
                         "position": 1
                     },
                     {
                         "title": "AP TEMPLES Official Website",
-                        "link": "https://www.aptemples.ap.gov.in/",
+                        "link": "https://aptemples.ap.gov.in/",
                         "snippet": "Sri Srungara Vallabha Swamy Temple, Tholi Thirupathi, Peddapuram, Kakinada-(SSVST). Sri Poleramma Ammavari Temple, Kondapaturu, Kakumanu, Guntur-(SPAT).",
                         "position": 2
                     },
@@ -2194,26 +1845,38 @@
                         "title": "List of Hindu temples in India - Wikipedia",
                         "link": "https://en.wikipedia.org/wiki/List_of_Hindu_temples_in_India",
                         "snippet": "List of Hindu temples in India · Venkateswara Temple, Tirumala Tirupati. Simhachalam Temple. Kanaka Durga Temple. Golden Vimana of Srisailam Temple · Kamakhya ...",
+                        "sitelinks": [
+                            {
+                                "title": "Ahobilam",
+                                "link": "https://en.wikipedia.org/wiki/Ahobilam"
+                            },
+                            {
+                                "title": "Alipiri",
+                                "link": "https://en.wikipedia.org/wiki/Alipiri"
+                            },
+                            {
+                                "title": "Satyanarayana Temple",
+                                "link": "https://en.wikipedia.org/wiki/Satyanarayana_Temple,_Annavaram"
+                            }
+                        ],
                         "position": 3
+                    },
+                    {
+                        "title": "Temple Tourism | Nandyal District | India",
+                        "link": "https://nandyal.ap.gov.in/temple-tourism/",
+                        "snippet": "Sri Siddeswara Swamy Temple is a Shiva temple located at Omkaram, Andhra Pradesh in India. Sri Omkareshwaram Temple is located 14 km from Nandyal, it amidst the ...",
+                        "position": 4
+                    },
+                    {
+                        "title": "Divine Destinations - Telangana Tourism",
+                        "link": "https://tourism.telangana.gov.in/blogpage?id=2",
+                        "snippet": "One of the Hindu temples called the Sri Anantha Padmanabha Swamy temple is located in the beautiful hilly region of the Ananthagiri hills in Vikarabad, ...",
+                        "position": 5
                     },
                     {
                         "title": "Famous Indian Temples To Visit For A Spiritual Journey - Holidify",
                         "link": "https://www.holidify.com/collections/temples-of-india",
                         "snippet": "Here is the list of 59 Famous Indian Temples To Visit For A Spiritual Journey · 1. Golden Temple, Amritsar · 2. Ma Vaishno Devi Temple and Cave, Jammu & Kashmir.",
-                        "position": 4
-                    },
-                    {
-                        "title": "Temple | History, Design & Function | Britannica",
-                        "link": "https://www.britannica.com/topic/temple-building",
-                        "snippet": "Temple, edifice constructed for religious worship. Most of Christianity calls its places of worship churches; many religions use temple, ...",
-                        "date": "8 Feb 2025",
-                        "position": 5
-                    },
-                    {
-                        "title": "Temples | Assam State Portal",
-                        "link": "https://assam.gov.in/about-us/405",
-                        "snippet": "Temples · Kamakhya Temple · Negheriting Shiva Doul · Siva Dol · Siva Dol · Kedareswara Temple · Asvakranta Temple · Basistha Temple · Dhekiakhowa ...",
-                        "date": "18 Feb 2025",
                         "position": 6
                     },
                     {
@@ -2223,10 +1886,10 @@
                         "position": 7
                     },
                     {
-                        "title": "Top 35 Famous Temples in India | Holy Places",
-                        "link": "https://www.tourmyindia.com/blog/top-30-famous-temples-in-india/",
-                        "snippet": "Top 35 Famous Temples in India · Badrinath Temple, Uttarakhand · Sun Temple, Odisha · Brihadeeswara Temple, Tamil Nadu · Somnath Temple Gujarat.",
-                        "date": "17 Mar 2021",
+                        "title": "Temples | Assam State Portal",
+                        "link": "https://assam.gov.in/about-us/405",
+                        "snippet": "Temples · Kamakhya Temple · Negheriting Shiva Doul · Siva Dol · Siva Dol · Kedareswara Temple · Asvakranta Temple · Basistha Temple · Dhekiakhowa ...",
+                        "date": "18 Feb 2025",
                         "position": 8
                     },
                     {
@@ -2235,12 +1898,53 @@
                         "snippet": "Temples are considered to be homes for deities and powerful locations where the divine and human realms are bridged. Unlike in places of worship ...",
                         "date": "29 Dec 2024",
                         "position": 9
+                    }
+                ],
+                "images": [
+                    {
+                        "title": "Temples in India - Holidays DNA",
+                        "imageUrl": "https://holidaysdna.com/wp-content/uploads/temples-in-india-1.jpg",
+                        "link": "https://holidaysdna.com/temples-in-india/"
                     },
                     {
-                        "title": "TRAVEL | Temples in Telangana - Pedicon 2025",
-                        "link": "https://pedicon2025.com/temples_in_telangana.php",
-                        "snippet": "The most popular place to visit in Warangal is the Thousand Pillars Temple, located at the base of Hanamkonda hill. It was built in 12th century by the Kakatiya ...",
-                        "position": 10
+                        "title": "Examining the Confluence of Tradition and Modernity in Modern ...",
+                        "imageUrl": "https://www.vifindia.org/sites/default/files/Akshardham%20temple%20image.jpg",
+                        "link": "https://www.vifindia.org/article/2022/august/24/examining-the-confluence-of-tradition-and-modernity-in-modern-indian-temples"
+                    },
+                    {
+                        "title": "10 Must Visit Ancient Temples in India",
+                        "imageUrl": "https://images.news18.com/webstories/uploads/2024/08/1-2024-08-4f957e378720d9a1a4f04e6f2770b98f.jpg",
+                        "link": "https://www.moneycontrol.com/religion/10-must-visit-ancient-temples-in-india-visual-story-2374769.html"
+                    },
+                    {
+                        "title": "Top 35 Famous Temples in India | Holy Places | Tour My India",
+                        "imageUrl": "https://www.tourmyindia.com/blog//wp-content/uploads/2021/03/Popular-Temples-in-India.jpg",
+                        "link": "https://www.tourmyindia.com/blog/top-30-famous-temples-in-india/"
+                    },
+                    {
+                        "title": "Discovering India's Most Beautiful Temples – Suyogah",
+                        "imageUrl": "http://www.suyogah.com/cdn/shop/articles/most_beautiful_temples.jpg?v=1720779203",
+                        "link": "https://www.suyogah.com/blogs/news/discovering-india-most-beautiful-temples"
+                    },
+                    {
+                        "title": "178,000+ Indian Temples Stock Photos, Pictures & Royalty-Free ...",
+                        "imageUrl": "https://media.istockphoto.com/id/508628776/photo/sunset-over-kandariya-mahadeva-temple.jpg?s=612x612&w=0&k=20&c=YOpVZmLiY4ccl_aoWRJhfqLpNEDgjyOGuTAKbobCO-U=",
+                        "link": "https://www.istockphoto.com/photos/indian-temples"
+                    },
+                    {
+                        "title": "Famous Temples of India: Visit the Country's Stunning Religious ...",
+                        "imageUrl": "https://www.oyorooms.com/blog/wp-content/uploads/2017/10/Feature-Image-min-2-1.jpg",
+                        "link": "https://www.oyorooms.com/blog/famous-temples-of-india/"
+                    },
+                    {
+                        "title": "What are the 10 famous temples in Tamil Nadu that you must visit ...",
+                        "imageUrl": "https://phool.co/cdn/shop/articles/1720175612133101.jpg?v=1726044055",
+                        "link": "https://phool.co/blogs/sacredstories/what-are-the-10-famous-temples-in-tamil-nadu-that-you-must-visit"
+                    },
+                    {
+                        "title": "Hindu temple | Mandir, History, Ritual, Architecture, Meaning ...",
+                        "imageUrl": "https://cdn.britannica.com/90/263290-050-586A2DD8/Hinduism-A-goat-stands-before-the-Apatsahayesvarar-Temple-also-called-Alangudi.jpg",
+                        "link": "https://www.britannica.com/topic/Hindu-temple"
                     }
                 ],
                 "peopleAlsoAsk": [
@@ -2251,617 +1955,182 @@
                         "link": "https://www.imaios.com/en/e-anatomy/anatomical-structures/temple-1536888492"
                     },
                     {
-                        "question": "What religion uses temples?",
-                        "snippet": "A building for religious worship is called a temple in many religions, including Hinduism, Buddhism, Jainism, Shintoism, and many ancient faiths. Jewish synagogues are often called temples, too. In Islam, on the other hand, public places of prayer are known as mosques.",
-                        "title": "temple - Students | Britannica Kids | Homework Help",
-                        "link": "https://kids.britannica.com/students/article/temple/603160"
+                        "question": "What are the 10 famous temple names of India?",
+                        "snippet": "TOP 10 TEMPLES IN INDIA TO VISIT IN 2024\nRam Mandir, Ayodhya. ...\nThe Golden Temple, Amritsar. ...\nVaishno Devi Temple, Jammu and Kashmir. ...\nMeenakshi Temple, Madurai. ...\nJagannath Temple, Puri. ...\nKedarnath Temple, Uttarakhand. ...\nKonark Sun Temple, Odisha. ...\nBrihadeeswarar Temple, Thanjavur.",
+                        "title": "Top 10 Temples in India to Visit in 2024 - MyTravaly",
+                        "link": "https://mytravaly.com/blog/blog-read/?t=Top+10+Temples+in+India+to+Visit+in+2024"
                     },
                     {
-                        "question": "What are the different types of temples?",
-                        "snippet": "Among religions still active: Hinduism (whose temples are called Mandir or Kovil), Buddhism (whose temples are called Vihar), Sikhism (whose temples are called gurudwara), Jainism (whose temples are sometimes called derasar), Zoroastrianism (whose temples are sometimes called Agiary), the Baháʼí Faith (which are often ...",
-                        "title": "Temple - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/Temple"
+                        "question": "Which temple is 3000 years old in tamilnadu?",
+                        "snippet": "Mangalanathaswamy Temple, also known as Uthirakosamangai Mangalanathaswamy Temple, is a Shiva temple located in the Ramanathapuram district of Tamil Nadu, India. This temple is notable for several reasons. Historical Significance: The temple has a history dating back 3,000 years.",
+                        "title": "Uthirakosamangai - Wikipedia",
+                        "link": "https://en.wikipedia.org/wiki/Uthirakosamangai"
                     }
                 ],
                 "relatedSearches": [
                     {
-                        "query": "temples near columbus, oh"
-                    },
-                    {
-                        "query": "temples near ohio"
+                        "query": "Temples face"
                     },
                     {
                         "query": "Temples on the body"
                     },
                     {
-                        "query": "Temples face"
-                    },
-                    {
-                        "query": "Temples on head"
+                        "query": "Temples on the head"
                     },
                     {
                         "query": "Top 10 famous temples in India"
                     },
                     {
+                        "query": "Temples near me"
+                    },
+                    {
                         "query": "Hindu temples"
                     },
                     {
-                        "query": "a.p. endowments temples list"
+                        "query": "Top 100 temples in India"
+                    },
+                    {
+                        "query": "Top 5 famous temples in India"
                     }
                 ],
                 "credits": 1
             }
         },
         {
-            "culture": {
+            "cultural heritage": {
                 "searchParameters": {
-                    "q": "culture",
-                    "gl": "in",
-                    "type": "search",
-                    "engine": "google"
-                },
-                "organic": [
-                    {
-                        "title": "Culture - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/Culture",
-                        "snippet": "Culture is a concept that encompasses the social behavior, institutions, and norms found in human societies, as well as the knowledge, beliefs, arts, laws, ...",
-                        "sitelinks": [
-                            {
-                                "title": "Culture change",
-                                "link": "https://en.wikipedia.org/wiki/Culture_change"
-                            },
-                            {
-                                "title": "Popular culture",
-                                "link": "https://en.wikipedia.org/wiki/Popular_culture"
-                            },
-                            {
-                                "title": "Cell culture",
-                                "link": "https://en.wikipedia.org/wiki/Cell_culture"
-                            },
-                            {
-                                "title": "Animal culture",
-                                "link": "https://en.wikipedia.org/wiki/Animal_culture"
-                            }
-                        ],
-                        "position": 1
-                    },
-                    {
-                        "title": "CULTURE Definition & Meaning - Merriam-Webster",
-                        "link": "https://www.merriam-webster.com/dictionary/culture",
-                        "snippet": "The meaning of CULTURE is the customary beliefs, social forms, and material traits of a racial, religious, or social group; also : the ...",
-                        "date": "5 days ago",
-                        "sitelinks": [
-                            {
-                                "title": "Synonyms of culture",
-                                "link": "https://www.merriam-webster.com/thesaurus/culture"
-                            },
-                            {
-                                "title": "Cancel culture",
-                                "link": "https://www.merriam-webster.com/dictionary/cancel%20culture"
-                            },
-                            {
-                                "title": "Culture shock",
-                                "link": "https://www.merriam-webster.com/dictionary/culture%20shock"
-                            },
-                            {
-                                "title": "Self-culture",
-                                "link": "https://www.merriam-webster.com/dictionary/self-culture"
-                            }
-                        ],
-                        "position": 2
-                    },
-                    {
-                        "title": "Culture | Definition, Characteristics, Examples, Types ... - Britannica",
-                        "link": "https://www.britannica.com/topic/culture",
-                        "snippet": "Culture includes language, ideas, beliefs, customs, codes, institutions, tools, techniques, works of art, rituals, and ceremonies, among other elements.",
-                        "position": 3
-                    },
-                    {
-                        "title": "CULTURE | English meaning - Cambridge Dictionary",
-                        "link": "https://dictionary.cambridge.org/dictionary/english/culture",
-                        "snippet": "culture noun (ARTS) ... the arts of describing, showing, or performing that represent the traditions or the way of life of a particular people or group; ...",
-                        "sitelinks": [
-                            {
-                                "title": "Definition",
-                                "link": "https://dictionary.cambridge.org/us/dictionary/english/culture"
-                            },
-                            {
-                                "title": "Cultural",
-                                "link": "https://dictionary.cambridge.org/dictionary/english/cultural"
-                            },
-                            {
-                                "title": "Cancel culture",
-                                "link": "https://dictionary.cambridge.org/dictionary/english/cancel-culture"
-                            },
-                            {
-                                "title": "Culture shock",
-                                "link": "https://dictionary.cambridge.org/dictionary/english/culture-shock"
-                            }
-                        ],
-                        "position": 4
-                    },
-                    {
-                        "title": "Culture definition",
-                        "link": "https://people.tamu.edu/~i-choudhury/culture.html",
-                        "snippet": "A culture is a way of life of a group of people--the behaviors, beliefs, values, and symbols that they accept, generally without thinking about them, and that ...",
-                        "position": 5
-                    },
-                    {
-                        "title": "Culture - Stanford Encyclopedia of Philosophy",
-                        "link": "https://plato.stanford.edu/entries/culture/",
-                        "snippet": "A culture can be defined by features that are more or less inclusive. Where cultures are defined by characteristics that are typically used to ...",
-                        "date": "2 Dec 2020",
-                        "position": 6
-                    },
-                    {
-                        "title": "Culture - UNESCO",
-                        "link": "https://www.unesco.org/en/culture",
-                        "snippet": "From cherished historic monuments and museums to living heritage practices and contemporary art forms, culture enriches our lives in countless ways and ...",
-                        "sitelinks": [
-                            {
-                                "title": "About the Culture Sector",
-                                "link": "https://www.unesco.org/en/culture/about"
-                            },
-                            {
-                                "title": "Culture in Emergencies",
-                                "link": "https://www.unesco.org/en/emergencies/culture"
-                            },
-                            {
-                                "title": "Culture & Sustainable...",
-                                "link": "https://www.unesco.org/en/sustainable-development/culture"
-                            }
-                        ],
-                        "position": 7
-                    },
-                    {
-                        "title": "CULTURE Definition & Meaning - Dictionary.com",
-                        "link": "https://www.dictionary.com/browse/culture",
-                        "snippet": "noun · the quality in a person or society that arises from a concern for what is regarded as excellent in arts, letters, manners, scholarly pursuits, etc.",
-                        "position": 8
-                    },
-                    {
-                        "title": "[PDF] 1 CULTURE: AN INTRODUCTION - NIOS",
-                        "link": "https://www.nios.ac.in/media/documents/SecICHCour/English/CH.01.pdf",
-                        "snippet": "The English word 'Culture' is derived from the Latin term 'cult or cultus' meaning tilling, or cultivating or refining and worship.",
-                        "position": 9
-                    },
-                    {
-                        "title": "CULTURE definition and meaning | Collins English Dictionary",
-                        "link": "https://www.collinsdictionary.com/dictionary/english/culture",
-                        "snippet": "1. the quality in a person or society that arises from a concern for what is regarded as excellent in arts, letters, manners, scholarly pursuits, etc.",
-                        "position": 10
-                    }
-                ],
-                "peopleAlsoAsk": [
-                    {
-                        "question": "What is best definition of culture?",
-                        "snippet": "1. a. : the customary beliefs, social forms, and material traits of a racial, religious, or social group. also : the characteristic features of everyday existence (such as diversions or a way of life) shared by people in a place or time.\n4 days ago",
-                        "title": "CULTURE Definition & Meaning - Merriam-Webster",
-                        "link": "https://www.merriam-webster.com/dictionary/culture"
-                    },
-                    {
-                        "question": "What best explain culture?",
-                        "snippet": "A culture is a way of life of a group of people--the behaviors, beliefs, values, and symbols that they accept, generally without thinking about them, and that are passed along by communication and imitation from one generation to the next. Culture is symbolic communication.",
-                        "title": "Culture definition",
-                        "link": "https://people.tamu.edu/~i-choudhury/culture.html"
-                    },
-                    {
-                        "question": "What are the 7 elements of culture?",
-                        "snippet": "There are seven elements of culture: social organization, customs and traditions, language, arts and literature, government, religion, and economic systems. These elements form the way of life for an entire society, including how people dress, the music they listen to, and how people greet each other.",
-                        "title": "BUS630: The Seven Elements of Culture - Saylor Academy",
-                        "link": "https://learn.saylor.org/mod/page/view.php?id=72000"
-                    }
-                ],
-                "relatedSearches": [
-                    {
-                        "query": "Politics"
-                    },
-                    {
-                        "query": "Culture examples"
-                    },
-                    {
-                        "query": "Types of culture"
-                    },
-                    {
-                        "query": "Best definition of culture"
-                    },
-                    {
-                        "query": "Culture in Hindi"
-                    },
-                    {
-                        "query": "Culture clothing"
-                    },
-                    {
-                        "query": "What is culture in Sociology"
-                    },
-                    {
-                        "query": "How to pronounce culture"
-                    },
-                    {
-                        "query": "Characteristics of culture"
-                    }
-                ],
-                "credits": 1
-            }
-        },
-        {
-            "tourism": {
-                "searchParameters": {
-                    "q": "tourism",
+                    "q": "cultural heritage",
                     "gl": "in",
                     "type": "search",
                     "engine": "google"
                 },
                 "answerBox": {
-                    "snippet": "tourism, the act and process of spending time away from home in pursuit of recreation, relaxation, and pleasure, while making use of the commercial provision of services.",
-                    "snippetHighlighted": [
-                        "the act and process of spending time away from home in pursuit of recreation, relaxation, and pleasure, while making use of the commercial provision of services"
-                    ],
-                    "title": "Tourism | Definition, History, Types, Importance, & Industry | Britannica",
-                    "link": "https://www.britannica.com/topic/tourism",
-                    "date": "6 days ago"
+                    "snippet": "Definition. Cultural heritage includes artefacts, monuments, a group of buildings and sites, museums that have a diversity of values including symbolic, historic, artistic, aesthetic, ethnological or anthropological, scientific and social significance.",
+                    "title": "Cultural heritage | UNESCO UIS",
+                    "link": "https://uis.unesco.org/en/glossary-term/cultural-heritage"
                 },
                 "organic": [
                     {
-                        "title": "Tourism - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/Tourism",
-                        "snippet": "Tourism is travel for pleasure, and the commercial activity of providing and supporting such travel. UN Tourism defines tourism more generally, in terms ...",
+                        "title": "Cultural heritage - Wikipedia",
+                        "link": "https://en.wikipedia.org/wiki/Cultural_heritage",
+                        "snippet": "Cultural heritage is the heritage of tangible and intangible heritage assets of a group or society that is inherited from past generations.",
                         "sitelinks": [
                             {
-                                "title": "UN Tourism",
-                                "link": "https://en.wikipedia.org/wiki/UN_Tourism"
+                                "title": "Intangible cultural",
+                                "link": "https://en.wikipedia.org/wiki/Intangible_cultural_heritage"
                             },
                             {
-                                "title": "Sex tourism",
-                                "link": "https://en.wikipedia.org/wiki/Sex_tourism"
+                                "title": "Heritage asset",
+                                "link": "https://en.wikipedia.org/wiki/Heritage_asset"
                             },
                             {
-                                "title": "International tourism",
-                                "link": "https://en.wikipedia.org/wiki/International_tourism"
-                            },
-                            {
-                                "title": "Domestic tourism",
-                                "link": "https://en.wikipedia.org/wiki/Domestic_tourism"
+                                "title": "Heritage management",
+                                "link": "https://en.wikipedia.org/wiki/Cultural_heritage_management"
                             }
                         ],
                         "position": 1
                     },
                     {
-                        "title": "Home | Ministry of Tourism | Government of India",
-                        "link": "https://tourism.gov.in/",
-                        "snippet": "Tourism Infrastructure Development, Destination Development, Hotels & Restaurants, Facilitation & Standards, Niche Tourism Strategy & Product Development",
-                        "sitelinks": [
-                            {
-                                "title": "State Tourism Links",
-                                "link": "https://tourism.gov.in/related-links/state-tourism-links"
-                            },
-                            {
-                                "title": "India Tourism Offices",
-                                "link": "https://tourism.gov.in/about-us/indian-tourism-offices"
-                            },
-                            {
-                                "title": "India Tourism Development...",
-                                "link": "https://tourism.gov.in/about-us/india-tourism-development-corporation-itdc"
-                            },
-                            {
-                                "title": "Nidhi",
-                                "link": "https://nidhi.tourism.gov.in/"
-                            }
-                        ],
+                        "title": "Cultural Heritage - an overview | ScienceDirect Topics",
+                        "link": "https://www.sciencedirect.com/topics/social-sciences/cultural-heritage",
+                        "snippet": "Cultural heritage is the legacy of physical artifacts and intangible attributes of society inherited from past generations.",
                         "position": 2
                     },
                     {
-                        "title": "UN Tourism | Bringing the world closer",
-                        "link": "http://www.unwto.org/",
-                        "snippet": "UN Tourism is the United Nations agency responsible for the promotion of responsible, sustainable and universally accessible tourism.",
-                        "sitelinks": [
-                            {
-                                "title": "Glossary of tourism terms",
-                                "link": "https://www.unwto.org/glossary-tourism-terms"
-                            },
-                            {
-                                "title": "About UN Tourism",
-                                "link": "https://www.unwto.org/who-we-are"
-                            },
-                            {
-                                "title": "UN Tourism News",
-                                "link": "https://www.unwto.org/un-tourism-news"
-                            },
-                            {
-                                "title": "Statistics",
-                                "link": "https://www.unwto.org/tourism-statistics"
-                            }
-                        ],
+                        "title": "What is Cultural Heritage",
+                        "link": "https://www.heritageforpeace.org/heritage-for-peace/what-is-cultural-heritage/",
+                        "snippet": "Cultural Heritage is an expression of the ways of living developed by a community and passed on from generation to generation, including customs, practices, ...",
                         "position": 3
                     },
                     {
-                        "title": "Discover Incredible India: Travel Guide & Tourism Info | Incredible ...",
-                        "link": "https://www.incredibleindia.gov.in/en",
-                        "snippet": "Experience the vibrant culture and scenic beauty of India. Plan your trip with Incredible India & explore tourist destinations, cultural events, festivals, ...",
+                        "title": "The Concept and History of Cultural Heritage",
+                        "link": "https://culturalheritagestudies.ceu.edu/concept-and-history-cultural-heritage",
+                        "snippet": "Skip to main content. CEU Home · Intranet · Give · Shop · Apply · Alumni · Careers · CEU PU - Deutsch · Közép-európai Egyetem · Cultural Heritage Studies.",
                         "position": 4
                     },
                     {
-                        "title": "Glossary of tourism terms | UNWTO",
-                        "link": "http://www.unwto.org/glossary-tourism-terms",
-                        "snippet": "Tourism is a social, cultural and economic phenomenon which entails the movement of people to countries or places outside their usual environment for ...",
+                        "title": "Importance of Cultural Heritage and Its Conservation",
+                        "link": "https://ncf.nic.in/blog/cultural_heritage",
+                        "snippet": "Cultural heritage means the lifestyle of individuals or groups of society expressed in language, art, artefacts, and their traits passed on from generation to ...",
                         "position": 5
                     },
                     {
-                        "title": "Uttar Pradesh Tourism",
-                        "link": "https://www.uptourism.gov.in/en",
+                        "title": "What is Cultural Heritage? (article) | Khan Academy",
+                        "link": "https://www.khanacademy.org/humanities/special-topics-art-history/arches-at-risk-cultural-heritage-education-series/arches-beginners-guide/a/what-is-cultural-heritage",
+                        "snippet": "Cultural heritage encompasses the traditions, artifacts, and practices that define and preserve the identity of a cultural group. It is a vital aspect of human ...",
                         "position": 6
                     },
                     {
-                        "title": "Tourism Management | Journal | ScienceDirect.com by Elsevier",
-                        "link": "https://www.sciencedirect.com/journal/tourism-management",
-                        "snippet": "Tourism Management is the leading scholarly journal focuses on the management, including planning and policy, of travel and tourism. The journal takes an ...",
-                        "sitelinks": [
-                            {
-                                "title": "Tourism Man",
-                                "link": "https://www.sciencedirect.com/journal/tourism-management-perspectives"
-                            },
-                            {
-                                "title": "Latest issue",
-                                "link": "https://www.sciencedirect.com/journal/tourism-management/vol/109/suppl/C"
-                            },
-                            {
-                                "title": "Guide for authors",
-                                "link": "https://www.sciencedirect.com/journal/tourism-management/publish/guide-for-authors"
-                            },
-                            {
-                                "title": "View full editorial board",
-                                "link": "https://www.sciencedirect.com/journal/tourism-management/about/editorial-board"
-                            }
-                        ],
+                        "title": "Cultural Heritage | Definition, Types & Examples - Lesson - Study.com",
+                        "link": "https://study.com/learn/lesson/cultural-heritage-types-examples.html",
+                        "snippet": "Cultural heritage is a collection of important assets of a culture that are preserved through societal memory, meaning that it is passed down from generation ...",
                         "position": 7
                     },
                     {
-                        "title": "Himachal Tourism Official Website",
-                        "link": "https://himachaltourism.gov.in/",
-                        "snippet": "Tourism in Himachal Pradesh was restricted only to a limited movement of pilgrims to a few spiritual destinations in around the hills.",
-                        "date": "15 Jun 2022",
-                        "sitelinks": [
-                            {
-                                "title": "HP Tourism eServices",
-                                "link": "https://eservices.himachaltourism.gov.in/"
-                            },
-                            {
-                                "title": "Heritage Tourism Attractions in...",
-                                "link": "https://himachaltourism.gov.in/heritage-tourism-attractions-in-shimla-solan/"
-                            },
-                            {
-                                "title": "Accommodations",
-                                "link": "https://himachaltourism.gov.in/accommodations-travel/"
-                            },
-                            {
-                                "title": "RTI",
-                                "link": "https://himachaltourism.gov.in/rti/"
-                            }
-                        ],
+                        "title": "World Heritage | Ministry of Culture, Government of India",
+                        "link": "https://www.indiaculture.gov.in/world-heritage",
+                        "snippet": "The intangible cultural heritage constitutes a set of living and constantly recreated practices, knowledge and representations enabling individuals and ...",
                         "position": 8
                     },
                     {
-                        "title": "Welcome to Kerala Tourism - Official Website of Department of ...",
-                        "link": "https://www.keralatourism.org/",
-                        "snippet": "Kerala Tourism official website provides text, photos, video, on travel destinations, hotels, accommodation, culture, heritage, art forms and people of ...",
+                        "title": "What is Intangible Cultural Heritage?",
+                        "link": "https://ich.unesco.org/en/what-is-intangible-heritage-00003",
+                        "snippet": "Intangible cultural heritage is an important factor in maintaining cultural diversity in the face of growing globalization.",
                         "sitelinks": [
                             {
-                                "title": "Responsible Tourism Mission",
-                                "link": "https://www.keralatourism.org/responsible-tourism/"
+                                "title": "Intangible Heritage domains",
+                                "link": "https://ich.unesco.org/en/intangible-heritage-domains-00052"
                             },
                             {
-                                "title": "Where to Stay",
-                                "link": "https://www.keralatourism.org/where-to-stay/"
+                                "title": "Why safeguard ICH?",
+                                "link": "https://ich.unesco.org/en/why-safeguard-ich-00479"
                             },
                             {
-                                "title": "Yathri Nivas Online Reservations",
-                                "link": "https://www.keralatourism.org/yatrinivas/"
+                                "title": "Text of the Convention",
+                                "link": "https://ich.unesco.org/en/convention"
                             }
                         ],
                         "position": 9
                     }
                 ],
-                "places": [
-                    {
-                        "title": "India Tourism Center",
-                        "address": "Kolkata, West Bengal",
-                        "rating": 4.4,
-                        "ratingCount": 95,
-                        "cid": "9185224760033460068"
-                    },
-                    {
-                        "title": "Adil Travel and Tourism",
-                        "address": "Bilaspur, Chhattisgarh",
-                        "rating": 4.9,
-                        "ratingCount": 853,
-                        "cid": "14433578443496774145"
-                    },
-                    {
-                        "title": "The Royal Tourism",
-                        "address": "Hyderabad, Telangana",
-                        "rating": 4.9,
-                        "ratingCount": 354,
-                        "cid": "7860635413259337849"
-                    }
-                ],
                 "peopleAlsoAsk": [
                     {
-                        "question": "What is the definition of tourism?",
-                        "snippet": "Tourism is a social, cultural and economic phenomenon which entails the movement of people to countries or places outside their usual environment for personal or business/professional purposes.",
-                        "title": "Glossary of tourism terms | UNWTO",
-                        "link": "http://www.unwto.org/glossary-tourism-terms"
+                        "question": "What is an example of a cultural heritage?",
+                        "snippet": "Examples of cultural heritage include tangible assets such as visual art, food, clothing, and styles of architecture along with intangible assets such as legends, music, and values like generosity or respect.",
+                        "title": "Cultural Heritage | Definition, Types & Examples - Lesson - Study.com",
+                        "link": "https://study.com/learn/lesson/cultural-heritage-types-examples.html"
                     },
                     {
-                        "question": "What are the 4 types of tourism?",
-                        "snippet": "Types of Tourism.\nAdventure tourism. As a kind of tourism in India, adventure tourism has recently grown in India. ...\nBeach Tourism. India's vast coastline and islands provides ample opportunities for fun packed tourism. ...\nCultural tourism. ...\nEco tourism. ...\nMedical tourism. ...\nWildlife tourism.",
-                        "title": "Types of Tourism in India - Embassy of India, Riyadh, Saudi Arabia",
-                        "link": "https://www.eoiriyadh.gov.in/page/types-of-tourism-in-india/"
-                    },
-                    {
-                        "question": "What is the main point of tourism?",
-                        "snippet": "Tourism offers great opportunities for emerging economies and developing countries. It creates jobs, strengthens the local economy, contributes to local infrastructure development and can help to conserve the natural environment and cultural assets and traditions, and to reduce poverty and inequality.",
-                        "title": "Tourism | BMZ",
-                        "link": "https://www.bmz.de/en/issues/tourism"
+                        "question": "What refers to cultural heritage?",
+                        "snippet": "In the case of “cultural heritage,” the heritage doesn't consist of money or property, but of culture, values, and traditions. Cultural heritage implies a shared bond, our belonging to a community. It represents our history and our identity; our bond to the past, to our present, and the future.",
+                        "title": "What is Cultural Heritage? (article) | Khan Academy",
+                        "link": "https://www.khanacademy.org/humanities/special-topics-art-history/arches-at-risk-cultural-heritage-education-series/arches-beginners-guide/a/what-is-cultural-heritage"
                     }
                 ],
                 "relatedSearches": [
                     {
-                        "query": "Tourism in India"
+                        "query": "Cultural heritage in india"
                     },
                     {
-                        "query": "Types of tourism"
+                        "query": "Cultural heritage examples"
                     },
                     {
-                        "query": "Tourism industry"
+                        "query": "Cultural heritage meaning"
                     },
                     {
-                        "query": "Tourism Department"
+                        "query": "Cultural heritage meaning in Hindi"
                     },
                     {
-                        "query": "Importance of tourism"
+                        "query": "Cultural Heritage meaning in Urdu"
                     },
                     {
-                        "query": "Tourism course"
+                        "query": "Cultural heritage pdf"
                     },
                     {
-                        "query": "what is tourism (pdf)"
+                        "query": "Cultural heritage essay"
                     },
                     {
-                        "query": "Tourism in Hindi"
-                    }
-                ],
-                "credits": 1
-            }
-        },
-        {
-            "pilgrimage": {
-                "searchParameters": {
-                    "q": "pilgrimage",
-                    "gl": "in",
-                    "type": "search",
-                    "engine": "google"
-                },
-                "organic": [
-                    {
-                        "title": "Pilgrimage - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/Pilgrimage",
-                        "snippet": "A pilgrimage is a journey to a holy place, which can lead to a personal transformation, after which the pilgrim returns to their daily life.",
-                        "sitelinks": [
-                            {
-                                "title": "Christian pilgrimage",
-                                "link": "https://en.wikipedia.org/wiki/Christian_pilgrimage"
-                            },
-                            {
-                                "title": "Hindu pilgrimage sites",
-                                "link": "https://en.wikipedia.org/wiki/Hindu_pilgrimage_sites"
-                            },
-                            {
-                                "title": "Shikoku Pilgrimage",
-                                "link": "https://en.wikipedia.org/wiki/Shikoku_Pilgrimage"
-                            }
-                        ],
-                        "position": 1
-                    },
-                    {
-                        "title": "Pilgrimage | Meaning, Examples, Religions, Places, & Sites",
-                        "link": "https://www.britannica.com/topic/pilgrimage-religion",
-                        "snippet": "A pilgrimage is a journey undertaken for a religious motive. The institution of pilgrimage is evident in all world religions and was also important in the ...",
-                        "position": 2
-                    },
-                    {
-                        "title": "PILGRIMAGE Definition & Meaning - Merriam-Webster",
-                        "link": "https://www.merriam-webster.com/dictionary/pilgrimage",
-                        "snippet": "1. a journey of a pilgrim; especially : one to a shrine or a sacred place. 2. the course of life on earth.",
-                        "date": "17 Feb 2025",
-                        "position": 3
-                    },
-                    {
-                        "title": "PILGRIMAGE | English meaning - Cambridge Dictionary",
-                        "link": "https://dictionary.cambridge.org/dictionary/english/pilgrimage",
-                        "snippet": "a visit to a place that is considered special, where you go to show your respect: For many fans, the national stadium is a place of pilgrimage ...",
-                        "position": 4
-                    },
-                    {
-                        "title": "Introduction - Pilgrims and Pilgrimage",
-                        "link": "https://www.york.ac.uk/projects/pilgrimage/intro.html",
-                        "snippet": "'Pilgrimage' is a term which can be used to portray an inner spiritual journey through prayer, meditation or mystical experience.",
-                        "position": 5
-                    },
-                    {
-                        "title": "PILGRIMAGE Definition & Meaning | Dictionary.com",
-                        "link": "https://www.dictionary.com/browse/pilgrimage",
-                        "snippet": "noun · a journey, especially a long one, made to some sacred place as an act of religious devotion: a pilgrimage to Lourdes. · Islam. the Pilgrimage, hajj.",
-                        "position": 6
-                    },
-                    {
-                        "title": "pilgrimage - Kids | Britannica Kids | Homework Help",
-                        "link": "https://kids.britannica.com/kids/article/pilgrimage/353628",
-                        "snippet": "A journey to a holy place is called a pilgrimage. A person who makes such a journey is a pilgrim. Pilgrimages have been a part of the world's major ...",
-                        "position": 7
-                    },
-                    {
-                        "title": "Pilgrimages - an overview | ScienceDirect Topics",
-                        "link": "https://www.sciencedirect.com/topics/social-sciences/pilgrimages",
-                        "snippet": "Pilgrimages refer to the movement of individuals or groups away from home with a sacred goal, often crossing geographical, cultural, and religious ...",
-                        "position": 8
-                    },
-                    {
-                        "title": "13 Religious Places to Visit In India in 2025 - MakeMyTrip",
-                        "link": "https://www.makemytrip.com/tripideas/pilgrimage-destinations",
-                        "snippet": "A pilgrimage is a sacred journey undertaken for a spiritual purpose. So one must know where they are heading to and what are the rituals associated with the ...",
-                        "position": 9
-                    },
-                    {
-                        "title": "Pilgrimage places in India - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/Pilgrimage_places_in_India",
-                        "snippet": "A pilgrimage is a long journey or search of great moral significance. Sometimes, it is a journey to a sacred place or shrine of importance to a person's ...",
-                        "position": 10
-                    }
-                ],
-                "peopleAlsoAsk": [
-                    {
-                        "question": "What is the real meaning of pilgrimage?",
-                        "snippet": "pilgrimage, a journey undertaken for a religious motive. Although some pilgrims have wandered continuously with no fixed destination, pilgrims more commonly seek a specific place that has been sanctified by association with a divinity or other holy personage.",
-                        "title": "Pilgrimage | Meaning, Examples, Religions, Places, & Sites",
-                        "link": "https://www.britannica.com/topic/pilgrimage-religion"
-                    },
-                    {
-                        "question": "What do Muslims call pilgrimage?",
-                        "snippet": "The word Hajj means \"pilgrimage made to the Kaaba\", a long pious journey taken by Muslims to cleanse their souls of all worldly sins, which connotes both the outward act of a journey after death and the inward act of good intentions.",
-                        "title": "Hajj - Wikipedia",
-                        "link": "https://en.wikipedia.org/wiki/Hajj"
-                    },
-                    {
-                        "question": "Is pilgrimage a religion?",
-                        "snippet": "Pilgrimage can thus be described not just as universal in religious terms but as a practice which also goes beyond the boundaries of the formally religious into secular contexts.",
-                        "title": "Cultures & Faiths Worldwide - Pilgrims and Pilgrimage",
-                        "link": "https://www.york.ac.uk/projects/pilgrimage/content/faiths.html"
-                    }
-                ],
-                "relatedSearches": [
-                    {
-                        "query": "Pilgrimage meaning"
-                    },
-                    {
-                        "query": "How to pronounce pilgrimage"
-                    },
-                    {
-                        "query": "Pilgrimage game"
-                    },
-                    {
-                        "query": "Pilgrimage religion"
-                    },
-                    {
-                        "query": "Pilgrimage synonym"
-                    },
-                    {
-                        "query": "Pilgrimage meaning in Hindi"
-                    },
-                    {
-                        "query": "Catholic pilgrimage"
-                    },
-                    {
-                        "query": "Pilgrimage examples"
+                        "query": "Characteristics of cultural heritage"
                     }
                 ],
                 "credits": 1

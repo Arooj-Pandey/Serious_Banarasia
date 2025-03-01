@@ -159,23 +159,77 @@ async def process_chat(
     start_time = time.time()
     
     try:
+        # Define a timeout threshold - adjust based on your server limitations
+        # Most web servers have a 30-60 second timeout
+        MAX_PROCESSING_TIME = 25  # seconds
+        
         user_query = request.query
         logger.info(f"Processing query: {user_query}")
         
-        # Process query using the existing pipeline
+        # Log each step to help diagnose which part might be causing timeout
+        logger.info("Step 1: Starting query translation")
         restructured_query = translator.translate_query(user_query)
+        logger.info(f"Step 1 complete: Query translated successfully")
+        
+        # Check elapsed time after each major operation
+        current_time = time.time()
+        if current_time - start_time > MAX_PROCESSING_TIME * 0.4:  # 40% of max time
+            logger.warning(f"Translation taking too long: {current_time - start_time} seconds")
+            return ChatResponse(
+                response="I apologize, but processing your query is taking longer than expected. Please try a simpler question.",
+                sources=[],
+                images=[],
+                processing_time=current_time - start_time
+            )
+        
+        logger.info("Step 2: Starting keywords segregation")
         keywords = segregator.keywords_seggregator(restructured_query)
+        logger.info(f"Step 2 complete: Keywords extracted: {keywords}")
+        
+        # Check elapsed time
+        current_time = time.time()
+        if current_time - start_time > MAX_PROCESSING_TIME * 0.6:  # 60% of max time
+            logger.warning(f"Keywords extraction taking too long: {current_time - start_time} seconds")
+            return ChatResponse(
+                response="I'm processing your complex query, but it's taking longer than expected. Please try again with a more focused question.",
+                sources=[],
+                images=[],
+                processing_time=current_time - start_time
+            )
         
         # Route keywords and format results
+        logger.info("Step 3: Starting query routing")
         router = QueryRouter(serper_api_key=os.getenv("SERPER_API_KEY"))
         raw_results = router.route_keywords(keywords)
+        logger.info(f"Step 3 complete: Query routing complete")
+        
+        # Check elapsed time
+        current_time = time.time()
+        if current_time - start_time > MAX_PROCESSING_TIME * 0.8:  # 80% of max time
+            logger.warning(f"Query routing taking too long: {current_time - start_time} seconds")
+            # If we have results but running out of time, use a simplified approach
+            simple_response = "Based on your query, I found some information but couldn't complete full processing in time. Here's what I can tell you: "
+            if raw_results and isinstance(raw_results, dict) and raw_results.get('organic'):
+                first_result = raw_results['organic'][0] if raw_results['organic'] else {}
+                simple_response += first_result.get('snippet', 'Please try again with a simpler question.')
+            
+            return ChatResponse(
+                response=simple_response,
+                sources=[],
+                images=[],
+                processing_time=current_time - start_time
+            )
         
         # Format for LLM
+        logger.info("Step 4: Formatting response for LLM")
         formatter = ResponseFormatter(raw_results)
         formatted_results = formatter.format_for_llm()
+        logger.info(f"Step 4 complete: Response formatted for LLM")
         
         # Generate final response
+        logger.info("Step 5: Generating final response")
         ai_response = generate_final_prompt(formatted_results, user_query)
+        logger.info(f"Step 5 complete: Final response generated")
         
         # Format sources according to the Source model
         sources = []
@@ -204,6 +258,7 @@ async def process_chat(
         
         # Calculate processing time and return formatted response
         processing_time = time.time() - start_time
+        logger.info(f"Total processing time: {processing_time} seconds")
         return ChatResponse(
             response=ai_response if ai_response else "I apologize, but I couldn't generate a response for your query.",
             sources=sources,
@@ -212,8 +267,10 @@ async def process_chat(
         )
         
     except Exception as e:
+        # Enhanced error logging
         logger.exception(f"Error processing chat: {str(e)}")
         processing_time = time.time() - start_time
+        logger.error(f"Failed after {processing_time} seconds")
         return ChatResponse(
             response="I'm sorry, I encountered an error while processing your question. Please try again or ask something different.",
             sources=[],

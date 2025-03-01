@@ -18,10 +18,14 @@ if __name__ == "__main__":
     # Use port 8080 as configured in main.py or override here
     port = int(os.getenv("PORT", 8080))
     
-    # Start the uvicorn server
+    # Start the uvicorn server with optimized settings for production
     uvicorn.run(
         "app:app",  # Use the current module name and app variable
         host="0.0.0.0",
         port=port,
-        reload=True  # Enable auto-reload for development
+        workers=4,  # Multiple workers to handle concurrent requests
+        timeout_keep_alive=120,  # Keep connections alive longer
+        limit_concurrency=20,  # Limit concurrent connections to prevent overload
+        timeout_graceful_shutdown=30,  # Grace period for shutdown
+        reload=os.getenv("ENVIRONMENT", "production").lower() == "development"  # Only enable reload in development
     )
