@@ -22,6 +22,15 @@ from queryRouter.router import QueryRouter
 from utils.responseFormater import ResponseFormatter
 from utility.final_response import generate_final_prompt
 
+from fastapi import Depends, HTTPException, status, Request
+from fastapi.responses import RedirectResponse, JSONResponse
+from sqlalchemy.orm import Session
+from database.database import get_db, engine
+from database import models, crud
+from auth.auth import oauth, create_access_token, get_current_user
+import uuid
+from starlette.middleware.sessions import SessionMiddleware
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -36,6 +45,8 @@ logger = logging.getLogger(__name__)
 # Load environment variables
 load_dotenv()
 
+models.Base.metadata.create_all(bind=engine)
+
 # Create FastAPI app with detailed metadata
 app = FastAPI(
     title="Varanasi Chatbot API",
@@ -49,6 +60,8 @@ app = FastAPI(
     redoc_url="/redoc"
 )
 
+
+# Add CORS middleware with settings that match frontend development needs
 # Add CORS middleware with settings that match frontend development needs
 app.add_middleware(
     CORSMiddleware,
@@ -56,6 +69,12 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+)
+
+# Add session middleware for OAuth
+app.add_middleware(
+    SessionMiddleware, 
+    secret_key=os.getenv("SECRET_KEY", "your-session-secret-key")
 )
 
 # Define request and response models with detailed documentation
@@ -115,6 +134,61 @@ def get_segregator():
 
 # Cache for rate limiting and optimization
 request_cache = {}
+
+@app.get("/api/login/google")
+async def login_google(request: Request):
+    redirect_uri = request.url_for("auth_callback")
+    return await oauth.google.authorize_redirect(request, redirect_uri)
+
+# Google OAuth callback route
+@app.get("/api/auth/callback")
+async def auth_callback(request: Request, db: Session = Depends(get_db)):
+    token = await oauth.google.authorize_access_token(request)
+    user_info = token.get("userinfo")
+    
+    if not user_info:
+        raise HTTPException(status_code=400, detail="Could not fetch user info")
+    
+    email = user_info["email"]
+    name = user_info.get("name", "User")
+    picture = user_info.get("picture")
+    google_id = user_info.get("sub")
+    
+    # Check if user exists, create if not
+    user = crud.get_user_by_email(db, email)
+    if not user:
+        user = crud.create_user(db, email=email, name=name, picture=picture, google_id=google_id)
+    else:
+        # Update existing user info
+        user = crud.update_user(db, user.id, name=name, picture=picture, google_id=google_id)
+    
+    # Create access token
+    access_token = create_access_token(data={"sub": email})
+    
+    # Redirect to frontend with token
+    frontend_url = os.getenv("FRONTEND_URL", "https://kashi-frontend.vercel.app")
+    redirect_url = f"{frontend_url}/auth?token={access_token}"
+    
+    return RedirectResponse(url=redirect_url)
+
+# Get user profile route
+@app.get("/api/users/me", response_model=dict)
+async def get_user_profile(current_user: models.User = Depends(get_current_user)):
+    return {
+        "id": current_user.id,
+        "email": current_user.email,
+        "name": current_user.name,
+        "picture": current_user.picture
+    }
+
+# Add a protected endpoint to test authentication
+@app.get("/api/protected")
+async def protected_route(current_user: models.User = Depends(get_current_user)):
+    return {"message": "This is a protected endpoint", "user": current_user.email}
+
+
+
+
 
 @app.get("/")
 async def root():
