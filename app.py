@@ -16,7 +16,8 @@ if __name__ == "__main__":
     import uvicorn
     
     # Use port 8080 as configured in main.py or override here
-    port = int(os.getenv("PORT", 8080))
+    port = int(os.getenv("PORT", 8000))
+    print(f"Server will start on port: {port}")
     
     # Start the uvicorn server with optimized settings for production
     uvicorn.run(

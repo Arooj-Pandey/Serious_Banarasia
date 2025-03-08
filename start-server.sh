@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set environment variables
-export PORT=8080
+export PORT=8000
 export ENVIRONMENT=production
 
 # Activate virtual environment if it exists

@@ -1,6 +1,6 @@
 @echo off
 :: Set environment variables
-set PORT=8080
+set PORT=8000
 set ENVIRONMENT=production
 
 :: Activate virtual environment if it exists
