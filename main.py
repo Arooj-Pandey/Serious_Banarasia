@@ -61,20 +61,28 @@ app = FastAPI(
 )
 
 
-# Add CORS middleware with settings that match frontend development needs
-# Add CORS middleware with settings that match frontend development needs
+# Add CORS middleware with proper security settings
+allowed_origins = [
+    os.getenv("FRONTEND_URL", "https://kashi-frontend.vercel.app"),
+    "http://localhost:3000",  # For local development
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all origins
+    allow_origins=allowed_origins,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "PUT", "DELETE"],
     allow_headers=["*"],
+    max_age=3600,
 )
 
-# Add session middleware for OAuth
+# Add session middleware with secure settings
 app.add_middleware(
     SessionMiddleware, 
-    secret_key=os.getenv("SECRET_KEY", "your-session-secret-key")
+    secret_key=os.getenv("SECRET_KEY", "your-session-secret-key"),
+    max_age=3600,  # 1 hour
+    same_site="lax",  # Protects against CSRF while allowing OAuth
+    https_only=True  # Ensure cookies only sent over HTTPS
 )
 
 # Define request and response models with detailed documentation
@@ -137,39 +145,51 @@ request_cache = {}
 
 @app.get("/api/login/google")
 async def login_google(request: Request):
-    redirect_uri = request.url_for("auth_callback")
+    # Store the original referrer for post-login redirect
+    request.session["referrer"] = str(request.headers.get("referer", os.getenv("FRONTEND_URL")))
+    
+    # Use configured redirect URI instead of dynamic one
+    redirect_uri = f"{os.getenv('BACKEND_URL', 'https://your-backend-url.azurewebsites.net')}/api/auth/callback"
     return await oauth.google.authorize_redirect(request, redirect_uri)
 
 # Google OAuth callback route
 @app.get("/api/auth/callback")
 async def auth_callback(request: Request, db: Session = Depends(get_db)):
-    token = await oauth.google.authorize_access_token(request)
-    user_info = token.get("userinfo")
-    
-    if not user_info:
-        raise HTTPException(status_code=400, detail="Could not fetch user info")
-    
-    email = user_info["email"]
-    name = user_info.get("name", "User")
-    picture = user_info.get("picture")
-    google_id = user_info.get("sub")
-    
-    # Check if user exists, create if not
-    user = crud.get_user_by_email(db, email)
-    if not user:
-        user = crud.create_user(db, email=email, name=name, picture=picture, google_id=google_id)
-    else:
-        # Update existing user info
-        user = crud.update_user(db, user.id, name=name, picture=picture, google_id=google_id)
-    
-    # Create access token
-    access_token = create_access_token(data={"sub": email})
-    
-    # Redirect to frontend with token
-    frontend_url = os.getenv("FRONTEND_URL", "https://kashi-frontend.vercel.app")
-    redirect_url = f"{frontend_url}/auth/callback?token={access_token}"
-    
-    return RedirectResponse(url=redirect_url)
+    try:
+        token = await oauth.google.authorize_access_token(request)
+        user_info = token.get("userinfo")
+        
+        if not user_info:
+            raise HTTPException(status_code=400, detail="Could not fetch user info")
+        
+        email = user_info["email"]
+        name = user_info.get("name", "User")
+        picture = user_info.get("picture")
+        google_id = user_info.get("sub")
+        
+        # Check if user exists, create if not
+        user = crud.get_user_by_email(db, email)
+        if not user:
+            user = crud.create_user(db, email=email, name=name, picture=picture, google_id=google_id)
+        else:
+            # Update existing user info
+            user = crud.update_user(db, user.id, name=name, picture=picture, google_id=google_id)
+        
+        # Create access token
+        access_token = create_access_token(data={"sub": email})
+        
+        # Get the original referrer or use default frontend URL
+        frontend_url = request.session.get("referrer", os.getenv("FRONTEND_URL"))
+        redirect_url = f"{frontend_url}/auth/callback?token={access_token}"
+        
+        # Clear the session
+        request.session.clear()
+        
+        return RedirectResponse(url=redirect_url)
+    except Exception as e:
+        logger.error(f"Auth callback error: {str(e)}")
+        frontend_url = os.getenv("FRONTEND_URL")
+        return RedirectResponse(f"{frontend_url}/auth/error?message=Authentication failed")
 
 # Get user profile route
 @app.get("/api/users/me", response_model=dict)
