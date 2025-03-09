@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, event
+from sqlalchemy import create_engine, event, text
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from dotenv import load_dotenv
@@ -62,8 +62,8 @@ def get_db():
     
     while retry_count < max_retries:
         try:
-            # Test the connection with a simple query
-            db.execute("SELECT 1")
+            # Test the connection with a simple query using text()
+            db.execute(text("SELECT 1"))
             # If successful, yield the db session
             yield db
             break
