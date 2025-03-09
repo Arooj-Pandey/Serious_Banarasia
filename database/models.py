@@ -37,3 +37,13 @@ class ChatMessage(Base):
     
     def __repr__(self):
         return f"<ChatMessage {self.id}>"
+
+# Chat model
+class Chat(Base):
+    __tablename__ = "chats"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_ip = Column(String(50), nullable=False)
+    input_text = Column(Text, nullable=False)
+    output_text = Column(Text, nullable=False)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
