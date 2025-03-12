@@ -41,7 +41,7 @@ class QueryRouter:
             for keyword in keyword_list:
                 try:
                     # Route to appropriate API
-                    if category in "search_api": 
+                    if category == "search_api" or category == "text_api": 
                         result = self.serper_client.search_query(keyword)
                         print(result)
                     elif category == "image_api":

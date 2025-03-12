@@ -1,4 +1,159 @@
 {
-    "image_api": [],
+    "image_api": [
+        {
+            "kashi vishwanath": {
+                "searchParameters": {
+                    "q": "kashi vishwanath",
+                    "gl": "in",
+                    "type": "images",
+                    "engine": "google",
+                    "num": 10
+                },
+                "images": [
+                    {
+                        "title": "Kashi Vishwanath Dham Anniversary: How The Corridor Has Proven ...",
+                        "imageUrl": "https://swarajya.gumlet.io/swarajya/2022-12/dc9b62da-735f-48c4-9b3f-ec78d6c503c7/FhfrmLJX0AAIJXG.jfif?w=610&q=50&compress=true&format=auto",
+                        "imageWidth": 610,
+                        "imageHeight": 407,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0zxo9K3pTTcP8BNgGrSpmACxmeu6WRaI9BRzcHExB654yfvIs&s",
+                        "thumbnailWidth": 275,
+                        "thumbnailHeight": 183,
+                        "source": "Swarajya",
+                        "domain": "swarajyamag.com",
+                        "link": "https://swarajyamag.com/culture/kashi-vishwanath-dham-anniversary-how-the-corridor-has-proven-even-well-intentioned-skeptics-wrong",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fswarajya.gumlet.io%2Fswarajya%2F2022-12%2Fdc9b62da-735f-48c4-9b3f-ec78d6c503c7%2FFhfrmLJX0AAIJXG.jfif%3Fw%3D610%26q%3D50%26compress%3Dtrue%26format%3Dauto&tbnid=Ueid5YK-plPp4M&imgrefurl=https%3A%2F%2Fswarajyamag.com%2Fculture%2Fkashi-vishwanath-dham-anniversary-how-the-corridor-has-proven-even-well-intentioned-skeptics-wrong&docid=tzuXdrBxBUGUfM&w=610&h=407&ved=0ahUKEwiDyp2ZiYWMAxV8FlkFHcTOCPIQvFcIAigA",
+                        "position": 1
+                    },
+                    {
+                        "title": "Kashi Vishwanath Temple - Wikipedia",
+                        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Kashi_Vishwanath.jpg",
+                        "imageWidth": 621,
+                        "imageHeight": 452,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT72Gfg7pYx_6r2_v_3mlt8S1ZIYz67c56lFbwA2XfSmaX82RI&s",
+                        "thumbnailWidth": 263,
+                        "thumbnailHeight": 191,
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "link": "https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Ff%2Fff%2FKashi_Vishwanath.jpg&tbnid=SBAjHqIwtPZ8yM&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FKashi_Vishwanath_Temple&docid=6ikxDUYlQIPcgM&w=621&h=452&ved=0ahUKEwiDyp2ZiYWMAxV8FlkFHcTOCPIQvFcIAygB",
+                        "position": 2
+                    },
+                    {
+                        "title": "Temples of Kashi - Kashi Vishwanath Temple | Bhakti Pooja",
+                        "imageUrl": "https://bhaktipooja.com/wp-content/uploads/2021/02/IndiaTv5175ec_KashmiVishwanath.jpg",
+                        "imageWidth": 640,
+                        "imageHeight": 448,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu1OObVmiq1L_HFDsIxRzA8xwQScfnuG__fQ4gDOdnLpTpz80&s",
+                        "thumbnailWidth": 268,
+                        "thumbnailHeight": 188,
+                        "source": "Bhakti Pooja",
+                        "domain": "bhaktipooja.com",
+                        "link": "https://bhaktipooja.com/2021/02/14/temples-of-kashi-kashi-vishwanath-temple/",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fbhaktipooja.com%2Fwp-content%2Fuploads%2F2021%2F02%2FIndiaTv5175ec_KashmiVishwanath.jpg&tbnid=Tqib6xgcA1nPBM&imgrefurl=https%3A%2F%2Fbhaktipooja.com%2F2021%2F02%2F14%2Ftemples-of-kashi-kashi-vishwanath-temple%2F&docid=8px3X2ix9iwaXM&w=640&h=448&ved=0ahUKEwiDyp2ZiYWMAxV8FlkFHcTOCPIQvFcIBCgC",
+                        "position": 3
+                    },
+                    {
+                        "title": "The Story Behind Shri Kashi Vishwanath Temple | History & Legends",
+                        "imageUrl": "https://c9admin.cottage9.com/uploads/5333/the-spiritual-connection-and-mystical-stories.jpg",
+                        "imageWidth": 980,
+                        "imageHeight": 692,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTITVrJHgBxKjYrr8XbWrDdDM9xKi8e8Y7ivgkn5Gbsw1w44iP4&s",
+                        "thumbnailWidth": 267,
+                        "thumbnailHeight": 189,
+                        "source": "Cottage9",
+                        "domain": "www.cottage9.com",
+                        "link": "https://www.cottage9.com/blog/the-story-behind-shiva-s-sacred-abode-shri-kashi-vishwanath-temple/",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fc9admin.cottage9.com%2Fuploads%2F5333%2Fthe-spiritual-connection-and-mystical-stories.jpg&tbnid=dOKs7RaUAZvOAM&imgrefurl=https%3A%2F%2Fwww.cottage9.com%2Fblog%2Fthe-story-behind-shiva-s-sacred-abode-shri-kashi-vishwanath-temple%2F&docid=yPcg5BAxbw6WLM&w=980&h=692&ved=0ahUKEwiDyp2ZiYWMAxV8FlkFHcTOCPIQvFcIBSgD",
+                        "position": 4
+                    },
+                    {
+                        "title": "Kashi Vishwanath Temple",
+                        "imageUrl": "https://static.wixstatic.com/media/4d32f3_c5984a1503304675869167b8815ceaa5~mv2.jpg/v1/fill/w_1000,h_714,al_c,q_85/4d32f3_c5984a1503304675869167b8815ceaa5~mv2.jpg",
+                        "imageWidth": 1000,
+                        "imageHeight": 714,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqzY3eJfU_50ORQgxV4Imd9wXbwehqy8CCfsMe7FHVS8wMRLWt&s",
+                        "thumbnailWidth": 266,
+                        "thumbnailHeight": 190,
+                        "source": "Mahatarpan",
+                        "domain": "www.mahatarpan.com",
+                        "link": "https://www.mahatarpan.com/post/kashi-vishwanath-temple",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2F4d32f3_c5984a1503304675869167b8815ceaa5~mv2.jpg%2Fv1%2Ffill%2Fw_1000%2Ch_714%2Cal_c%2Cq_85%2F4d32f3_c5984a1503304675869167b8815ceaa5~mv2.jpg&tbnid=EB2aYb2aOQkP7M&imgrefurl=https%3A%2F%2Fwww.mahatarpan.com%2Fpost%2Fkashi-vishwanath-temple&docid=8zOpB7n0W-i5KM&w=1000&h=714&ved=0ahUKEwiDyp2ZiYWMAxV8FlkFHcTOCPIQvFcIBigE",
+                        "position": 5
+                    },
+                    {
+                        "title": "The Divine Origin of Kashi Vishwanath Jyotirlinga",
+                        "imageUrl": "https://www.talesofsanatan.com/wp-content/uploads/2023/06/the-divine-origin-of-kashi-vishwanath-jyotirlinga.jpg",
+                        "imageWidth": 966,
+                        "imageHeight": 596,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRniEPvA5dJUvUlPAPHrRhQARAixHKna1XuTX6-yrzzHnba-xlO&s",
+                        "thumbnailWidth": 286,
+                        "thumbnailHeight": 176,
+                        "source": "Tales of Sanatan",
+                        "domain": "www.talesofsanatan.com",
+                        "link": "https://www.talesofsanatan.com/the-divine-origin-of-kashi-vishwanath-jyotirlinga/",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.talesofsanatan.com%2Fwp-content%2Fuploads%2F2023%2F06%2Fthe-divine-origin-of-kashi-vishwanath-jyotirlinga.jpg&tbnid=b_evCKV-pxDDkM&imgrefurl=https%3A%2F%2Fwww.talesofsanatan.com%2Fthe-divine-origin-of-kashi-vishwanath-jyotirlinga%2F&docid=tLzXB8b-1FpwHM&w=966&h=596&ved=0ahUKEwiDyp2ZiYWMAxV8FlkFHcTOCPIQvFcIBygF",
+                        "position": 6
+                    },
+                    {
+                        "title": "Kashi Vishwanath Temple – DAIWIK HOTELS",
+                        "imageUrl": "https://www.daiwikhotels.com/wp-content/uploads/2024/07/kashi-viswanath-temple-cvr-2.jpg",
+                        "imageWidth": 1900,
+                        "imageHeight": 1267,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq6_M4pvlNNcKzRKfN-YWvmOfcDQTu4qcvYkyOCIrgezDdnmU&s",
+                        "thumbnailWidth": 275,
+                        "thumbnailHeight": 183,
+                        "source": "DAIWIK HOTELS",
+                        "domain": "www.daiwikhotels.com",
+                        "link": "https://www.daiwikhotels.com/about-varanasi/kashi-vishwanath-temple/",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.daiwikhotels.com%2Fwp-content%2Fuploads%2F2024%2F07%2Fkashi-viswanath-temple-cvr-2.jpg&tbnid=aW8OqjVl0CiDiM&imgrefurl=https%3A%2F%2Fwww.daiwikhotels.com%2Fabout-varanasi%2Fkashi-vishwanath-temple%2F&docid=0H3Ht85tmqxCCM&w=1900&h=1267&ved=0ahUKEwiDyp2ZiYWMAxV8FlkFHcTOCPIQvFcICCgG",
+                        "position": 7
+                    },
+                    {
+                        "title": "Pilgrims to get direct access to Kashi Vishwanath Temple from ...",
+                        "imageUrl": "https://static.toiimg.com/photo/64111383.cms",
+                        "imageWidth": 1000,
+                        "imageHeight": 667,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyad_wa2LCbWPc-ng1os-yEN7Ck63vbMYvTISFCpfWrYaCh3JF&s",
+                        "thumbnailWidth": 275,
+                        "thumbnailHeight": 183,
+                        "source": "Times of India",
+                        "domain": "timesofindia.indiatimes.com",
+                        "link": "https://timesofindia.indiatimes.com/travel/destinations/pilgrims-to-get-direct-access-to-kashi-vishwanath-temple-from-ghats/articleshow/64111130.cms",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.toiimg.com%2Fphoto%2F64111383.cms&tbnid=i3rRKxPc68KjTM&imgrefurl=https%3A%2F%2Ftimesofindia.indiatimes.com%2Ftravel%2Fdestinations%2Fpilgrims-to-get-direct-access-to-kashi-vishwanath-temple-from-ghats%2Farticleshow%2F64111130.cms&docid=HmXqiOXCrvK-3M&w=1000&h=667&ved=0ahUKEwiDyp2ZiYWMAxV8FlkFHcTOCPIQvFcICSgH",
+                        "position": 8
+                    },
+                    {
+                        "title": "Shri Kashi Vishwanath Temple, Varanasi",
+                        "imageUrl": "https://kashiyatra.in/wp-content/uploads/2024/04/shri-kashi-vishwanath.jpg",
+                        "imageWidth": 1024,
+                        "imageHeight": 1024,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsXlE_Rpnl5amt4P8sikRuscI0fZh99BGHjt3T0nrjQE5eGmo&s",
+                        "thumbnailWidth": 225,
+                        "thumbnailHeight": 225,
+                        "source": "Kashi Yatra",
+                        "domain": "kashiyatra.in",
+                        "link": "https://kashiyatra.in/shri-kashi-vishwanath-temple-varanasi/",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fkashiyatra.in%2Fwp-content%2Fuploads%2F2024%2F04%2Fshri-kashi-vishwanath.jpg&tbnid=EuQS-FhRs9fqmM&imgrefurl=https%3A%2F%2Fkashiyatra.in%2Fshri-kashi-vishwanath-temple-varanasi%2F&docid=Y_r-Hfpb5OeCWM&w=1024&h=1024&ved=0ahUKEwiDyp2ZiYWMAxV8FlkFHcTOCPIQvFcICigI",
+                        "position": 9
+                    },
+                    {
+                        "title": "Kashi Vishwanath: A temple that captures the Hindu spirit",
+                        "imageUrl": "https://pragyata.com/wp-content/uploads/2019/04/Kashi-Vishwanath-A-temple-that-captures-the-Hindu-spirit.jpg",
+                        "imageWidth": 1200,
+                        "imageHeight": 633,
+                        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6358kJfSPBaAGB_AIkaFh6W_UquJ2Denx-hiiSXXBxYg4VpnH&s",
+                        "thumbnailWidth": 309,
+                        "thumbnailHeight": 163,
+                        "source": "Pragyata",
+                        "domain": "pragyata.com",
+                        "link": "https://pragyata.com/kashi-vishwanath-a-temple-that-captures-the-hindu-spirit/",
+                        "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fpragyata.com%2Fwp-content%2Fuploads%2F2019%2F04%2FKashi-Vishwanath-A-temple-that-captures-the-Hindu-spirit.jpg&tbnid=91aodB_laoMrRM&imgrefurl=https%3A%2F%2Fpragyata.com%2Fkashi-vishwanath-a-temple-that-captures-the-hindu-spirit%2F&docid=4fJdAusNF_NBDM&w=1200&h=633&ved=0ahUKEwiDyp2ZiYWMAxV8FlkFHcTOCPIQvFcICygJ",
+                        "position": 10
+                    }
+                ],
+                "credits": 1
+            }
+        }
+    ],
     "search_api": []
 }
