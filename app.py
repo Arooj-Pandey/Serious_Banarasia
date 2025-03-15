@@ -22,11 +22,14 @@ app.mount("/static", StaticFiles(directory=static_dir, html=True), name="static"
 # Configure CORS with explicit frontend origin to ensure image loading works
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, specify your frontend domain
+    allow_origins=[
+        os.getenv("FRONTEND_URL", "https://kashi-frontend.vercel.app"),
+        "http://localhost:3000"  # For local development
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
-    expose_headers=["Content-Disposition", "Content-Type"],  # Important for file/image downloads
+    expose_headers=["Content-Disposition", "Content-Type"]  # Important for file/image downloads
 )
 
 # Import the image attachment middleware

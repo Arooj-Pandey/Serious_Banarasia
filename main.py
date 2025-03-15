@@ -148,8 +148,8 @@ async def login_google(request: Request):
     # Store the original referrer for post-login redirect
     request.session["referrer"] = str(request.headers.get("referer", os.getenv("FRONTEND_URL")))
     
-    # Use configured redirect URI instead of dynamic one
-    redirect_uri = f"{os.getenv('BACKEND_URL', 'https://your-backend-url.azurewebsites.net')}/api/auth/callback"
+    # Use the deployed backend URL
+    redirect_uri = "https://kashibackend-cjc2amb6eje7gpb3.eastasia-01.azurewebsites.net/api/auth/callback"
     return await oauth.google.authorize_redirect(request, redirect_uri)
 
 # Google OAuth callback route
@@ -178,8 +178,8 @@ async def auth_callback(request: Request, db: Session = Depends(get_db)):
         # Create access token
         access_token = create_access_token(data={"sub": email})
         
-        # Get the original referrer or use default frontend URL
-        frontend_url = request.session.get("referrer", os.getenv("FRONTEND_URL", "http://localhost:8081")).rstrip('/')
+        # Use the deployed frontend URL
+        frontend_url = os.getenv("FRONTEND_URL", "https://kashi-frontend.vercel.app").rstrip('/')
         redirect_url = f"{frontend_url}/auth/callback?token={access_token}"
         
         # Clear the session
@@ -188,7 +188,7 @@ async def auth_callback(request: Request, db: Session = Depends(get_db)):
         return RedirectResponse(url=redirect_url)
     except Exception as e:
         logger.error(f"Auth callback error: {str(e)}")
-        frontend_url = os.getenv("FRONTEND_URL", "http://localhost:8081").rstrip('/')
+        frontend_url = os.getenv("FRONTEND_URL", "https://kashi-frontend.vercel.app").rstrip('/')
         return RedirectResponse(f"{frontend_url}/auth/error?message=Authentication failed")
 
 # Get user profile route
