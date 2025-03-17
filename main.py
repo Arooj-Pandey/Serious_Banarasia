@@ -149,7 +149,7 @@ async def login_google(request: Request):
     request.session["referrer"] = str(request.headers.get("referer", os.getenv("FRONTEND_URL")))
     
     # Use the deployed backend URL
-    redirect_uri = "https://kashifrontend1-fhade2fpfgfcfccv.centralus-01.azurewebsites.net/api/auth/callback"
+    redirect_uri = "https://kashibackend-cjc2amb6eje7gpb3.centralus-01.azurewebsites.net/api/auth/callback"
     return await oauth.google.authorize_redirect(request, redirect_uri)
 
 # Google OAuth callback route
