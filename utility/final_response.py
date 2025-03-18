@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Initialize models
-model = ModelFactory.get_model("gemini", os.getenv("GEMINI_API_KEY"), "gemini-1.5-flash")
+model = ModelFactory.get_model("gemini", os.getenv("GEMINI_API_KEY"), "gemini-2.0-flash")
 
 # Cache for storing recent responses
 response_cache = {}

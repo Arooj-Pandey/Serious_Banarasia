@@ -52,7 +52,7 @@ class ChatResponse(BaseModel):
 # Create dependency for model initialization
 def get_model():
     try:
-        return ModelFactory.get_model("openai", os.getenv("Azure_OPEN_AI_API_KEY"), "gpt-4o-mini")
+        return ModelFactory.get_model("gemini", os.getenv("GEMINI_API_KEY"), "gemini-2.0-flash")
     except Exception as e:
         logger.error(f"Model initialization failed: {str(e)}")
         raise HTTPException(status_code=500, detail=f"AI model initialization failed: {str(e)}")
@@ -60,9 +60,9 @@ def get_model():
 def get_translator():
     try:
         return QueryTranslator(
-            api_key=os.getenv("Azure_OPEN_AI_API_KEY"),
-            model_type="openai",
-            model_name= "gpt-4o-mini",
+            api_key=os.getenv("GEMINI_API_KEY"),
+            model_type="gemini",
+            model_name= "gemini-2.0-flash",
             prompt_template_path=str(Path(__file__).parent.parent / "prompts" / "translator" / "translator_prompt.txt")
         )
     except Exception as e:
@@ -72,9 +72,9 @@ def get_translator():
 def get_segregator():
     try:
         return KeywordsSegregator(
-            api_key=os.getenv("Azure_OPEN_AI_API_KEY"),
-            model_type="openai",
-            model_name= "gpt-4o-mini",
+            api_key=os.getenv("GEMINI_API_KEY"),
+            model_type="gemini",
+            model_name= "gemini-2.0-flash",
             prompt_template_path=str(Path(__file__).parent.parent / "prompts" / "query_router" / "query_keywords_seggregator.txt")
         )
     except Exception as e:

@@ -8,7 +8,7 @@ load_dotenv()
 
 class GeminiModel(BaseModel):
     def __init__(self, gemini_api: str, model_name: str):
-        gemini_api = os.getenv("Genai_api", gemini_api)
+        gemini_api = os.getenv("GEMINI_API_KEY", gemini_api)
         self.openai_fallback = None
         
         try:
